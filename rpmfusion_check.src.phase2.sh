@@ -1,6 +1,6 @@
-versions=$(seq 25 27)
+versions=$(seq 24 27)
 
-versions=$(seq 8 23)
+#versions=$(seq 8 23)
 #clear rpmfusion_all.txt
 rm -f rpmfusion_all.txt
 
@@ -16,3 +16,4 @@ for n0 in $versions ; do
 done
 
 sort --key=1.2,1.2 rpmfusion_all.txt > rpmfusion_all_sorted.txt
+cat rpmfusion_[012][0-9].txt  | sort | uniq > rpmfusion_all_all.txt
