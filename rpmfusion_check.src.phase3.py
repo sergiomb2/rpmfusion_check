@@ -52,4 +52,4 @@ for lline in list_line2:
 
 for lline in list_line2:
     if lline[0] == '+':
-        print("%s" % ' '.join(lline))
+        print("%s" % ' '.join(lline[1:]))
