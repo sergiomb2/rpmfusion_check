@@ -35,9 +35,9 @@ for lline in list_line2:
     if lline[0] == '-':
         namespace = lline[2].split('-')
         if offline:
-            #print("%s %s \t%s" % (lline[3], namespace[1], lline[1]))
-            print("rfpkg clone %s/%s" % (namespace[1], lline[1]))
-            print("ls -d repos/%s" % (lline[1]))
+            print("Removed %s %s \t%s" % (lline[3], namespace[1], lline[1]))
+            #print("rfpkg clone %s/%s" % (namespace[1], lline[1]))
+            #print("ls -d repos/%s" % (lline[1]))
         else:
             atom = "https://pkgs.rpmfusion.org/cgit/%s/%s.git/atom" % (namespace[1], lline[1])
             html = requests.get(atom)
@@ -52,4 +52,4 @@ for lline in list_line2:
 
 for lline in list_line2:
     if lline[0] == '+':
-        print("%s" % ' '.join(lline[1:]))
+        print("Added %s" % ' '.join(lline[1:]))
