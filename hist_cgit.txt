@@ -1,0 +1,6 @@
+./rpmfusion_check.src.phase1.sh
+./rpmfusion_check.src.phase2.sh
+./rpmfusion_check.src.phase3.py
+./rpmfusion_check.cgit.py  | grep /tree/ | sed -e 's/.*free\///; s/\.git.*//' > rpmfusion_link_list.txt
+./rpmfusion_check.cgit2.py
+

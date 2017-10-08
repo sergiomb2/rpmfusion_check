@@ -1,4 +1,5 @@
 versions=$(seq 8 27)
+versions=$(seq 25 27)
 rawhide=28
 #refresh="--refresh"
 
