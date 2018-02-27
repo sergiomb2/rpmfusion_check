@@ -3,6 +3,8 @@ import re
 import requests
 import lxml.html
 from lxml import etree
+import datetime
+from dateutil.parser import parse
 
 regexp = re.compile('([+-])(.*) (\d+_\d+)')
 hparser = lxml.html.HTMLParser(encoding="utf-8" , remove_comments=False)
@@ -75,13 +77,19 @@ for version in all_versions:
                             link = frags.xpath(strxlink)
                             if len(link) > 0 and len(text) > 0:
                                 #print ("Last date: %s tilte: %s" % (link[0].text, text[0].text))
-                                diff[mirror] = "Last date: %s tilte: %s" % (link[0].text, text[0].text)
+                                dl0 = parse(link[0].text)
+                                try:
+                                    dt = parse(link[0].text)
+                                    dl0 = dt.strftime('%Y-%m-%d %H:%M:%S')
+                                except e:
+                                    pass
+                                diff[mirror] = "%s, %s" % (dl0, text[0].text)
                             elif len(link) > 0:
-                                print ("Last link: %s" % (link[0].text))
+                                print ("error1: %s" % (link[0].text))
                             elif len(text) > 0:
-                                print ("Last text: %s" % (text[0].text))
+                                print ("error2: %s" % (text[0].text))
                             else:
-                                print ("nada")
+                                print ("error3")
                     else:
                         print("http %s: %s" % (html.status_code, repoview))
                     html = requests.get(repomd)
@@ -89,6 +97,11 @@ for version in all_versions:
                         print("http %s: %s" % (html.status_code, repomd))
                     #else:
                         #print("http %s: %s" % (html.status_code, repomd))
-                if len(diff) == 2 and diff['download0'] != diff['download1']:
-                    print("diff in %s\n %s\n and \n %s" % (repoview ,diff['download0'], diff['download1']))
+                repoview = "%s/%s/%s/%s/%s" % (namespace, product, config, version, arch)
+                dl0 = diff.get('download0', "N/A")
+                dl1 = diff.get('download1', "N/A")
+                if dl0 != dl1:
+                    print("%s diff \n %s\n and \n %s" % (repoview , dl0, dl1))
+                else:
+                    print("%s\t: %s" % (repoview, dl0))
 
