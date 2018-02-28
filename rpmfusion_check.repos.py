@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3 -u
 import re
 import requests
 import lxml.html
@@ -36,6 +36,10 @@ for version in all_versions:
         else:
             p_arches = ['SRPMS', 'x86_64']
 
+    print("####################")
+    print("Verifying %s%s" % (product, version))
+    print("####################")
+    first_line = True
     for namespace in ['free', 'nonfree']:
         if version == 'rawhide':
             configs = ['development']
@@ -46,6 +50,10 @@ for version in all_versions:
         else:
             configs = ['releases', 'updates', 'updates/testing']
         for config in configs:
+            if not first_line:
+                print("---")
+            else:
+                first_line = False
             for arch in p_arches:
                 diff = {}
                 for mirror in ['download0', 'download1']:
@@ -101,7 +109,7 @@ for version in all_versions:
                 dl0 = diff.get('download0', "N/A")
                 dl1 = diff.get('download1', "N/A")
                 if dl0 != dl1:
-                    print("%s diff \n %s\n and \n %s" % (repoview , dl0, dl1))
+                    print("%s download0 and download1 differ: %s and %s" % (repoview , dl0, dl1))
                 else:
-                    print("%s\t: %s" % (repoview, dl0))
+                    print("%-42s: %s" % (repoview, dl0))
 
