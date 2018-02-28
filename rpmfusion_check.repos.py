@@ -22,13 +22,14 @@ all_versions = el_versions + versions + branched + ['rawhide']
 
 arches = ['SRPMS', 'i386', 'x86_64', 'armhfp']
 second_arches = ['aarch64', 'ppc64', 'ppc64le']
-all_arches = arches + second_arches
 
 for version in all_versions:
     product = 'fedora'
-    p_arches = all_arches
-    if version == '25':
+    if version <= '25':
         p_arches = arches
+    else:
+        p_arches = arches + second_arches
+
     if version in el_versions:
         product = 'el'
         if version == '6':
@@ -36,20 +37,20 @@ for version in all_versions:
         else:
             p_arches = ['SRPMS', 'x86_64']
 
-    print("####################")
-    print("Verifying %s%s" % (product, version))
+    print("\n####################")
+    print("Verifying %s-%s" % (product, version))
     print("####################")
     first_line = True
-    for namespace in ['free', 'nonfree']:
-        if version == 'rawhide':
-            configs = ['development']
-        elif version in branched:
-            configs = ['development', 'updates/testing']
-        elif version in el_versions:
-            configs = ['updates', 'updates/testing']
-        else:
-            configs = ['releases', 'updates', 'updates/testing']
-        for config in configs:
+    if version == 'rawhide':
+        configs = ['development']
+    elif version in branched:
+        configs = ['development', 'updates/testing']
+    elif version in el_versions:
+        configs = ['updates', 'updates/testing']
+    else:
+        configs = ['releases', 'updates', 'updates/testing']
+    for config in configs:
+        for namespace in ['free', 'nonfree']:
             if not first_line:
                 print("---")
             else:
