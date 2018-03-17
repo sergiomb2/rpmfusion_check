@@ -17,8 +17,9 @@ strxtitle = "./title"
 product = ['fedora', 'el']
 versions = ['26','27']
 el_versions = ['6', '7']
-branched = []
+branched = ['28']
 all_versions = el_versions + versions + branched + ['rawhide']
+#all_versions = branched + ['rawhide']
 
 arches = ['SRPMS', 'i386', 'x86_64', 'armhfp']
 second_arches = ['aarch64', 'ppc64', 'ppc64le']
