@@ -1,6 +1,6 @@
 versions=$(seq 8 27)
-versions=$(seq 25 27)
-rawhide=28
+versions=$(seq 26 28)
+rawhide=29
 #refresh="--refresh"
 
 for version in $versions ; do

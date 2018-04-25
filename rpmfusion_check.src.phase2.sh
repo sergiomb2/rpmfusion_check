@@ -1,6 +1,5 @@
-versions=$(seq 24 27)
-
-#versions=$(seq 8 23)
+versions=$(seq 8 28)
+versions=$(seq 24 28)
 #clear rpmfusion_all.txt
 rm -f rpmfusion_all.txt
 
