@@ -16,6 +16,7 @@ done
 #    --enablerepo=rpmfusion-{non,}free --available --quiet --qf "%{name} %{repoid}" | \
 #    sed 's|\(-[^-]\+\)\{2\||' | sort | uniq > rpmfusion_26.txt
 
+echo repoquery rawhide
 dnf repoquery $refresh --arch=src --disablerepo='*' --enablerepo=rpmfusion-{non,}free-rawhide-source \
 --available --quiet --qf "%{name} %{repoid}" | \
 sed 's|\(-[^-]\+\)\{2\}.src||; s| rpmfusion-free.*| rpmfusion-free|; s| rpmfusion-nonfree.*| rpmfusion-nonfree|' | sort |
