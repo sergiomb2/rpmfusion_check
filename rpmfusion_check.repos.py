@@ -15,9 +15,9 @@ strxtitle = "./title"
 #text += lxml.html.tostring(frags, method="html", encoding="utf-8")
 
 product = ['fedora', 'el']
-versions = ['26','27']
+versions = ['26','27', '28']
 el_versions = ['6', '7']
-branched = ['28']
+branched = []
 all_versions = el_versions + versions + branched + ['rawhide']
 #all_versions = branched + ['rawhide']
 
