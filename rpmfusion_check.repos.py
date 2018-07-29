@@ -15,7 +15,7 @@ strxtitle = "./title"
 #text += lxml.html.tostring(frags, method="html", encoding="utf-8")
 
 product = ['fedora', 'el']
-versions = ['26','27', '28']
+versions = ['27', '28']
 el_versions = ['6', '7']
 branched = []
 all_versions = el_versions + versions + branched + ['rawhide']
@@ -49,7 +49,8 @@ for version in all_versions:
     elif version in el_versions:
         configs = ['updates', 'updates/testing']
     else:
-        configs = ['releases', 'updates', 'updates/testing']
+        configs = ['updates', 'updates/testing']
+        #configs = ['releases', 'updates', 'updates/testing']
     for config in configs:
         for namespace in ['free', 'nonfree']:
             if not first_line:
