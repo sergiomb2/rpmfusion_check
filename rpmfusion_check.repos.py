@@ -38,11 +38,6 @@ for version in all_versions:
             p_arches = ['SRPMS', 'i386', 'x86_64']
         else:
             p_arches = ['SRPMS', 'x86_64']
-
-    print("\n####################")
-    print("Verifying %s-%s" % (product, version))
-    print("####################")
-    first_line = True
     if version == 'rawhide':
         configs = ['development']
     elif version in branched:
@@ -52,6 +47,11 @@ for version in all_versions:
     else:
         configs = ['updates', 'updates/testing']
         #configs = ['releases', 'updates', 'updates/testing']
+
+    print("\n####################")
+    print("Verifying %s-%s" % (product, version))
+    print("####################")
+    first_line = True
     for config in configs:
         for namespace in ['free', 'nonfree']:
             if not first_line:
