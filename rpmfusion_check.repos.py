@@ -17,17 +17,18 @@ strxtitle = "./title"
 product = ['fedora', 'el']
 versions = ['27', '28']
 el_versions = ['6', '7']
-branched = []
+branched = ['29']
 all_versions = el_versions + versions + branched + ['rawhide']
 #all_versions = branched + ['rawhide']
 
 arches = ['SRPMS', 'i386', 'x86_64', 'armhfp']
 second_arches = ['aarch64', 'ppc64', 'ppc64le']
+second_archesv2 = ['aarch64', 'ppc64le']
 
 for version in all_versions:
     product = 'fedora'
-    if version <= '25':
-        p_arches = arches
+    if version >= '29':
+        p_arches = arches + second_archesv2
     else:
         p_arches = arches + second_arches
 
