@@ -52,8 +52,8 @@ for version in all_versions:
     print("Verifying %s-%s" % (product, version))
     print("####################")
     first_line = True
-    for config in configs:
-        for namespace in ['free', 'nonfree']:
+    for namespace in ['free', 'nonfree']:
+        for config in configs:
             if not first_line:
                 print("---")
             else:
