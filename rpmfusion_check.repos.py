@@ -4,7 +4,7 @@ import requests
 import lxml.html
 from lxml import etree
 import datetime
-from dateutil.parser import parse
+from dateutil.parser import parse as parsedate
 
 regexp = re.compile('([+-])(.*) (\d+_\d+)')
 hparser = lxml.html.HTMLParser(encoding="utf-8" , remove_comments=False)
@@ -77,6 +77,8 @@ for version in all_versions:
                     #print("check %s" % (repoview))
                     html = requests.get(repoview)
                     if html.status_code == 200:
+                        repoview_date = parsedate(html.headers['last-modified'])
+                        #print ("repoview_date %s" % repoview_date)
                         #html_document = lxml.html.fromstring(html.text, parser=hparser)
                         html_document = etree.fromstring(html.text)
                         elems = html_document.xpath(strxpath)
@@ -89,9 +91,9 @@ for version in all_versions:
                             link = frags.xpath(strxlink)
                             if len(link) > 0 and len(text) > 0:
                                 #print ("Last date: %s tilte: %s" % (link[0].text, text[0].text))
-                                dl0 = parse(link[0].text)
+                                dl0 = parsedate(link[0].text)
                                 try:
-                                    dt = parse(link[0].text)
+                                    dt = parsedate(link[0].text)
                                     dl0 = dt.strftime('%Y-%m-%d %H:%M:%S')
                                 except e:
                                     pass
@@ -103,12 +105,19 @@ for version in all_versions:
                             else:
                                 print ("error3")
                     else:
+                        repoview_date = None
                         print("http %s: %s" % (html.status_code, repoview))
                     html = requests.get(repomd)
                     if html.status_code != 200:
                         print("http %s: %s" % (html.status_code, repomd))
-                    #else:
+                    else:
                         #print("http %s: %s" % (html.status_code, repomd))
+                        repomd_date = parsedate(html.headers['last-modified'])
+                        #print ("repodata_date %s" % repomd_date)
+                        if repoview_date is not None and repoview_date < repomd_date:
+                            print("repoview %s older than repodata %s = %s" % (repoview_date, repomd_date,
+                                repomd_date-repoview_date))
+
                 repoview = "%s/%s/%s/%s/%s" % (namespace, product, config, version, arch)
                 dl0 = diff.get('download0', "N/A")
                 dl1 = diff.get('download1', "N/A")
