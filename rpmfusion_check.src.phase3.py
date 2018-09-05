@@ -52,4 +52,5 @@ for lline in list_line2:
 
 for lline in list_line2:
     if lline[0] == '+':
-        print("Added %s" % ' '.join(lline[1:]))
+        namespace = lline[2].split('-')
+        print("Added %s %s \t %s" % (lline[3], namespace[1], lline[1]))
