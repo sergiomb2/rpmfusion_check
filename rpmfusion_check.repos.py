@@ -76,6 +76,7 @@ for version in all_versions:
                     repomd = "%s/repodata/repomd.xml" % atom
                     #print("check %s" % (repoview))
                     html = requests.get(repoview)
+                    repoview = "%s/%s/%s/%s/%s" % (namespace, product, config, version, arch)
                     if html.status_code == 200:
                         repoview_date = parsedate(html.headers['last-modified'])
                         #print ("repoview_date %s" % repoview_date)
@@ -114,11 +115,7 @@ for version in all_versions:
                         #print("http %s: %s" % (html.status_code, repomd))
                         repomd_date = parsedate(html.headers['last-modified'])
                         #print ("repodata_date %s" % repomd_date)
-                        if repoview_date is not None and repoview_date < repomd_date:
-                            print("repoview %s older than repodata %s = %s" % (repoview_date, repomd_date,
-                                repomd_date-repoview_date))
 
-                repoview = "%s/%s/%s/%s/%s" % (namespace, product, config, version, arch)
                 dl0 = diff.get('download0', "N/A")
                 dl1 = diff.get('download1', "N/A")
                 if dl0 != dl1:
@@ -126,3 +123,6 @@ for version in all_versions:
                 else:
                     print("%-42s: %s" % (repoview, dl0))
 
+                if repoview_date is not None and repoview_date < repomd_date:
+                    print("repoview %s date:%s older than repodata:%s = %s" % (repoview, repoview_date, repomd_date,
+                        repomd_date-repoview_date))
