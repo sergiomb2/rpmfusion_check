@@ -39,6 +39,7 @@ for lline in list_line2:
             #print("rfpkg clone %s/%s" % (namespace[1], lline[1]))
             #print("ls -d repos/%s" % (lline[1]))
         else:
+            # rpmfusion_check.cgit.py
             atom = "https://pkgs.rpmfusion.org/cgit/%s/%s.git/atom" % (namespace[1], lline[1])
             html = requests.get(atom)
             html_document = lxml.html.fromstring(html.text, parser=hparser)
