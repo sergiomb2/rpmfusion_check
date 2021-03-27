@@ -1,5 +1,6 @@
+# Versions without rawhide number
 versions=$(seq 8 29)
-versions=$(seq 26 29)
+versions=$(seq 28 34)
 #clear rpmfusion_all.txt
 rm -f rpmfusion_all.txt
 rm -f rpmfusion_all_sorted.txt

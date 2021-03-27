@@ -1,10 +1,10 @@
 versions=$(seq 8 28)
-versions=$(seq 26 28)
-branches=29
-rawhide=30
-refresh="--refresh --forcearch=i686"
-refresh="--refresh"
-#refresh=
+versions=$(seq 28 33)
+branched=34
+rawhide=35
+#refresh="--refresh --forcearch=i686"
+#refresh="--refresh"
+refresh=
 repo="-source"
 #repo=
 
@@ -17,7 +17,7 @@ for version in $versions ; do
         sort | uniq > rpmfusion_$(printf %02d $version).txt
 done
 # branched
-for version in $branches ; do
+for version in $branched ; do
     echo repoquery branched $(printf %02d $version)
     dnf repoquery $refresh --releasever=$version --disablerepo='*' \
         --enablerepo=rpmfusion-{,non}free{,-updates-testing}$repo --available --quiet --qf "%{name} %{repoid}" | \
