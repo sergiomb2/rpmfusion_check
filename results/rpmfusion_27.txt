@@ -53,6 +53,7 @@ dvd-slideshow rpmfusion-free
 dvdstyler rpmfusion-free
 dwarffortress rpmfusion-nonfree
 dwarftherapist rpmfusion-nonfree
+dynamips rpmfusion-nonfree
 EmptyEpsilon rpmfusion-nonfree
 e-uae rpmfusion-nonfree
 exfat-utils rpmfusion-free
@@ -93,6 +94,7 @@ gnome-mpv rpmfusion-free
 gnome-video-arcade rpmfusion-nonfree
 gnuboy rpmfusion-free
 gpac rpmfusion-free
+gr-dab rpmfusion-free
 gstreamer1-libav rpmfusion-free
 gstreamer1-plugins-bad-freeworld rpmfusion-free
 gstreamer1-plugins-bad-nonfree rpmfusion-nonfree
@@ -220,9 +222,11 @@ npapi-vlc rpmfusion-free
 nrdp rpmfusion-nonfree
 nvidia-304xx-kmod rpmfusion-nonfree
 nvidia-340xx-kmod rpmfusion-nonfree
+nvidia-390xx-kmod rpmfusion-nonfree
 nvidia-kmod rpmfusion-nonfree
 nvidia-modprobe rpmfusion-nonfree
 nvidia-persistenced rpmfusion-nonfree
+nvidia-settings-390xx rpmfusion-nonfree
 nvidia-settings rpmfusion-nonfree
 nvidia-video-codec-sdk rpmfusion-free
 nvidia-xconfig rpmfusion-nonfree
@@ -347,6 +351,7 @@ xmms-mplayer rpmfusion-free
 xmris rpmfusion-free
 xorg-x11-drv-nvidia-304xx rpmfusion-nonfree
 xorg-x11-drv-nvidia-340xx rpmfusion-nonfree
+xorg-x11-drv-nvidia-390xx rpmfusion-nonfree
 xorg-x11-drv-nvidia rpmfusion-nonfree
 xpra-codecs-freeworld rpmfusion-free
 xrick rpmfusion-nonfree
