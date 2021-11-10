@@ -1,0 +1,183 @@
+
+####################
+Verifying el-6
+####################
+free/el/updates/6/SRPMS                   : 2018-09-18 08:53:28, Update: exfat-utils-1.3.0-1.el6
+free/el/updates/6/i386                    : 2018-09-18 08:53:38, Update: exfat-utils-1.3.0-1.el6
+free/el/updates/6/x86_64                  : 2018-09-18 08:53:38, Update: exfat-utils-1.3.0-1.el6
+repoview free/el/updates/6/x86_64 date:2018-09-25 11:23:47+00:00 older than repodata:2018-09-25 11:23:50+00:00 = 0:00:03
+---
+free/el/updates/testing/6/SRPMS           : N/A
+free/el/updates/testing/6/i386            : N/A
+free/el/updates/testing/6/x86_64          : N/A
+repoview free/el/updates/testing/6/x86_64 date:2018-09-25 11:23:52+00:00 older than repodata:2018-09-25 11:23:53+00:00 = 0:00:01
+---
+nonfree/el/updates/6/SRPMS                : 2018-09-12 13:37:51, Update: nrdp-1.5.2-1.el6
+nonfree/el/updates/6/i386                 : 2018-09-12 13:37:52, Update: nrdp-1.5.2-1.el6
+nonfree/el/updates/6/x86_64               : 2018-09-12 13:37:52, Update: nrdp-1.5.2-1.el6
+repoview nonfree/el/updates/6/x86_64 date:2018-09-25 11:25:56+00:00 older than repodata:2018-09-25 11:25:57+00:00 = 0:00:01
+---
+nonfree/el/updates/testing/6/SRPMS        : N/A
+nonfree/el/updates/testing/6/i386         : N/A
+nonfree/el/updates/testing/6/x86_64       : N/A
+repoview nonfree/el/updates/testing/6/x86_64 date:2018-09-25 11:26:00+00:00 older than repodata:2018-09-25 11:26:01+00:00 = 0:00:01
+
+####################
+Verifying el-7
+####################
+free/el/updates/7/SRPMS                   : 2018-09-19 00:39:47, Update: smplayer-18.9.0-1.el7
+free/el/updates/7/x86_64                  : 2018-09-19 00:43:13, Update: smplayer-18.9.0-1.el7
+repoview free/el/updates/7/x86_64 date:2018-09-25 11:25:19+00:00 older than repodata:2018-09-25 11:25:23+00:00 = 0:00:04
+---
+free/el/updates/testing/7/SRPMS           : 2018-09-23 21:00:28, Update: ppsspp-1.6.3-4.20180912git6d0ed4a.el7
+free/el/updates/testing/7/x86_64          : 2018-09-23 21:06:39, Update: ppsspp-1.6.3-4.20180912git6d0ed4a.el7
+repoview free/el/updates/testing/7/x86_64 date:2018-09-25 11:25:27+00:00 older than repodata:2018-09-25 11:25:28+00:00 = 0:00:01
+---
+nonfree/el/updates/7/SRPMS                : 2018-09-12 13:34:36, Update: nrdp-1.5.2-1.el7
+nonfree/el/updates/7/x86_64               : 2018-09-12 13:34:37, Update: nrdp-1.5.2-1.el7
+---
+nonfree/el/updates/testing/7/SRPMS        : N/A
+nonfree/el/updates/testing/7/x86_64       : N/A
+
+####################
+Verifying fedora-27
+####################
+free/fedora/updates/27/SRPMS              : 2018-09-19 00:31:08, Update: smplayer-18.9.0-1.fc27
+free/fedora/updates/27/i386               : 2018-09-19 00:41:16, Update: smplayer-18.9.0-1.fc27
+free/fedora/updates/27/x86_64             : 2018-09-19 00:40:46, Update: smplayer-18.9.0-1.fc27
+repoview free/fedora/updates/27/x86_64 date:2018-09-25 10:02:54+00:00 older than repodata:2018-09-25 10:03:17+00:00 = 0:00:23
+free/fedora/updates/27/armhfp             : 2018-09-19 01:31:45, Update: smplayer-18.9.0-1.fc27
+free/fedora/updates/27/aarch64            : 2018-09-19 02:43:35, Update: smplayer-18.9.0-1.fc27
+free/fedora/updates/27/ppc64              : 2018-09-19 00:39:31, Update: smplayer-18.9.0-1.fc27
+repoview free/fedora/updates/27/ppc64 date:2018-09-25 10:02:31+00:00 older than repodata:2018-09-25 10:03:13+00:00 = 0:00:42
+free/fedora/updates/27/ppc64le            : 2018-09-19 00:40:17, Update: smplayer-18.9.0-1.fc27
+---
+free/fedora/updates/testing/27/SRPMS      : 2018-09-24 14:52:47, Update: libopenshot-0.2.2-1.fc27
+free/fedora/updates/testing/27/i386       : 2018-09-24 14:59:25, Update: libopenshot-0.2.2-1.fc27
+free/fedora/updates/testing/27/x86_64     : 2018-09-24 14:59:38, Update: libopenshot-0.2.2-1.fc27
+repoview free/fedora/updates/testing/27/x86_64 date:2018-09-25 10:03:47+00:00 older than repodata:2018-09-25 10:03:51+00:00 = 0:00:04
+free/fedora/updates/testing/27/armhfp     : 2018-09-24 17:17:52, Update: libopenshot-0.2.2-1.fc27
+free/fedora/updates/testing/27/aarch64    : 2018-09-24 15:38:56, Update: libopenshot-0.2.2-1.fc27
+free/fedora/updates/testing/27/ppc64      : 2018-09-24 15:11:33, Update: libopenshot-0.2.2-1.fc27
+repoview free/fedora/updates/testing/27/ppc64 date:2018-09-25 10:03:46+00:00 older than repodata:2018-09-25 10:03:50+00:00 = 0:00:04
+free/fedora/updates/testing/27/ppc64le    : 2018-09-24 15:18:36, Update: libopenshot-0.2.2-1.fc27
+---
+nonfree/fedora/updates/27/SRPMS           : 2018-09-13 06:11:15, Update: lpf-flash-plugin-31.0.0.108-1.fc27
+nonfree/fedora/updates/27/i386            : 2018-09-13 06:13:20, Update: lpf-flash-plugin-31.0.0.108-1.fc27
+nonfree/fedora/updates/27/x86_64          : 2018-09-13 06:12:16, Update: lpf-flash-plugin-31.0.0.108-1.fc27
+repoview nonfree/fedora/updates/27/x86_64 date:2018-09-25 10:42:21+00:00 older than repodata:2018-09-25 10:42:24+00:00 = 0:00:03
+nonfree/fedora/updates/27/armhfp          : 2018-09-12 13:35:48, Update: nrdp-1.5.2-1.fc27
+nonfree/fedora/updates/27/aarch64         : 2018-09-12 13:35:48, Update: nrdp-1.5.2-1.fc27
+nonfree/fedora/updates/27/ppc64           : 2018-09-12 13:35:48, Update: nrdp-1.5.2-1.fc27
+repoview nonfree/fedora/updates/27/ppc64 date:2018-09-25 10:41:50+00:00 older than repodata:2018-09-25 10:42:23+00:00 = 0:00:33
+nonfree/fedora/updates/27/ppc64le         : 2018-09-12 13:35:48, Update: nrdp-1.5.2-1.fc27
+---
+nonfree/fedora/updates/testing/27/SRPMS   : 2018-09-20 15:45:28, Update: lpf-spotify-client-1.0.89.313-1.fc27
+nonfree/fedora/updates/testing/27/i386    : 2018-09-20 15:46:20, Update: lpf-spotify-client-1.0.89.313-1.fc27
+nonfree/fedora/updates/testing/27/x86_64  : 2018-09-20 15:46:20, Update: lpf-spotify-client-1.0.89.313-1.fc27
+nonfree/fedora/updates/testing/27/armhfp  : N/A
+nonfree/fedora/updates/testing/27/aarch64 : N/A
+nonfree/fedora/updates/testing/27/ppc64   : N/A
+repoview nonfree/fedora/updates/testing/27/ppc64 date:2018-09-25 10:42:38+00:00 older than repodata:2018-09-25 10:42:40+00:00 = 0:00:02
+nonfree/fedora/updates/testing/27/ppc64le : N/A
+
+####################
+Verifying fedora-28
+####################
+free/fedora/updates/28/SRPMS              : 2018-09-12 13:45:28, Update: telegram-desktop-1.3.14-2.fc28
+repoview free/fedora/updates/28/SRPMS date:2018-09-13 07:48:54+00:00 older than repodata:2018-09-25 10:08:26+00:00 = 12 days, 2:19:32
+free/fedora/updates/28/i386               : 2018-09-12 14:08:05, Update: telegram-desktop-1.3.14-2.fc28
+repoview free/fedora/updates/28/i386 date:2018-09-13 07:49:32+00:00 older than repodata:2018-09-25 10:09:48+00:00 = 12 days, 2:20:16
+free/fedora/updates/28/x86_64             : 2018-09-19 00:39:03, Update: smplayer-18.9.0-1.fc28
+repoview free/fedora/updates/28/x86_64 date:2018-09-25 10:10:08+00:00 older than repodata:2018-09-25 10:10:20+00:00 = 0:00:12
+free/fedora/updates/28/armhfp             : 2018-09-12 08:03:35, Update: vlc-3.0.4-2.fc28
+repoview free/fedora/updates/28/armhfp date:2018-09-13 07:49:31+00:00 older than repodata:2018-09-25 10:09:40+00:00 = 12 days, 2:20:09
+free/fedora/updates/28/aarch64            : 2018-09-12 07:27:40, Update: vlc-3.0.4-2.fc28
+repoview free/fedora/updates/28/aarch64 date:2018-09-13 07:49:30+00:00 older than repodata:2018-09-25 10:09:43+00:00 = 12 days, 2:20:13
+free/fedora/updates/28/ppc64              : 2018-09-12 07:13:59, Update: vlc-3.0.4-2.fc28
+repoview free/fedora/updates/28/ppc64 date:2018-09-13 07:49:31+00:00 older than repodata:2018-09-25 10:10:15+00:00 = 12 days, 2:20:44
+free/fedora/updates/28/ppc64le            : 2018-09-12 07:28:23, Update: vlc-3.0.4-2.fc28
+repoview free/fedora/updates/28/ppc64le date:2018-09-13 07:49:30+00:00 older than repodata:2018-09-25 10:09:40+00:00 = 12 days, 2:20:10
+---
+free/fedora/updates/testing/28/SRPMS      : 2018-09-25 02:33:00, Update: openshot-2.4.3-1.fc28
+free/fedora/updates/testing/28/i386       : 2018-09-25 02:57:11, Update: openshot-2.4.3-1.fc28
+free/fedora/updates/testing/28/x86_64     : 2018-09-25 02:57:11, Update: openshot-2.4.3-1.fc28
+repoview free/fedora/updates/testing/28/x86_64 date:2018-09-25 11:02:07+00:00 older than repodata:2018-09-25 11:02:10+00:00 = 0:00:03
+free/fedora/updates/testing/28/armhfp     : 2018-09-25 02:57:11, Update: openshot-2.4.3-1.fc28
+free/fedora/updates/testing/28/aarch64    : 2018-09-25 02:57:11, Update: openshot-2.4.3-1.fc28
+free/fedora/updates/testing/28/ppc64      : 2018-09-25 02:57:11, Update: openshot-2.4.3-1.fc28
+repoview free/fedora/updates/testing/28/ppc64 date:2018-09-25 11:02:07+00:00 older than repodata:2018-09-25 11:02:09+00:00 = 0:00:02
+free/fedora/updates/testing/28/ppc64le    : 2018-09-25 02:57:11, Update: openshot-2.4.3-1.fc28
+---
+nonfree/fedora/updates/28/SRPMS           : 2018-09-13 06:12:55, Update: lpf-flash-plugin-31.0.0.108-1.fc28
+nonfree/fedora/updates/28/i386            : 2018-09-13 06:14:08, Update: lpf-flash-plugin-31.0.0.108-1.fc28
+nonfree/fedora/updates/28/x86_64          : 2018-09-13 06:14:06, Update: lpf-flash-plugin-31.0.0.108-1.fc28
+repoview nonfree/fedora/updates/28/x86_64 date:2018-09-25 10:44:09+00:00 older than repodata:2018-09-25 10:44:11+00:00 = 0:00:02
+nonfree/fedora/updates/28/armhfp          : 2018-09-12 13:33:46, Update: nrdp-1.5.2-1.fc28
+nonfree/fedora/updates/28/aarch64         : 2018-09-12 13:33:46, Update: nrdp-1.5.2-1.fc28
+nonfree/fedora/updates/28/ppc64           : 2018-09-12 13:33:46, Update: nrdp-1.5.2-1.fc28
+repoview nonfree/fedora/updates/28/ppc64 date:2018-09-25 10:44:05+00:00 older than repodata:2018-09-25 10:44:10+00:00 = 0:00:05
+nonfree/fedora/updates/28/ppc64le         : 2018-09-12 13:33:46, Update: nrdp-1.5.2-1.fc28
+---
+nonfree/fedora/updates/testing/28/SRPMS   : 2018-09-20 15:45:45, Update: lpf-spotify-client-1.0.89.313-1.fc28
+nonfree/fedora/updates/testing/28/i386    : 2018-09-20 15:42:00, Update: lpf-spotify-client-1.0.89.313-1.fc28
+nonfree/fedora/updates/testing/28/x86_64  : 2018-09-20 15:42:00, Update: lpf-spotify-client-1.0.89.313-1.fc28
+repoview nonfree/fedora/updates/testing/28/x86_64 date:2018-09-25 10:44:18+00:00 older than repodata:2018-09-25 10:44:19+00:00 = 0:00:01
+nonfree/fedora/updates/testing/28/armhfp  : N/A
+nonfree/fedora/updates/testing/28/aarch64 : N/A
+nonfree/fedora/updates/testing/28/ppc64   : N/A
+repoview nonfree/fedora/updates/testing/28/ppc64 date:2018-09-25 10:44:17+00:00 older than repodata:2018-09-25 10:44:19+00:00 = 0:00:02
+nonfree/fedora/updates/testing/28/ppc64le : N/A
+
+####################
+Verifying fedora-29
+####################
+free/fedora/development/29/SRPMS          : 2018-09-19 00:35:51, Update: smplayer-18.9.0-1.fc29
+free/fedora/development/29/i386           : 2018-09-19 00:41:46, Update: smplayer-18.9.0-1.fc29
+free/fedora/development/29/x86_64         : 2018-09-19 00:41:46, Update: smplayer-18.9.0-1.fc29
+repoview free/fedora/development/29/x86_64 date:2018-09-25 10:27:11+00:00 older than repodata:2018-09-25 10:27:23+00:00 = 0:00:12
+free/fedora/development/29/armhfp         : 2018-09-19 00:59:15, Update: smplayer-18.9.0-1.fc29
+free/fedora/development/29/aarch64        : 2018-09-19 02:46:03, Update: smplayer-18.9.0-1.fc29
+free/fedora/development/29/ppc64le        : 2018-09-19 00:41:41, Update: smplayer-18.9.0-1.fc29
+---
+free/fedora/updates/testing/29/SRPMS      : 2018-09-25 02:34:24, Update: openshot-2.4.3-1.fc29
+free/fedora/updates/testing/29/i386       : 2018-09-25 02:40:39, Update: openshot-2.4.3-1.fc29
+free/fedora/updates/testing/29/x86_64     : 2018-09-25 02:40:39, Update: openshot-2.4.3-1.fc29
+repoview free/fedora/updates/testing/29/x86_64 date:2018-09-25 10:12:32+00:00 older than repodata:2018-09-25 10:12:34+00:00 = 0:00:02
+free/fedora/updates/testing/29/armhfp     : 2018-09-25 02:40:39, Update: openshot-2.4.3-1.fc29
+free/fedora/updates/testing/29/aarch64    : 2018-09-25 02:40:39, Update: openshot-2.4.3-1.fc29
+free/fedora/updates/testing/29/ppc64le    : 2018-09-25 02:40:39, Update: openshot-2.4.3-1.fc29
+---
+nonfree/fedora/development/29/SRPMS       : 2018-09-20 01:40:45, Update: lpf-spotify-client-1.0.89.313-1.fc29
+nonfree/fedora/development/29/i386        : 2018-09-20 01:41:23, Update: lpf-spotify-client-1.0.89.313-1.fc29
+nonfree/fedora/development/29/x86_64      : 2018-09-20 01:41:21, Update: lpf-spotify-client-1.0.89.313-1.fc29
+repoview nonfree/fedora/development/29/x86_64 date:2018-09-25 10:50:38+00:00 older than repodata:2018-09-25 10:50:40+00:00 = 0:00:02
+nonfree/fedora/development/29/armhfp      : 2018-09-18 11:10:44, Update: gstreamer1-plugins-bad-nonfree-1.14.3-1.fc29
+nonfree/fedora/development/29/aarch64     : 2018-09-18 11:10:58, Update: gstreamer1-plugins-bad-nonfree-1.14.3-1.fc29
+nonfree/fedora/development/29/ppc64le     : 2018-09-18 11:16:25, Update: gstreamer1-plugins-bad-nonfree-1.14.3-1.fc29
+---
+nonfree/fedora/updates/testing/29/SRPMS   : N/A
+nonfree/fedora/updates/testing/29/i386    : N/A
+nonfree/fedora/updates/testing/29/x86_64  : N/A
+nonfree/fedora/updates/testing/29/armhfp  : N/A
+nonfree/fedora/updates/testing/29/aarch64 : N/A
+nonfree/fedora/updates/testing/29/ppc64le : N/A
+
+####################
+Verifying fedora-rawhide
+####################
+free/fedora/development/rawhide/SRPMS     : 2018-09-24 14:02:51, Update: lightspark-0.8.1-4.fc30
+free/fedora/development/rawhide/i386      : 2018-09-24 14:04:19, Update: lightspark-0.8.1-4.fc30
+free/fedora/development/rawhide/x86_64    : 2018-09-24 14:04:19, Update: lightspark-0.8.1-4.fc30
+repoview free/fedora/development/rawhide/x86_64 date:2018-09-25 10:40:11+00:00 older than repodata:2018-09-25 10:40:22+00:00 = 0:00:11
+free/fedora/development/rawhide/armhfp    : 2018-09-24 18:42:09, Update: mixxx-2.2.0-0.1.beta.20180924git33e0cc3.fc30
+free/fedora/development/rawhide/aarch64   : 2018-09-24 15:26:12, Update: lightspark-0.8.1-4.fc30
+free/fedora/development/rawhide/ppc64le   : 2018-09-24 14:30:41, Update: lightspark-0.8.1-4.fc30
+---
+nonfree/fedora/development/rawhide/SRPMS  : 2018-09-25 08:54:06, Update: nautilus-dropbox-2015.10.28-9.fc30
+nonfree/fedora/development/rawhide/i386   : 2018-09-25 08:57:18, Update: dropbox-2015.10.28-9.fc30
+nonfree/fedora/development/rawhide/x86_64 : 2018-09-25 08:57:18, Update: dropbox-2015.10.28-9.fc30
+repoview nonfree/fedora/development/rawhide/x86_64 date:2018-09-25 10:56:42+00:00 older than repodata:2018-09-25 10:56:45+00:00 = 0:00:03
+nonfree/fedora/development/rawhide/armhfp : 2018-09-18 11:38:06, Update: gstreamer1-plugins-bad-nonfree-1.14.3-1.fc30
+nonfree/fedora/development/rawhide/aarch64: 2018-09-18 11:33:45, Update: gstreamer1-plugins-bad-nonfree-1.14.3-1.fc30
+nonfree/fedora/development/rawhide/ppc64le: 2018-09-18 11:27:37, Update: gstreamer1-plugins-bad-nonfree-1.14.3-1.fc30

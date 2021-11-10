@@ -1,0 +1,158 @@
+
+####################
+Verifying el-6
+####################
+free/el/updates/6/SRPMS                   : 2018-06-19 14:45:26, Update: rpmfusion-free-release-6-4
+free/el/updates/6/i386                    : 2018-06-19 14:45:27, Update: rpmfusion-free-release-6-4
+free/el/updates/6/x86_64                  : 2018-06-19 14:45:27, Update: rpmfusion-free-release-6-4
+---
+nonfree/el/updates/6/SRPMS                : 2018-06-19 14:43:47, Update: rpmfusion-nonfree-release-6-4
+nonfree/el/updates/6/i386                 : 2018-06-19 14:43:47, Update: rpmfusion-nonfree-release-6-4
+nonfree/el/updates/6/x86_64               : 2018-06-19 14:43:47, Update: rpmfusion-nonfree-release-6-4
+---
+free/el/updates/testing/6/SRPMS           : N/A
+free/el/updates/testing/6/i386            : N/A
+free/el/updates/testing/6/x86_64          : N/A
+---
+nonfree/el/updates/testing/6/SRPMS        : N/A
+nonfree/el/updates/testing/6/i386         : N/A
+nonfree/el/updates/testing/6/x86_64       : N/A
+
+####################
+Verifying el-7
+####################
+free/el/updates/7/SRPMS                   : 2018-07-18 18:02:42, Update: ffmpeg-2.8.15-1.el7
+free/el/updates/7/x86_64                  : 2018-07-18 18:09:38, Update: ffmpeg-2.8.15-1.el7
+---
+nonfree/el/updates/7/SRPMS                : 2018-07-17 06:52:44, Update: openhantek-0-1.20180715git57e0beb.el7
+nonfree/el/updates/7/x86_64               : 2018-07-17 06:54:00, Update: openhantek-0-1.20180715git57e0beb.el7
+---
+free/el/updates/testing/7/SRPMS           : 2018-07-24 01:49:35, Update: rfpkg-1.25.5-1.el7
+free/el/updates/testing/7/x86_64          : 2018-07-24 01:49:57, Update: rfpkg-1.25.5-1.el7
+---
+nonfree/el/updates/testing/7/SRPMS        : N/A
+nonfree/el/updates/testing/7/x86_64       : N/A
+
+####################
+Verifying fedora-26
+####################
+free/fedora/updates/26/SRPMS              : 2018-05-28 19:00:50, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/26/i386               : 2018-05-28 19:18:01, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/26/x86_64             : 2018-05-28 19:18:01, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/26/armhfp             : 2018-05-28 21:10:45, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/26/aarch64            : 2018-05-28 19:35:31, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/26/ppc64              : 2018-05-28 19:34:35, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/26/ppc64le            : 2018-05-28 19:34:27, Update: vlc-3.0.3-1.fc26
+---
+nonfree/fedora/updates/26/SRPMS           : 2018-04-25 07:02:57, Update: unrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/i386            : 2018-04-25 07:03:19, Update: libunrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/x86_64          : 2018-04-25 07:03:19, Update: libunrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/armhfp          : 2018-04-25 07:05:42, Update: libunrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/aarch64         : 2018-04-25 07:07:10, Update: libunrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/ppc64           : 2018-04-25 07:08:57, Update: libunrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/ppc64le         : 2018-04-25 07:08:37, Update: libunrar-5.6.3-1.fc26
+---
+free/fedora/updates/testing/26/SRPMS      : 2017-11-14 13:13:32, Update: chromium-freeworld-62.0.3202.89-1.fc26
+free/fedora/updates/testing/26/i386       : 2017-11-14 14:08:08, Update: chromium-libs-media-freeworld-62.0.3202.89-1.fc26
+free/fedora/updates/testing/26/x86_64     : 2017-11-14 14:08:08, Update: chromium-libs-media-freeworld-62.0.3202.89-1.fc26
+free/fedora/updates/testing/26/armhfp     : N/A
+free/fedora/updates/testing/26/aarch64    : 2017-11-14 14:43:29, Update: chromium-libs-media-freeworld-62.0.3202.89-1.fc26
+free/fedora/updates/testing/26/ppc64      : N/A
+free/fedora/updates/testing/26/ppc64le    : N/A
+---
+nonfree/fedora/updates/testing/26/SRPMS   : N/A
+nonfree/fedora/updates/testing/26/i386    : N/A
+nonfree/fedora/updates/testing/26/x86_64  : N/A
+nonfree/fedora/updates/testing/26/armhfp  : N/A
+nonfree/fedora/updates/testing/26/aarch64 : N/A
+nonfree/fedora/updates/testing/26/ppc64   : N/A
+nonfree/fedora/updates/testing/26/ppc64le : N/A
+
+####################
+Verifying fedora-27
+####################
+free/fedora/updates/27/SRPMS              : 2018-07-24 01:53:52, Update: rfpkg-1.25.5-1.fc27
+free/fedora/updates/27/i386               : 2018-07-24 01:55:37, Update: rfpkg-1.25.5-1.fc27
+free/fedora/updates/27/x86_64             : 2018-07-24 01:55:37, Update: rfpkg-1.25.5-1.fc27
+free/fedora/updates/27/armhfp             : 2018-07-24 01:55:37, Update: rfpkg-1.25.5-1.fc27
+free/fedora/updates/27/aarch64            : 2018-07-24 01:55:37, Update: rfpkg-1.25.5-1.fc27
+free/fedora/updates/27/ppc64              : 2018-07-24 01:55:37, Update: rfpkg-1.25.5-1.fc27
+free/fedora/updates/27/ppc64le            : 2018-07-24 01:55:37, Update: rfpkg-1.25.5-1.fc27
+---
+nonfree/fedora/updates/27/SRPMS           : 2018-07-24 17:00:28, Update: nautilus-dropbox-2015.10.28-7.fc27
+nonfree/fedora/updates/27/i386            : 2018-07-24 17:03:56, Update: dropbox-2015.10.28-7.fc27
+nonfree/fedora/updates/27/x86_64          : 2018-07-24 17:03:56, Update: dropbox-2015.10.28-7.fc27
+nonfree/fedora/updates/27/armhfp          : 2018-07-17 08:32:20, Update: openhantek-0-1.20180715git57e0beb.fc27
+nonfree/fedora/updates/27/aarch64         : 2018-07-17 08:03:30, Update: openhantek-0-1.20180715git57e0beb.fc27
+nonfree/fedora/updates/27/ppc64           : 2018-07-17 08:08:53, Update: openhantek-0-1.20180715git57e0beb.fc27
+nonfree/fedora/updates/27/ppc64le         : 2018-07-17 08:02:40, Update: openhantek-0-1.20180715git57e0beb.fc27
+---
+free/fedora/updates/testing/27/SRPMS      : 2018-07-28 15:56:37, Update: vdr-xineliboutput-2.1.0-7.20180701git97b7e78.fc27
+free/fedora/updates/testing/27/i386       : 2018-07-28 15:57:08, Update: vdr-xineliboutput-2.1.0-7.20180701git97b7e78.fc27
+free/fedora/updates/testing/27/x86_64     : 2018-07-28 15:57:31, Update: vdr-xineliboutput-2.1.0-7.20180701git97b7e78.fc27
+free/fedora/updates/testing/27/armhfp     : 2018-07-28 16:03:58, Update: vdr-xineliboutput-2.1.0-7.20180701git97b7e78.fc27
+free/fedora/updates/testing/27/aarch64    : 2018-07-28 16:01:37, Update: vdr-xineliboutput-2.1.0-7.20180701git97b7e78.fc27
+free/fedora/updates/testing/27/ppc64      : 2018-07-28 16:07:27, Update: vdr-xineliboutput-2.1.0-7.20180701git97b7e78.fc27
+free/fedora/updates/testing/27/ppc64le    : 2018-07-28 16:03:13, Update: vdr-xineliboutput-2.1.0-7.20180701git97b7e78.fc27
+---
+nonfree/fedora/updates/testing/27/SRPMS   : N/A
+nonfree/fedora/updates/testing/27/i386    : N/A
+nonfree/fedora/updates/testing/27/x86_64  : N/A
+nonfree/fedora/updates/testing/27/armhfp  : N/A
+nonfree/fedora/updates/testing/27/aarch64 : N/A
+nonfree/fedora/updates/testing/27/ppc64   : N/A
+nonfree/fedora/updates/testing/27/ppc64le : N/A
+
+####################
+Verifying fedora-28
+####################
+free/fedora/updates/28/SRPMS              : 2018-07-24 01:54:11, Update: rfpkg-1.25.5-1.fc28
+free/fedora/updates/28/i386               : 2018-07-24 01:55:57, Update: rfpkg-1.25.5-1.fc28
+free/fedora/updates/28/x86_64             : 2018-07-24 01:55:57, Update: rfpkg-1.25.5-1.fc28
+free/fedora/updates/28/armhfp             : 2018-07-24 01:55:57, Update: rfpkg-1.25.5-1.fc28
+free/fedora/updates/28/aarch64            : 2018-07-24 01:55:57, Update: rfpkg-1.25.5-1.fc28
+free/fedora/updates/28/ppc64              : 2018-07-24 01:55:57, Update: rfpkg-1.25.5-1.fc28
+free/fedora/updates/28/ppc64le            : 2018-07-24 01:55:57, Update: rfpkg-1.25.5-1.fc28
+---
+nonfree/fedora/updates/28/SRPMS           : 2018-07-24 16:59:58, Update: nautilus-dropbox-2015.10.28-7.fc28
+nonfree/fedora/updates/28/i386            : 2018-07-24 17:03:58, Update: dropbox-2015.10.28-7.fc28
+nonfree/fedora/updates/28/x86_64          : 2018-07-24 17:03:58, Update: dropbox-2015.10.28-7.fc28
+nonfree/fedora/updates/28/armhfp          : 2018-07-17 08:16:36, Update: openhantek-0-1.20180715git57e0beb.fc28
+nonfree/fedora/updates/28/aarch64         : 2018-07-17 08:01:06, Update: openhantek-0-1.20180715git57e0beb.fc28
+nonfree/fedora/updates/28/ppc64           : 2018-07-17 08:00:52, Update: openhantek-0-1.20180715git57e0beb.fc28
+nonfree/fedora/updates/28/ppc64le         : 2018-07-17 07:56:53, Update: openhantek-0-1.20180715git57e0beb.fc28
+---
+free/fedora/updates/testing/28/SRPMS      : 2018-07-24 01:54:11, Update: rfpkg-1.25.5-1.fc28
+free/fedora/updates/testing/28/i386       : 2018-07-24 01:55:57, Update: rfpkg-1.25.5-1.fc28
+free/fedora/updates/testing/28/x86_64     : 2018-07-24 01:55:57, Update: rfpkg-1.25.5-1.fc28
+free/fedora/updates/testing/28/armhfp     : 2018-07-24 01:55:57, Update: rfpkg-1.25.5-1.fc28
+free/fedora/updates/testing/28/aarch64    : 2018-07-24 01:55:57, Update: rfpkg-1.25.5-1.fc28
+free/fedora/updates/testing/28/ppc64      : 2018-07-24 01:55:57, Update: rfpkg-1.25.5-1.fc28
+free/fedora/updates/testing/28/ppc64le    : 2018-07-24 01:55:57, Update: rfpkg-1.25.5-1.fc28
+---
+nonfree/fedora/updates/testing/28/SRPMS   : 2018-07-28 23:47:46, Update: pcsx2-1.4-10.fc28
+nonfree/fedora/updates/testing/28/i386    : 2018-07-29 00:09:19, Update: pcsx2-1.4-10.fc28
+nonfree/fedora/updates/testing/28/x86_64  : 2018-07-29 00:09:19, Update: pcsx2-1.4-10.fc28
+nonfree/fedora/updates/testing/28/armhfp  : N/A
+nonfree/fedora/updates/testing/28/aarch64 : N/A
+nonfree/fedora/updates/testing/28/ppc64   : N/A
+nonfree/fedora/updates/testing/28/ppc64le : N/A
+
+####################
+Verifying fedora-rawhide
+####################
+free/fedora/development/rawhide/SRPMS     : 2018-07-29 00:38:25, Update: k3b-extras-freeworld-18.04.3-1.fc29
+free/fedora/development/rawhide/i386      : 2018-07-29 00:42:56, Update: k3b-extras-freeworld-18.04.3-1.fc29
+free/fedora/development/rawhide/x86_64    : 2018-07-29 00:42:56, Update: k3b-extras-freeworld-18.04.3-1.fc29
+free/fedora/development/rawhide/armhfp    : 2018-07-29 01:06:43, Update: k3b-extras-freeworld-18.04.3-1.fc29
+free/fedora/development/rawhide/aarch64   : 2018-07-29 00:51:54, Update: k3b-extras-freeworld-18.04.3-1.fc29
+free/fedora/development/rawhide/ppc64     : 2018-07-29 00:47:19, Update: k3b-extras-freeworld-18.04.3-1.fc29
+free/fedora/development/rawhide/ppc64le   : 2018-07-29 00:44:58, Update: k3b-extras-freeworld-18.04.3-1.fc29
+---
+nonfree/fedora/development/rawhide/SRPMS  : 2018-07-28 23:26:09, Update: pcsx2-1.4-10.fc29
+nonfree/fedora/development/rawhide/i386   : 2018-07-28 23:43:26, Update: pcsx2-1.4-10.fc29
+nonfree/fedora/development/rawhide/x86_64 : 2018-07-28 23:43:26, Update: pcsx2-1.4-10.fc29
+nonfree/fedora/development/rawhide/armhfp : 2018-07-28 17:10:55, Update: pdflib-lite-7.0.5-14.fc29
+nonfree/fedora/development/rawhide/aarch64: 2018-07-28 16:54:39, Update: pdflib-lite-7.0.5-14.fc29
+nonfree/fedora/development/rawhide/ppc64  : 2018-07-28 16:52:59, Update: pdflib-lite-7.0.5-14.fc29
+nonfree/fedora/development/rawhide/ppc64le: 2018-07-28 16:50:30, Update: pdflib-lite-7.0.5-14.fc29

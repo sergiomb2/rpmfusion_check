@@ -1,0 +1,158 @@
+
+####################
+Verifying el-6
+####################
+free/el/updates/6/SRPMS                   : 2018-03-08 00:34:11, Update: mock-rpmfusion-free-28.0-1.el6
+free/el/updates/6/i386                    : 2018-03-08 00:34:11, Update: mock-rpmfusion-free-28.0-1.el6
+free/el/updates/6/x86_64                  : 2018-03-08 00:34:11, Update: mock-rpmfusion-free-28.0-1.el6
+---
+nonfree/el/updates/6/SRPMS                : 2018-04-14 11:45:31, Update: faac-1.28-7.el6
+nonfree/el/updates/6/i386                 : 2018-04-14 11:46:30, Update: faac-1.28-7.el6
+nonfree/el/updates/6/x86_64               : 2018-04-14 11:46:04, Update: faac-1.28-7.el6
+---
+free/el/updates/testing/6/SRPMS           : N/A
+free/el/updates/testing/6/i386            : N/A
+free/el/updates/testing/6/x86_64          : N/A
+---
+nonfree/el/updates/testing/6/SRPMS        : N/A
+nonfree/el/updates/testing/6/i386         : N/A
+nonfree/el/updates/testing/6/x86_64       : N/A
+
+####################
+Verifying el-7
+####################
+free/el/updates/7/SRPMS                   : 2018-05-16 01:40:38, Update: VirtualBox-kmod-5.2.12-3.el7
+free/el/updates/7/x86_64                  : 2018-05-16 01:41:38, Update: akmod-VirtualBox-5.2.12-3.el7
+---
+nonfree/el/updates/7/SRPMS                : 2018-04-19 14:20:00, Update: unifi-5.7.23-1.el7
+nonfree/el/updates/7/x86_64               : 2018-04-19 14:20:17, Update: unifi-5.7.23-1.el7
+---
+free/el/updates/testing/7/SRPMS download0 and download1 differ: 2018-06-01 16:29:13, Update: mock-rpmfusion-free-28.1-1.el7 and N/A
+free/el/updates/testing/7/x86_64 download0 and download1 differ: 2018-06-01 16:29:14, Update: mock-rpmfusion-free-28.1-1.el7 and N/A
+---
+nonfree/el/updates/testing/7/SRPMS        : N/A
+nonfree/el/updates/testing/7/x86_64       : N/A
+
+####################
+Verifying fedora-26
+####################
+free/fedora/updates/26/SRPMS download0 and download1 differ: 2018-05-28 19:00:50, Update: vlc-3.0.3-1.fc26 and 2018-05-16 11:14:19, Update: xt7-player-mpv-0.28.3100-1.fc26
+free/fedora/updates/26/i386 download0 and download1 differ: 2018-05-28 19:18:01, Update: vlc-3.0.3-1.fc26 and 2018-05-16 11:15:43, Update: xt7-player-mpv-0.28.3100-1.fc26
+free/fedora/updates/26/x86_64 download0 and download1 differ: 2018-05-28 19:18:01, Update: vlc-3.0.3-1.fc26 and 2018-05-16 11:15:43, Update: xt7-player-mpv-0.28.3100-1.fc26
+free/fedora/updates/26/armhfp download0 and download1 differ: 2018-05-28 21:10:45, Update: vlc-3.0.3-1.fc26 and 2018-05-16 11:15:43, Update: xt7-player-mpv-0.28.3100-1.fc26
+free/fedora/updates/26/aarch64 download0 and download1 differ: 2018-05-28 19:35:31, Update: vlc-3.0.3-1.fc26 and 2018-05-16 11:15:43, Update: xt7-player-mpv-0.28.3100-1.fc26
+free/fedora/updates/26/ppc64 download0 and download1 differ: 2018-05-28 19:34:35, Update: vlc-3.0.3-1.fc26 and 2018-05-16 11:15:43, Update: xt7-player-mpv-0.28.3100-1.fc26
+free/fedora/updates/26/ppc64le download0 and download1 differ: 2018-05-28 19:34:27, Update: vlc-3.0.3-1.fc26 and 2018-05-16 11:15:43, Update: xt7-player-mpv-0.28.3100-1.fc26
+---
+nonfree/fedora/updates/26/SRPMS           : 2018-04-25 07:02:57, Update: unrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/i386            : 2018-04-25 07:03:19, Update: libunrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/x86_64          : 2018-04-25 07:03:19, Update: libunrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/armhfp          : 2018-04-25 07:05:42, Update: libunrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/aarch64         : 2018-04-25 07:07:10, Update: libunrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/ppc64           : 2018-04-25 07:08:57, Update: libunrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/ppc64le         : 2018-04-25 07:08:37, Update: libunrar-5.6.3-1.fc26
+---
+free/fedora/updates/testing/26/SRPMS download0 and download1 differ: 2017-11-14 13:13:32, Update: chromium-freeworld-62.0.3202.89-1.fc26 and 2018-05-28 19:00:50, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/testing/26/i386 download0 and download1 differ: 2017-11-14 14:08:08, Update: chromium-libs-media-freeworld-62.0.3202.89-1.fc26 and 2018-05-28 19:18:01, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/testing/26/x86_64 download0 and download1 differ: 2017-11-14 14:08:08, Update: chromium-libs-media-freeworld-62.0.3202.89-1.fc26 and 2018-05-28 19:18:01, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/testing/26/armhfp download0 and download1 differ: N/A and 2018-05-28 21:10:45, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/testing/26/aarch64 download0 and download1 differ: 2017-11-14 14:43:29, Update: chromium-libs-media-freeworld-62.0.3202.89-1.fc26 and 2018-05-28 19:35:31, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/testing/26/ppc64 download0 and download1 differ: N/A and 2018-05-28 19:34:35, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/testing/26/ppc64le download0 and download1 differ: N/A and 2018-05-28 19:34:27, Update: vlc-3.0.3-1.fc26
+---
+nonfree/fedora/updates/testing/26/SRPMS   : N/A
+nonfree/fedora/updates/testing/26/i386    : N/A
+nonfree/fedora/updates/testing/26/x86_64  : N/A
+nonfree/fedora/updates/testing/26/armhfp  : N/A
+nonfree/fedora/updates/testing/26/aarch64 : N/A
+nonfree/fedora/updates/testing/26/ppc64   : N/A
+nonfree/fedora/updates/testing/26/ppc64le : N/A
+
+####################
+Verifying fedora-27
+####################
+free/fedora/updates/27/SRPMS download0 and download1 differ: 2018-05-28 15:51:23, Update: vlc-3.0.3-1.fc27 and 2018-05-20 11:07:19, Update: fs-uae-launcher-2.8.3-6.fc27
+free/fedora/updates/27/i386 download0 and download1 differ: 2018-05-28 16:04:19, Update: vlc-3.0.3-1.fc27 and 2018-05-20 11:37:11, Update: fs-uae-launcher-2.8.3-6.fc27
+free/fedora/updates/27/x86_64 download0 and download1 differ: 2018-05-28 16:03:31, Update: vlc-3.0.3-1.fc27 and 2018-05-20 11:37:11, Update: fs-uae-launcher-2.8.3-6.fc27
+free/fedora/updates/27/armhfp download0 and download1 differ: 2018-05-28 16:57:56, Update: vlc-3.0.3-1.fc27 and 2018-05-20 11:37:11, Update: fs-uae-launcher-2.8.3-6.fc27
+free/fedora/updates/27/aarch64 download0 and download1 differ: 2018-05-28 16:22:35, Update: vlc-3.0.3-1.fc27 and 2018-05-20 11:37:11, Update: fs-uae-launcher-2.8.3-6.fc27
+free/fedora/updates/27/ppc64 download0 and download1 differ: 2018-05-28 16:09:02, Update: vlc-3.0.3-1.fc27 and 2018-05-20 11:37:11, Update: fs-uae-launcher-2.8.3-6.fc27
+free/fedora/updates/27/ppc64le download0 and download1 differ: 2018-05-28 16:09:49, Update: vlc-3.0.3-1.fc27 and 2018-05-20 11:37:11, Update: fs-uae-launcher-2.8.3-6.fc27
+---
+nonfree/fedora/updates/27/SRPMS           : 2018-05-21 04:10:09, Update: pcsx2-1.4-8.fc27
+nonfree/fedora/updates/27/i386            : 2018-05-21 04:26:26, Update: pcsx2-1.4-8.fc27
+nonfree/fedora/updates/27/x86_64          : 2018-05-21 04:26:26, Update: pcsx2-1.4-8.fc27
+nonfree/fedora/updates/27/armhfp          : 2018-05-17 17:41:33, Update: yapeSDL-0.70.2-4.fc27
+nonfree/fedora/updates/27/aarch64         : 2018-05-17 17:39:03, Update: yapeSDL-0.70.2-4.fc27
+nonfree/fedora/updates/27/ppc64           : 2018-05-17 17:37:24, Update: yapeSDL-0.70.2-4.fc27
+nonfree/fedora/updates/27/ppc64le         : 2018-05-17 17:37:19, Update: yapeSDL-0.70.2-4.fc27
+---
+free/fedora/updates/testing/27/SRPMS download0 and download1 differ: 2018-06-01 13:20:16, Update: telegram-desktop-1.3.0-1.fc27 and 2018-05-28 15:51:23, Update: vlc-3.0.3-1.fc27
+free/fedora/updates/testing/27/i386 download0 and download1 differ: 2018-06-01 13:50:48, Update: telegram-desktop-1.3.0-1.fc27 and 2018-05-28 16:04:19, Update: vlc-3.0.3-1.fc27
+free/fedora/updates/testing/27/x86_64 download0 and download1 differ: 2018-06-01 13:50:48, Update: telegram-desktop-1.3.0-1.fc27 and 2018-05-28 16:03:31, Update: vlc-3.0.3-1.fc27
+free/fedora/updates/testing/27/armhfp download0 and download1 differ: 2018-06-01 12:18:40, Update: libtgvoip-2.0-0.3.20180528git83ac2c6.fc27 and 2018-05-28 16:57:56, Update: vlc-3.0.3-1.fc27
+free/fedora/updates/testing/27/aarch64 download0 and download1 differ: 2018-06-01 12:15:12, Update: libtgvoip-2.0-0.3.20180528git83ac2c6.fc27 and 2018-05-28 16:22:35, Update: vlc-3.0.3-1.fc27
+free/fedora/updates/testing/27/ppc64 download0 and download1 differ: 2018-06-01 12:14:37, Update: libtgvoip-2.0-0.3.20180528git83ac2c6.fc27 and 2018-05-28 16:09:02, Update: vlc-3.0.3-1.fc27
+free/fedora/updates/testing/27/ppc64le download0 and download1 differ: 2018-06-01 12:11:27, Update: libtgvoip-2.0-0.3.20180528git83ac2c6.fc27 and 2018-05-28 16:09:49, Update: vlc-3.0.3-1.fc27
+---
+nonfree/fedora/updates/testing/27/SRPMS   : N/A
+nonfree/fedora/updates/testing/27/i386    : N/A
+nonfree/fedora/updates/testing/27/x86_64  : N/A
+nonfree/fedora/updates/testing/27/armhfp  : N/A
+nonfree/fedora/updates/testing/27/aarch64 : N/A
+nonfree/fedora/updates/testing/27/ppc64   : N/A
+nonfree/fedora/updates/testing/27/ppc64le : N/A
+
+####################
+Verifying fedora-28
+####################
+free/fedora/updates/28/SRPMS download0 and download1 differ: 2018-05-28 18:52:05, Update: vlc-3.0.3-1.fc28 and 2018-05-20 11:08:07, Update: fs-uae-launcher-2.8.3-6.fc28
+free/fedora/updates/28/i386 download0 and download1 differ: 2018-05-28 19:13:32, Update: vlc-3.0.3-1.fc28 and 2018-05-20 12:26:15, Update: fs-uae-launcher-2.8.3-6.fc28
+free/fedora/updates/28/x86_64 download0 and download1 differ: 2018-05-28 19:13:05, Update: vlc-3.0.3-1.fc28 and 2018-05-20 12:26:15, Update: fs-uae-launcher-2.8.3-6.fc28
+free/fedora/updates/28/armhfp download0 and download1 differ: 2018-05-28 20:01:13, Update: vlc-3.0.3-1.fc28 and 2018-05-20 12:26:15, Update: fs-uae-launcher-2.8.3-6.fc28
+free/fedora/updates/28/aarch64 download0 and download1 differ: 2018-05-28 19:25:54, Update: vlc-3.0.3-1.fc28 and 2018-05-20 12:26:15, Update: fs-uae-launcher-2.8.3-6.fc28
+free/fedora/updates/28/ppc64 download0 and download1 differ: 2018-05-28 19:10:40, Update: vlc-3.0.3-1.fc28 and 2018-05-20 12:26:15, Update: fs-uae-launcher-2.8.3-6.fc28
+free/fedora/updates/28/ppc64le download0 and download1 differ: 2018-05-28 19:10:58, Update: vlc-3.0.3-1.fc28 and 2018-05-20 12:26:15, Update: fs-uae-launcher-2.8.3-6.fc28
+---
+nonfree/fedora/updates/28/SRPMS           : 2018-05-20 21:48:22, Update: pcsx2-1.4-8.fc28
+nonfree/fedora/updates/28/i386            : 2018-05-20 22:10:49, Update: pcsx2-1.4-8.fc28
+nonfree/fedora/updates/28/x86_64          : 2018-05-20 22:10:49, Update: pcsx2-1.4-8.fc28
+nonfree/fedora/updates/28/armhfp          : 2018-05-17 17:46:05, Update: yapeSDL-0.70.2-4.fc28
+nonfree/fedora/updates/28/aarch64         : 2018-05-17 17:44:13, Update: yapeSDL-0.70.2-4.fc28
+nonfree/fedora/updates/28/ppc64           : 2018-05-17 17:45:07, Update: yapeSDL-0.70.2-4.fc28
+nonfree/fedora/updates/28/ppc64le         : 2018-05-17 17:45:41, Update: yapeSDL-0.70.2-4.fc28
+---
+free/fedora/updates/testing/28/SRPMS download0 and download1 differ: 2018-06-01 15:52:05, Update: mock-rpmfusion-free-28.1-1.fc28 and 2018-05-28 18:52:05, Update: vlc-3.0.3-1.fc28
+free/fedora/updates/testing/28/i386 download0 and download1 differ: 2018-06-01 16:28:13, Update: chromium-libs-media-freeworld-66.0.3359.181-2.fc28 and 2018-05-28 19:13:32, Update: vlc-3.0.3-1.fc28
+free/fedora/updates/testing/28/x86_64 download0 and download1 differ: 2018-06-01 16:28:13, Update: chromium-libs-media-freeworld-66.0.3359.181-2.fc28 and 2018-05-28 19:13:05, Update: vlc-3.0.3-1.fc28
+free/fedora/updates/testing/28/armhfp download0 and download1 differ: 2018-06-01 15:52:10, Update: mock-rpmfusion-free-28.1-1.fc28 and 2018-05-28 20:01:13, Update: vlc-3.0.3-1.fc28
+free/fedora/updates/testing/28/aarch64 download0 and download1 differ: 2018-06-01 17:41:48, Update: chromium-libs-media-freeworld-66.0.3359.181-2.fc28 and 2018-05-28 19:25:54, Update: vlc-3.0.3-1.fc28
+free/fedora/updates/testing/28/ppc64 download0 and download1 differ: 2018-06-01 15:52:10, Update: mock-rpmfusion-free-28.1-1.fc28 and 2018-05-28 19:10:40, Update: vlc-3.0.3-1.fc28
+free/fedora/updates/testing/28/ppc64le download0 and download1 differ: 2018-06-01 15:52:10, Update: mock-rpmfusion-free-28.1-1.fc28 and 2018-05-28 19:10:58, Update: vlc-3.0.3-1.fc28
+---
+nonfree/fedora/updates/testing/28/SRPMS download0 and download1 differ: 2018-05-31 13:21:46, Update: gstreamer1-plugins-bad-nonfree-1.14.1-1.fc28 and N/A
+nonfree/fedora/updates/testing/28/i386 download0 and download1 differ: 2018-05-31 13:23:24, Update: gstreamer1-plugins-bad-nonfree-1.14.1-1.fc28 and N/A
+nonfree/fedora/updates/testing/28/x86_64 download0 and download1 differ: 2018-05-31 13:23:24, Update: gstreamer1-plugins-bad-nonfree-1.14.1-1.fc28 and N/A
+nonfree/fedora/updates/testing/28/armhfp download0 and download1 differ: 2018-05-31 13:49:51, Update: gstreamer1-plugins-bad-nonfree-1.14.1-1.fc28 and N/A
+nonfree/fedora/updates/testing/28/aarch64 download0 and download1 differ: 2018-05-31 13:26:29, Update: gstreamer1-plugins-bad-nonfree-1.14.1-1.fc28 and N/A
+nonfree/fedora/updates/testing/28/ppc64 download0 and download1 differ: 2018-05-31 13:34:30, Update: gstreamer1-plugins-bad-nonfree-1.14.1-1.fc28 and N/A
+nonfree/fedora/updates/testing/28/ppc64le download0 and download1 differ: 2018-05-31 13:34:28, Update: gstreamer1-plugins-bad-nonfree-1.14.1-1.fc28 and N/A
+
+####################
+Verifying fedora-rawhide
+####################
+free/fedora/development/rawhide/SRPMS download0 and download1 differ: 2018-06-01 15:51:47, Update: mock-rpmfusion-free-28.1-1.fc29 and 2018-05-28 11:44:08, Update: vlc-3.0.3-1.fc29
+free/fedora/development/rawhide/i386 download0 and download1 differ: 2018-06-01 15:51:50, Update: mock-rpmfusion-free-28.1-1.fc29 and 2018-05-28 11:57:27, Update: vlc-3.0.3-1.fc29
+free/fedora/development/rawhide/x86_64 download0 and download1 differ: 2018-06-01 15:51:50, Update: mock-rpmfusion-free-28.1-1.fc29 and 2018-05-28 11:57:27, Update: vlc-3.0.3-1.fc29
+free/fedora/development/rawhide/armhfp download0 and download1 differ: 2018-06-01 15:51:50, Update: mock-rpmfusion-free-28.1-1.fc29 and 2018-05-28 12:55:21, Update: vlc-3.0.3-1.fc29
+free/fedora/development/rawhide/aarch64 download0 and download1 differ: 2018-06-01 15:51:50, Update: mock-rpmfusion-free-28.1-1.fc29 and 2018-05-28 12:19:36, Update: vlc-3.0.3-1.fc29
+free/fedora/development/rawhide/ppc64 download0 and download1 differ: 2018-06-01 15:51:50, Update: mock-rpmfusion-free-28.1-1.fc29 and 2018-05-28 12:04:26, Update: vlc-3.0.3-1.fc29
+free/fedora/development/rawhide/ppc64le download0 and download1 differ: 2018-06-01 15:51:50, Update: mock-rpmfusion-free-28.1-1.fc29 and 2018-05-28 12:04:20, Update: vlc-3.0.3-1.fc29
+---
+nonfree/fedora/development/rawhide/SRPMS download0 and download1 differ: 2018-05-31 23:42:51, Update: gstreamer1-plugins-bad-nonfree-1.14.1-1.fc29 and 2018-05-25 08:05:34, Update: dwarffortress-0.44.10-1.fc29
+nonfree/fedora/development/rawhide/i386 download0 and download1 differ: 2018-05-31 23:44:15, Update: gstreamer1-plugins-bad-nonfree-1.14.1-1.fc29 and 2018-05-25 08:06:48, Update: dwarffortress-0.44.10-1.fc29
+nonfree/fedora/development/rawhide/x86_64 download0 and download1 differ: 2018-05-31 23:44:05, Update: gstreamer1-plugins-bad-nonfree-1.14.1-1.fc29 and 2018-05-25 08:06:48, Update: dwarffortress-0.44.10-1.fc29
+nonfree/fedora/development/rawhide/armhfp download0 and download1 differ: 2018-05-31 23:53:40, Update: gstreamer1-plugins-bad-nonfree-1.14.1-1.fc29 and 2018-05-17 17:43:22, Update: yapeSDL-0.70.2-4.fc29
+nonfree/fedora/development/rawhide/aarch64 download0 and download1 differ: 2018-05-31 23:53:22, Update: gstreamer1-plugins-bad-nonfree-1.14.1-1.fc29 and 2018-05-17 17:42:48, Update: yapeSDL-0.70.2-4.fc29
+nonfree/fedora/development/rawhide/ppc64 download0 and download1 differ: 2018-05-31 23:56:06, Update: gstreamer1-plugins-bad-nonfree-1.14.1-1.fc29 and 2018-05-17 17:45:27, Update: yapeSDL-0.70.2-4.fc29
+nonfree/fedora/development/rawhide/ppc64le download0 and download1 differ: 2018-05-31 23:54:20, Update: gstreamer1-plugins-bad-nonfree-1.14.1-1.fc29 and 2018-05-17 17:45:50, Update: yapeSDL-0.70.2-4.fc29

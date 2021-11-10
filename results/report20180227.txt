@@ -1,0 +1,154 @@
+####################
+Verifying el6
+####################
+free/el/updates/6/SRPMS download0 and download1 differ: 2018-02-06 10:52:07, Update: fuse-exfat-1.2.8-1.el6 and 2018-01-12 10:03:00, Update: xine-lib-1.2.9-1.el6
+free/el/updates/6/i386 download0 and download1 differ: 2018-02-06 10:52:30, Update: fuse-exfat-1.2.8-1.el6 and 2018-01-12 10:13:19, Update: xine-lib-1.2.9-1.el6
+free/el/updates/6/x86_64 download0 and download1 differ: 2018-02-06 10:52:30, Update: fuse-exfat-1.2.8-1.el6 and 2018-01-12 10:09:11, Update: xine-lib-1.2.9-1.el6
+---
+free/el/updates/testing/6/SRPMS download0 and download1 differ: N/A and 2018-02-06 10:52:07, Update: fuse-exfat-1.2.8-1.el6
+free/el/updates/testing/6/i386 download0 and download1 differ: N/A and 2018-02-06 10:52:30, Update: fuse-exfat-1.2.8-1.el6
+free/el/updates/testing/6/x86_64 download0 and download1 differ: N/A and 2018-02-06 10:52:30, Update: fuse-exfat-1.2.8-1.el6
+---
+nonfree/el/updates/6/SRPMS                : 2017-08-03 17:08:22, Update: nvidia-kmod-375.82-1.el6
+http 404: http://download0.rpmfusion.org/nonfree/el/updates/6/i386/repoview/latest-feed.xml
+http 404: http://download1.rpmfusion.org/nonfree/el/updates/6/i386/repoview/latest-feed.xml
+nonfree/el/updates/6/i386                 : N/A
+nonfree/el/updates/6/x86_64               : 2017-08-03 17:08:24, Update: akmod-nvidia-375.82-1.el6
+---
+nonfree/el/updates/testing/6/SRPMS download0 and download1 differ: 2018-02-18 06:35:04, Update: tarsnap-1.0.39-1.el6 and N/A
+http 404: http://download0.rpmfusion.org/nonfree/el/updates/testing/6/i386/repoview/latest-feed.xml
+http 404: http://download1.rpmfusion.org/nonfree/el/updates/testing/6/i386/repoview/latest-feed.xml
+nonfree/el/updates/testing/6/i386         : N/A
+nonfree/el/updates/testing/6/x86_64 download0 and download1 differ: 2018-02-18 06:36:06, Update: tarsnap-1.0.39-1.el6 and N/A
+####################
+Verifying el7
+####################
+free/el/updates/7/SRPMS download0 and download1 differ: 2018-02-17 12:24:48, Update: VirtualBox-5.2.6-2.el7 and 2018-01-29 05:54:06, Update: smplayer-18.2.0-1.el7
+free/el/updates/7/x86_64 download0 and download1 differ: 2018-02-17 13:14:03, Update: VirtualBox-5.2.6-2.el7 and 2018-01-29 05:57:36, Update: smplayer-18.2.0-1.el7
+---
+free/el/updates/testing/7/SRPMS download0 and download1 differ: 2018-02-18 05:10:31, Update: VirtualBox-kmod-5.2.6-2.el7 and 2018-02-07 02:20:17, Update: rfpkg-1.25.3-1.el7
+free/el/updates/testing/7/x86_64 download0 and download1 differ: 2018-02-18 05:11:33, Update: akmod-VirtualBox-5.2.6-2.el7 and 2018-02-07 02:20:34, Update: rfpkg-1.25.3-1.el7
+---
+nonfree/el/updates/7/SRPMS                : 2018-01-13 11:49:30, Update: nvidia-kmod-384.111-1.el7
+nonfree/el/updates/7/x86_64               : 2018-01-13 11:49:32, Update: akmod-nvidia-384.111-1.el7
+---
+nonfree/el/updates/testing/7/SRPMS download0 and download1 differ: 2018-02-21 20:40:13, Update: pgplot-5.2.2-35.el7 and N/A
+nonfree/el/updates/testing/7/x86_64 download0 and download1 differ: 2018-02-21 20:40:40, Update: pgplot-5.2.2-35.el7 and N/A
+####################
+Verifying fedora26
+####################
+free/fedora/releases/26/SRPMS             : 2017-07-09 21:26:28, Update: gstreamer1-plugins-ugly-1.12.1-3.fc26
+free/fedora/releases/26/i386              : 2017-07-09 21:28:15, Update: gstreamer1-plugins-ugly-1.12.1-3.fc26
+free/fedora/releases/26/x86_64            : 2017-07-09 21:28:15, Update: gstreamer1-plugins-ugly-1.12.1-3.fc26
+free/fedora/releases/26/armhfp            : 2017-07-09 21:36:47, Update: gstreamer1-plugins-ugly-1.12.1-3.fc26
+free/fedora/releases/26/aarch64           : 2017-07-09 21:37:20, Update: gstreamer1-plugins-ugly-1.12.1-3.fc26
+free/fedora/releases/26/ppc64             : 2017-07-09 21:30:40, Update: gstreamer1-plugins-ugly-1.12.1-3.fc26
+free/fedora/releases/26/ppc64le           : 2017-07-09 21:30:48, Update: gstreamer1-plugins-ugly-1.12.1-3.fc26
+---
+free/fedora/updates/26/SRPMS              : 2018-02-17 17:09:43, Update: VirtualBox-kmod-5.2.6-2.fc26
+free/fedora/updates/26/i386               : 2018-02-17 17:10:09, Update: akmod-VirtualBox-5.2.6-2.fc26
+free/fedora/updates/26/x86_64             : 2018-02-17 17:09:47, Update: akmod-VirtualBox-5.2.6-2.fc26
+free/fedora/updates/26/armhfp             : 2018-02-17 15:13:04, Update: mpv-0.27.2-1.fc26
+free/fedora/updates/26/aarch64            : 2018-02-17 15:04:57, Update: mpv-0.27.2-1.fc26
+free/fedora/updates/26/ppc64              : 2018-02-17 15:02:27, Update: mpv-0.27.2-1.fc26
+free/fedora/updates/26/ppc64le            : 2018-02-17 15:00:32, Update: mpv-0.27.2-1.fc26
+---
+free/fedora/updates/testing/26/SRPMS      : 2018-02-20 19:59:24, Update: kodi-pvr-vdr-vnsi-2.6.25-1.fc26
+free/fedora/updates/testing/26/i386       : 2018-02-20 20:01:05, Update: kodi-pvr-vdr-vnsi-2.6.25-1.fc26
+free/fedora/updates/testing/26/x86_64     : 2018-02-20 20:01:05, Update: kodi-pvr-vdr-vnsi-2.6.25-1.fc26
+free/fedora/updates/testing/26/armhfp     : 2018-02-20 09:23:20, Update: gnome-mpv-0.14-1.fc26
+free/fedora/updates/testing/26/aarch64    : 2018-02-20 09:22:19, Update: gnome-mpv-0.14-1.fc26
+free/fedora/updates/testing/26/ppc64      : 2018-02-20 09:21:17, Update: gnome-mpv-0.14-1.fc26
+free/fedora/updates/testing/26/ppc64le    : 2018-02-20 09:18:31, Update: gnome-mpv-0.14-1.fc26
+---
+nonfree/fedora/releases/26/SRPMS          : 2017-07-09 18:05:27, Update: rpmfusion-nonfree-appstream-data-26-2.fc26
+nonfree/fedora/releases/26/i386           : 2017-07-09 18:05:31, Update: rpmfusion-nonfree-appstream-data-26-2.fc26
+nonfree/fedora/releases/26/x86_64         : 2017-07-09 18:05:31, Update: rpmfusion-nonfree-appstream-data-26-2.fc26
+nonfree/fedora/releases/26/armhfp         : 2017-07-09 18:05:31, Update: rpmfusion-nonfree-appstream-data-26-2.fc26
+nonfree/fedora/releases/26/aarch64        : 2017-07-09 18:05:31, Update: rpmfusion-nonfree-appstream-data-26-2.fc26
+nonfree/fedora/releases/26/ppc64          : 2017-07-09 18:05:31, Update: rpmfusion-nonfree-appstream-data-26-2.fc26
+nonfree/fedora/releases/26/ppc64le        : 2017-07-09 18:05:31, Update: rpmfusion-nonfree-appstream-data-26-2.fc26
+---
+nonfree/fedora/updates/26/SRPMS           : 2018-02-16 10:10:37, Update: nvidia-kmod-390.25-3.fc26
+nonfree/fedora/updates/26/i386            : 2018-02-16 10:07:35, Update: akmod-nvidia-390.25-3.fc26
+nonfree/fedora/updates/26/x86_64          : 2018-02-16 10:07:59, Update: akmod-nvidia-390.25-3.fc26
+nonfree/fedora/updates/26/armhfp          : 2018-02-16 10:10:56, Update: akmod-nvidia-390.25-3.fc26
+nonfree/fedora/updates/26/aarch64         : 2018-02-01 10:01:38, Update: mari0-1.6.1-1.fc26
+nonfree/fedora/updates/26/ppc64           : 2018-02-01 10:01:38, Update: mari0-1.6.1-1.fc26
+nonfree/fedora/updates/26/ppc64le         : 2018-02-01 10:01:38, Update: mari0-1.6.1-1.fc26
+---
+nonfree/fedora/updates/testing/26/SRPMS   : 2018-02-18 06:23:02, Update: tarsnap-1.0.39-1.fc26
+nonfree/fedora/updates/testing/26/i386    : 2018-02-18 06:23:49, Update: tarsnap-bash-completion-1.0.39-1.fc26
+nonfree/fedora/updates/testing/26/x86_64  : 2018-02-18 06:23:49, Update: tarsnap-1.0.39-1.fc26
+nonfree/fedora/updates/testing/26/armhfp  : 2018-02-18 06:30:47, Update: tarsnap-1.0.39-1.fc26
+nonfree/fedora/updates/testing/26/aarch64 : 2018-02-18 06:25:56, Update: tarsnap-1.0.39-1.fc26
+nonfree/fedora/updates/testing/26/ppc64   : 2018-02-18 06:26:45, Update: tarsnap-1.0.39-1.fc26
+nonfree/fedora/updates/testing/26/ppc64le : 2018-02-18 06:25:05, Update: tarsnap-1.0.39-1.fc26
+####################
+Verifying fedora27
+####################
+free/fedora/releases/27/SRPMS             : 2017-11-20 11:38:42, Update: megamario-1.7-2.fc27
+free/fedora/releases/27/i386              : 2017-11-20 11:39:27, Update: megamario-1.7-2.fc27
+free/fedora/releases/27/x86_64            : 2017-11-20 11:39:27, Update: megamario-1.7-2.fc27
+free/fedora/releases/27/armhfp            : 2017-11-20 11:47:21, Update: megamario-1.7-2.fc27
+free/fedora/releases/27/aarch64           : 2017-11-20 11:43:22, Update: megamario-1.7-2.fc27
+free/fedora/releases/27/ppc64             : 2017-11-20 11:41:41, Update: megamario-1.7-2.fc27
+free/fedora/releases/27/ppc64le           : 2017-11-20 11:41:39, Update: megamario-1.7-2.fc27
+---
+free/fedora/updates/27/SRPMS              : 2018-02-11 07:37:13, Update: mpv-0.27.1-1.fc27
+free/fedora/updates/27/i386               : 2018-02-11 07:40:45, Update: mpv-0.27.1-1.fc27
+free/fedora/updates/27/x86_64             : 2018-02-11 07:40:45, Update: mpv-0.27.1-1.fc27
+free/fedora/updates/27/armhfp             : 2018-02-11 07:53:02, Update: mpv-0.27.1-1.fc27
+free/fedora/updates/27/aarch64            : 2018-02-11 07:41:59, Update: mpv-0.27.1-1.fc27
+free/fedora/updates/27/ppc64              : 2018-02-11 07:40:40, Update: mpv-0.27.1-1.fc27
+free/fedora/updates/27/ppc64le            : 2018-02-11 07:46:08, Update: mpv-0.27.1-1.fc27
+---
+free/fedora/updates/testing/27/SRPMS      : 2018-02-20 19:35:50, Update: kodi-pvr-vdr-vnsi-2.6.25-1.fc27
+free/fedora/updates/testing/27/i386       : 2018-02-20 19:43:37, Update: kodi-pvr-vdr-vnsi-2.6.25-1.fc27
+free/fedora/updates/testing/27/x86_64     : 2018-02-20 19:38:19, Update: kodi-pvr-vdr-vnsi-2.6.25-1.fc27
+free/fedora/updates/testing/27/armhfp     : 2018-02-20 09:24:30, Update: gnome-mpv-0.14-1.fc27
+free/fedora/updates/testing/27/aarch64    : 2018-02-20 09:22:30, Update: gnome-mpv-0.14-1.fc27
+free/fedora/updates/testing/27/ppc64      : 2018-02-20 09:21:25, Update: gnome-mpv-0.14-1.fc27
+free/fedora/updates/testing/27/ppc64le    : 2018-02-20 09:18:59, Update: gnome-mpv-0.14-1.fc27
+---
+nonfree/fedora/releases/27/SRPMS          : 2017-11-13 18:22:26, Update: rpmfusion-nonfree-release-27-1
+nonfree/fedora/releases/27/i386           : 2017-11-13 18:22:27, Update: rpmfusion-nonfree-release-27-1
+nonfree/fedora/releases/27/x86_64         : 2017-11-13 18:22:27, Update: rpmfusion-nonfree-release-27-1
+nonfree/fedora/releases/27/armhfp         : 2017-11-13 18:22:27, Update: rpmfusion-nonfree-release-27-1
+nonfree/fedora/releases/27/aarch64        : 2017-11-13 18:22:27, Update: rpmfusion-nonfree-release-27-1
+nonfree/fedora/releases/27/ppc64          : 2017-11-13 18:22:27, Update: rpmfusion-nonfree-release-27-1
+nonfree/fedora/releases/27/ppc64le        : 2017-11-13 18:22:27, Update: rpmfusion-nonfree-release-27-1
+---
+nonfree/fedora/updates/27/SRPMS           : 2018-02-16 10:19:03, Update: nvidia-kmod-390.25-3.fc27
+nonfree/fedora/updates/27/i386            : 2018-02-16 10:15:04, Update: akmod-nvidia-390.25-3.fc27
+nonfree/fedora/updates/27/x86_64          : 2018-02-16 10:15:04, Update: akmod-nvidia-390.25-3.fc27
+nonfree/fedora/updates/27/armhfp          : 2018-02-16 10:19:23, Update: akmod-nvidia-390.25-3.fc27
+nonfree/fedora/updates/27/aarch64         : 2018-02-14 18:11:01, Update: clipgrab-3.6.7-1.fc27
+nonfree/fedora/updates/27/ppc64           : 2018-02-14 18:10:59, Update: clipgrab-3.6.7-1.fc27
+nonfree/fedora/updates/27/ppc64le         : 2018-02-14 18:11:28, Update: clipgrab-3.6.7-1.fc27
+---
+nonfree/fedora/updates/testing/27/SRPMS   : 2018-02-18 21:45:21, Update: tarsnap-1.0.39-1.fc27
+nonfree/fedora/updates/testing/27/i386    : 2018-02-18 21:46:16, Update: tarsnap-bash-completion-1.0.39-1.fc27
+nonfree/fedora/updates/testing/27/x86_64  : 2018-02-18 21:45:51, Update: tarsnap-1.0.39-1.fc27
+nonfree/fedora/updates/testing/27/armhfp  : 2018-02-18 21:51:56, Update: tarsnap-1.0.39-1.fc27
+nonfree/fedora/updates/testing/27/aarch64 : 2018-02-18 21:47:54, Update: tarsnap-1.0.39-1.fc27
+nonfree/fedora/updates/testing/27/ppc64   : 2018-02-18 21:49:13, Update: tarsnap-1.0.39-1.fc27
+nonfree/fedora/updates/testing/27/ppc64le : 2018-02-18 21:47:32, Update: tarsnap-1.0.39-1.fc27
+####################
+Verifying fedorarawhide
+####################
+free/fedora/development/rawhide/SRPMS     : 2018-02-21 21:02:37, Update: kodi-pvr-dvbviewer-2.4.14-1.fc28
+free/fedora/development/rawhide/i386      : 2018-02-21 21:02:03, Update: kodi-pvr-dvbviewer-2.4.14-1.fc28
+free/fedora/development/rawhide/x86_64    : 2018-02-21 21:02:03, Update: kodi-pvr-dvbviewer-2.4.14-1.fc28
+free/fedora/development/rawhide/armhfp    : 2018-02-21 18:58:00, Update: libdvbcsa-1.1.0-7.fc28
+free/fedora/development/rawhide/aarch64   : 2018-02-21 18:55:18, Update: libdvbcsa-1.1.0-7.fc28
+free/fedora/development/rawhide/ppc64     : 2018-02-21 18:55:42, Update: libdvbcsa-1.1.0-7.fc28
+free/fedora/development/rawhide/ppc64le   : 2018-02-21 18:55:21, Update: libdvbcsa-1.1.0-7.fc28
+---
+nonfree/fedora/development/rawhide/SRPMS  : 2018-02-21 22:49:54, Update: dfhack-0.44.05-2.r1.fc28
+nonfree/fedora/development/rawhide/i386   : 2018-02-21 23:01:39, Update: dfhack-doc-0.44.05-2.r1.fc28
+nonfree/fedora/development/rawhide/x86_64 : 2018-02-21 23:01:39, Update: dfhack-0.44.05-2.r1.fc28
+nonfree/fedora/development/rawhide/armhfp : 2018-02-19 03:50:18, Update: tarsnap-1.0.39-1.fc28
+nonfree/fedora/development/rawhide/aarch64: 2018-02-19 03:16:41, Update: tarsnap-1.0.39-1.fc28
+nonfree/fedora/development/rawhide/ppc64  : 2018-02-19 03:13:58, Update: tarsnap-1.0.39-1.fc28
+nonfree/fedora/development/rawhide/ppc64le: 2018-02-19 03:17:43, Update: tarsnap-1.0.39-1.fc28

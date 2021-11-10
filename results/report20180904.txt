@@ -1,0 +1,212 @@
+
+####################
+Verifying el-6
+####################
+free/el/updates/6/SRPMS                   : 2018-08-02 16:26:23, Update: buildsys-build-rpmfusion-18-4
+free/el/updates/6/i386                    : 2018-08-02 16:26:37, Update: buildsys-build-rpmfusion-18-4
+repoview 2018-09-03 09:39:32+00:00 older than repodata 2018-09-03 09:39:34+00:00 = 0:00:02
+repoview 2018-09-03 09:39:32+00:00 older than repodata 2018-09-03 09:39:34+00:00 = 0:00:02
+free/el/updates/6/x86_64                  : 2018-08-02 16:26:28, Update: buildsys-build-rpmfusion-18-4
+---
+free/el/updates/testing/6/SRPMS           : N/A
+free/el/updates/testing/6/i386            : N/A
+free/el/updates/testing/6/x86_64          : N/A
+---
+nonfree/el/updates/6/SRPMS                : 2018-06-19 14:43:47, Update: rpmfusion-nonfree-release-6-4
+nonfree/el/updates/6/i386                 : 2018-06-19 14:43:47, Update: rpmfusion-nonfree-release-6-4
+repoview 2018-09-03 09:41:11+00:00 older than repodata 2018-09-03 09:41:12+00:00 = 0:00:01
+repoview 2018-09-03 09:41:11+00:00 older than repodata 2018-09-03 09:41:12+00:00 = 0:00:01
+nonfree/el/updates/6/x86_64               : 2018-06-19 14:43:47, Update: rpmfusion-nonfree-release-6-4
+---
+nonfree/el/updates/testing/6/SRPMS        : N/A
+nonfree/el/updates/testing/6/i386         : N/A
+repoview 2018-09-03 09:41:13+00:00 older than repodata 2018-09-03 09:41:14+00:00 = 0:00:01
+repoview 2018-09-03 09:41:13+00:00 older than repodata 2018-09-03 09:41:14+00:00 = 0:00:01
+nonfree/el/updates/testing/6/x86_64       : N/A
+
+####################
+Verifying el-7
+####################
+free/el/updates/7/SRPMS                   : 2018-08-30 02:00:18, Update: mock-rpmfusion-free-29.0-1.el7
+repoview 2018-09-03 09:40:48+00:00 older than repodata 2018-09-03 09:40:51+00:00 = 0:00:03
+repoview 2018-09-03 09:40:48+00:00 older than repodata 2018-09-03 09:40:51+00:00 = 0:00:03
+free/el/updates/7/x86_64                  : 2018-08-30 02:00:19, Update: mock-rpmfusion-free-29.0-1.el7
+---
+free/el/updates/testing/7/SRPMS           : 2018-09-02 18:09:26, Update: rpmfusion-packager-0.6.2-3.el7
+free/el/updates/testing/7/x86_64          : 2018-09-02 18:09:35, Update: rpmfusion-cert-0.6.2-3.el7
+---
+nonfree/el/updates/7/SRPMS                : 2018-08-30 14:56:24, Update: mock-rpmfusion-nonfree-29.0-1.el7
+repoview 2018-09-03 09:41:29+00:00 older than repodata 2018-09-03 09:41:30+00:00 = 0:00:01
+repoview 2018-09-03 09:41:29+00:00 older than repodata 2018-09-03 09:41:30+00:00 = 0:00:01
+nonfree/el/updates/7/x86_64               : 2018-08-30 14:56:26, Update: mock-rpmfusion-nonfree-29.0-1.el7
+---
+nonfree/el/updates/testing/7/SRPMS        : 2018-08-31 12:23:02, Update: gstreamer1-plugins-bad-nonfree-1.10.4-1.el7
+nonfree/el/updates/testing/7/x86_64       : 2018-08-31 12:23:38, Update: gstreamer1-plugins-bad-nonfree-1.10.4-1.el7
+
+####################
+Verifying fedora-27
+####################
+free/fedora/updates/27/SRPMS              : 2018-08-30 02:06:48, Update: mock-rpmfusion-free-29.0-1.fc27
+free/fedora/updates/27/i386               : 2018-08-30 02:07:09, Update: mock-rpmfusion-free-29.0-1.fc27
+repoview 2018-09-03 08:31:36+00:00 older than repodata 2018-09-03 08:31:44+00:00 = 0:00:08
+repoview 2018-09-03 08:31:36+00:00 older than repodata 2018-09-03 08:31:44+00:00 = 0:00:08
+free/fedora/updates/27/x86_64             : 2018-08-30 02:07:09, Update: mock-rpmfusion-free-29.0-1.fc27
+free/fedora/updates/27/armhfp             : 2018-08-30 02:07:09, Update: mock-rpmfusion-free-29.0-1.fc27
+free/fedora/updates/27/aarch64            : 2018-08-30 02:07:09, Update: mock-rpmfusion-free-29.0-1.fc27
+repoview 2018-09-03 08:31:21+00:00 older than repodata 2018-09-03 08:31:41+00:00 = 0:00:20
+repoview 2018-09-03 08:31:21+00:00 older than repodata 2018-09-03 08:31:41+00:00 = 0:00:20
+free/fedora/updates/27/ppc64              : 2018-08-30 02:07:09, Update: mock-rpmfusion-free-29.0-1.fc27
+free/fedora/updates/27/ppc64le            : 2018-08-30 02:07:09, Update: mock-rpmfusion-free-29.0-1.fc27
+---
+free/fedora/updates/testing/27/SRPMS      : 2018-09-02 18:15:05, Update: rpmfusion-packager-0.6.2-3.fc27
+free/fedora/updates/testing/27/i386       : 2018-09-02 18:16:12, Update: rpmfusion-cert-0.6.2-3.fc27
+repoview 2018-09-03 08:32:13+00:00 older than repodata 2018-09-03 08:32:17+00:00 = 0:00:04
+repoview 2018-09-03 08:32:13+00:00 older than repodata 2018-09-03 08:32:17+00:00 = 0:00:04
+free/fedora/updates/testing/27/x86_64     : 2018-09-02 18:16:12, Update: rpmfusion-cert-0.6.2-3.fc27
+free/fedora/updates/testing/27/armhfp     : 2018-09-02 18:16:12, Update: rpmfusion-cert-0.6.2-3.fc27
+free/fedora/updates/testing/27/aarch64    : 2018-09-02 18:16:12, Update: rpmfusion-cert-0.6.2-3.fc27
+repoview 2018-09-03 08:32:12+00:00 older than repodata 2018-09-03 08:32:17+00:00 = 0:00:05
+repoview 2018-09-03 08:32:12+00:00 older than repodata 2018-09-03 08:32:17+00:00 = 0:00:05
+free/fedora/updates/testing/27/ppc64      : 2018-09-02 18:16:12, Update: rpmfusion-cert-0.6.2-3.fc27
+free/fedora/updates/testing/27/ppc64le    : 2018-09-02 18:16:12, Update: rpmfusion-cert-0.6.2-3.fc27
+---
+nonfree/fedora/updates/27/SRPMS           : 2018-08-30 14:58:42, Update: mock-rpmfusion-nonfree-29.0-1.fc27
+nonfree/fedora/updates/27/i386            : 2018-08-30 14:58:46, Update: mock-rpmfusion-nonfree-29.0-1.fc27
+repoview 2018-09-03 09:04:37+00:00 older than repodata 2018-09-03 09:04:39+00:00 = 0:00:02
+repoview 2018-09-03 09:04:37+00:00 older than repodata 2018-09-03 09:04:39+00:00 = 0:00:02
+nonfree/fedora/updates/27/x86_64          : 2018-08-30 14:58:46, Update: mock-rpmfusion-nonfree-29.0-1.fc27
+nonfree/fedora/updates/27/armhfp          : 2018-08-30 14:58:46, Update: mock-rpmfusion-nonfree-29.0-1.fc27
+nonfree/fedora/updates/27/aarch64         : 2018-08-30 14:58:46, Update: mock-rpmfusion-nonfree-29.0-1.fc27
+repoview 2018-09-03 09:04:23+00:00 older than repodata 2018-09-03 09:04:38+00:00 = 0:00:15
+repoview 2018-09-03 09:04:23+00:00 older than repodata 2018-09-03 09:04:38+00:00 = 0:00:15
+nonfree/fedora/updates/27/ppc64           : 2018-08-30 14:58:46, Update: mock-rpmfusion-nonfree-29.0-1.fc27
+nonfree/fedora/updates/27/ppc64le         : 2018-08-30 14:58:46, Update: mock-rpmfusion-nonfree-29.0-1.fc27
+---
+nonfree/fedora/updates/testing/27/SRPMS   : 2018-08-31 01:09:31, Update: lpf-flash-plugin-30.0.0.154-1.fc27
+nonfree/fedora/updates/testing/27/i386    : 2018-08-31 01:10:27, Update: lpf-flash-plugin-30.0.0.154-1.fc27
+repoview 2018-09-03 09:04:53+00:00 older than repodata 2018-09-03 09:04:54+00:00 = 0:00:01
+repoview 2018-09-03 09:04:53+00:00 older than repodata 2018-09-03 09:04:54+00:00 = 0:00:01
+nonfree/fedora/updates/testing/27/x86_64  : 2018-08-31 01:09:51, Update: lpf-flash-plugin-30.0.0.154-1.fc27
+nonfree/fedora/updates/testing/27/armhfp  : N/A
+nonfree/fedora/updates/testing/27/aarch64 : N/A
+repoview 2018-09-03 09:04:46+00:00 older than repodata 2018-09-03 09:04:54+00:00 = 0:00:08
+repoview 2018-09-03 09:04:46+00:00 older than repodata 2018-09-03 09:04:54+00:00 = 0:00:08
+nonfree/fedora/updates/testing/27/ppc64   : N/A
+nonfree/fedora/updates/testing/27/ppc64le : N/A
+
+####################
+Verifying fedora-28
+####################
+repoview 2018-08-21 08:43:50+00:00 older than repodata 2018-09-03 08:35:46+00:00 = 12 days, 23:51:56
+repoview 2018-08-21 08:43:50+00:00 older than repodata 2018-09-03 08:35:46+00:00 = 12 days, 23:51:56
+free/fedora/updates/28/SRPMS              : 2018-07-30 22:17:51, Update: qmplay2-18.07.03-1.fc28
+repoview 2018-08-21 08:45:07+00:00 older than repodata 2018-09-03 08:37:00+00:00 = 12 days, 23:51:53
+repoview 2018-08-21 08:45:07+00:00 older than repodata 2018-09-03 08:37:00+00:00 = 12 days, 23:51:53
+free/fedora/updates/28/i386               : 2018-07-30 22:26:43, Update: qmplay2-18.07.03-1.fc28
+repoview 2018-09-03 08:37:13+00:00 older than repodata 2018-09-03 08:37:20+00:00 = 0:00:07
+repoview 2018-09-03 08:37:13+00:00 older than repodata 2018-09-03 08:37:20+00:00 = 0:00:07
+free/fedora/updates/28/x86_64             : 2018-08-30 02:05:44, Update: mock-rpmfusion-free-29.0-1.fc28
+repoview 2018-08-21 08:44:46+00:00 older than repodata 2018-09-03 08:36:58+00:00 = 12 days, 23:52:12
+repoview 2018-08-21 08:44:46+00:00 older than repodata 2018-09-03 08:36:58+00:00 = 12 days, 23:52:12
+free/fedora/updates/28/armhfp             : 2018-07-30 22:54:42, Update: qmplay2-18.07.03-1.fc28
+repoview 2018-08-21 08:44:41+00:00 older than repodata 2018-09-03 08:36:55+00:00 = 12 days, 23:52:14
+repoview 2018-08-21 08:44:41+00:00 older than repodata 2018-09-03 08:36:55+00:00 = 12 days, 23:52:14
+free/fedora/updates/28/aarch64            : 2018-07-30 22:28:30, Update: qmplay2-18.07.03-1.fc28
+repoview 2018-08-21 08:44:36+00:00 older than repodata 2018-09-03 08:37:17+00:00 = 12 days, 23:52:41
+repoview 2018-08-21 08:44:36+00:00 older than repodata 2018-09-03 08:37:17+00:00 = 12 days, 23:52:41
+free/fedora/updates/28/ppc64              : 2018-07-30 22:26:35, Update: qmplay2-kde-integration-18.07.03-1.fc28
+repoview 2018-08-21 08:44:44+00:00 older than repodata 2018-09-03 08:36:55+00:00 = 12 days, 23:52:11
+repoview 2018-08-21 08:44:44+00:00 older than repodata 2018-09-03 08:36:55+00:00 = 12 days, 23:52:11
+free/fedora/updates/28/ppc64le            : 2018-07-30 22:26:35, Update: qmplay2-kde-integration-18.07.03-1.fc28
+---
+free/fedora/updates/testing/28/SRPMS      : 2018-09-02 18:14:05, Update: rpmfusion-packager-0.6.2-3.fc28
+free/fedora/updates/testing/28/i386       : 2018-09-02 18:14:37, Update: rpmfusion-cert-0.6.2-3.fc28
+repoview 2018-09-03 08:37:43+00:00 older than repodata 2018-09-03 08:37:45+00:00 = 0:00:02
+repoview 2018-09-03 08:37:43+00:00 older than repodata 2018-09-03 08:37:45+00:00 = 0:00:02
+free/fedora/updates/testing/28/x86_64     : 2018-09-02 18:14:37, Update: rpmfusion-cert-0.6.2-3.fc28
+free/fedora/updates/testing/28/armhfp     : 2018-09-02 18:14:37, Update: rpmfusion-cert-0.6.2-3.fc28
+free/fedora/updates/testing/28/aarch64    : 2018-09-02 18:14:37, Update: rpmfusion-cert-0.6.2-3.fc28
+repoview 2018-09-03 08:37:43+00:00 older than repodata 2018-09-03 08:37:44+00:00 = 0:00:01
+repoview 2018-09-03 08:37:43+00:00 older than repodata 2018-09-03 08:37:44+00:00 = 0:00:01
+free/fedora/updates/testing/28/ppc64      : 2018-09-02 18:14:37, Update: rpmfusion-cert-0.6.2-3.fc28
+free/fedora/updates/testing/28/ppc64le    : 2018-09-02 18:14:37, Update: rpmfusion-cert-0.6.2-3.fc28
+---
+nonfree/fedora/updates/28/SRPMS           : 2018-08-30 14:58:17, Update: mock-rpmfusion-nonfree-29.0-1.fc28
+nonfree/fedora/updates/28/i386            : 2018-08-30 14:58:23, Update: mock-rpmfusion-nonfree-29.0-1.fc28
+repoview 2018-09-03 09:06:14+00:00 older than repodata 2018-09-03 09:06:16+00:00 = 0:00:02
+repoview 2018-09-03 09:06:14+00:00 older than repodata 2018-09-03 09:06:16+00:00 = 0:00:02
+nonfree/fedora/updates/28/x86_64          : 2018-08-30 14:58:23, Update: mock-rpmfusion-nonfree-29.0-1.fc28
+nonfree/fedora/updates/28/armhfp          : 2018-08-30 14:58:23, Update: mock-rpmfusion-nonfree-29.0-1.fc28
+nonfree/fedora/updates/28/aarch64         : 2018-08-30 14:58:23, Update: mock-rpmfusion-nonfree-29.0-1.fc28
+repoview 2018-09-03 09:06:13+00:00 older than repodata 2018-09-03 09:06:16+00:00 = 0:00:03
+repoview 2018-09-03 09:06:13+00:00 older than repodata 2018-09-03 09:06:16+00:00 = 0:00:03
+nonfree/fedora/updates/28/ppc64           : 2018-08-30 14:58:23, Update: mock-rpmfusion-nonfree-29.0-1.fc28
+nonfree/fedora/updates/28/ppc64le         : 2018-08-30 14:58:23, Update: mock-rpmfusion-nonfree-29.0-1.fc28
+---
+nonfree/fedora/updates/testing/28/SRPMS   : 2018-08-31 00:58:38, Update: lpf-flash-plugin-30.0.0.154-1.fc28
+nonfree/fedora/updates/testing/28/i386    : 2018-08-31 00:59:29, Update: lpf-flash-plugin-30.0.0.154-1.fc28
+nonfree/fedora/updates/testing/28/x86_64  : 2018-08-31 00:59:06, Update: lpf-flash-plugin-30.0.0.154-1.fc28
+nonfree/fedora/updates/testing/28/armhfp  : N/A
+nonfree/fedora/updates/testing/28/aarch64 : N/A
+repoview 2018-09-03 09:06:23+00:00 older than repodata 2018-09-03 09:06:29+00:00 = 0:00:06
+repoview 2018-09-03 09:06:23+00:00 older than repodata 2018-09-03 09:06:29+00:00 = 0:00:06
+nonfree/fedora/updates/testing/28/ppc64   : N/A
+nonfree/fedora/updates/testing/28/ppc64le : N/A
+
+####################
+Verifying fedora-29
+####################
+free/fedora/development/29/SRPMS          : 2018-08-30 02:05:28, Update: mock-rpmfusion-free-29.0-1.fc29
+free/fedora/development/29/i386           : 2018-08-30 02:05:33, Update: mock-rpmfusion-free-29.0-1.fc29
+repoview 2018-09-03 08:49:37+00:00 older than repodata 2018-09-03 08:49:48+00:00 = 0:00:11
+repoview 2018-09-03 08:49:37+00:00 older than repodata 2018-09-03 08:49:48+00:00 = 0:00:11
+free/fedora/development/29/x86_64         : 2018-08-30 02:05:33, Update: mock-rpmfusion-free-29.0-1.fc29
+free/fedora/development/29/armhfp         : 2018-08-30 02:05:33, Update: mock-rpmfusion-free-29.0-1.fc29
+free/fedora/development/29/aarch64        : 2018-08-30 02:05:33, Update: mock-rpmfusion-free-29.0-1.fc29
+free/fedora/development/29/ppc64le        : 2018-08-30 02:05:33, Update: mock-rpmfusion-free-29.0-1.fc29
+---
+free/fedora/updates/testing/29/SRPMS      : 2018-09-02 18:09:02, Update: rpmfusion-packager-0.6.2-3.fc29
+free/fedora/updates/testing/29/i386       : 2018-09-02 18:09:15, Update: rpmfusion-cert-0.6.2-3.fc29
+repoview 2018-09-03 08:38:03+00:00 older than repodata 2018-09-03 08:38:04+00:00 = 0:00:01
+repoview 2018-09-03 08:38:03+00:00 older than repodata 2018-09-03 08:38:04+00:00 = 0:00:01
+free/fedora/updates/testing/29/x86_64     : 2018-09-02 18:09:15, Update: rpmfusion-cert-0.6.2-3.fc29
+free/fedora/updates/testing/29/armhfp     : 2018-09-02 18:09:15, Update: rpmfusion-cert-0.6.2-3.fc29
+free/fedora/updates/testing/29/aarch64    : 2018-09-02 18:09:15, Update: rpmfusion-cert-0.6.2-3.fc29
+free/fedora/updates/testing/29/ppc64le    : 2018-09-02 18:09:15, Update: rpmfusion-cert-0.6.2-3.fc29
+---
+nonfree/fedora/development/29/SRPMS       : 2018-08-30 15:01:11, Update: mock-rpmfusion-nonfree-29.0-1.fc29
+nonfree/fedora/development/29/i386        : 2018-08-30 15:01:28, Update: mock-rpmfusion-nonfree-29.0-1.fc29
+repoview 2018-09-03 09:13:07+00:00 older than repodata 2018-09-03 09:13:09+00:00 = 0:00:02
+repoview 2018-09-03 09:13:07+00:00 older than repodata 2018-09-03 09:13:09+00:00 = 0:00:02
+nonfree/fedora/development/29/x86_64      : 2018-08-30 15:01:28, Update: mock-rpmfusion-nonfree-29.0-1.fc29
+nonfree/fedora/development/29/armhfp      : 2018-08-30 15:01:28, Update: mock-rpmfusion-nonfree-29.0-1.fc29
+nonfree/fedora/development/29/aarch64     : 2018-08-30 15:01:28, Update: mock-rpmfusion-nonfree-29.0-1.fc29
+nonfree/fedora/development/29/ppc64le     : 2018-08-30 15:01:28, Update: mock-rpmfusion-nonfree-29.0-1.fc29
+---
+nonfree/fedora/updates/testing/29/SRPMS   : 2018-08-31 01:00:34, Update: lpf-flash-plugin-30.0.0.154-1.fc29
+nonfree/fedora/updates/testing/29/i386    : 2018-08-31 01:08:39, Update: lpf-flash-plugin-30.0.0.154-1.fc29
+nonfree/fedora/updates/testing/29/x86_64  : 2018-08-31 01:08:39, Update: lpf-flash-plugin-30.0.0.154-1.fc29
+nonfree/fedora/updates/testing/29/armhfp  : N/A
+nonfree/fedora/updates/testing/29/aarch64 : N/A
+nonfree/fedora/updates/testing/29/ppc64le : N/A
+
+####################
+Verifying fedora-rawhide
+####################
+free/fedora/development/rawhide/SRPMS     : 2018-09-02 18:11:50, Update: rpmfusion-packager-0.6.2-3.fc30
+free/fedora/development/rawhide/i386      : 2018-09-02 18:12:43, Update: rpmfusion-cert-0.6.2-3.fc30
+repoview 2018-09-03 09:02:25+00:00 older than repodata 2018-09-03 09:02:36+00:00 = 0:00:11
+repoview 2018-09-03 09:02:25+00:00 older than repodata 2018-09-03 09:02:36+00:00 = 0:00:11
+free/fedora/development/rawhide/x86_64    : 2018-09-02 18:12:43, Update: rpmfusion-cert-0.6.2-3.fc30
+free/fedora/development/rawhide/armhfp    : 2018-09-02 18:12:43, Update: rpmfusion-cert-0.6.2-3.fc30
+free/fedora/development/rawhide/aarch64   : 2018-09-02 18:12:43, Update: rpmfusion-cert-0.6.2-3.fc30
+free/fedora/development/rawhide/ppc64le   : 2018-09-02 18:12:43, Update: rpmfusion-cert-0.6.2-3.fc30
+---
+nonfree/fedora/development/rawhide/SRPMS  : 2018-08-31 00:56:59, Update: lpf-flash-plugin-30.0.0.154-1.fc30
+nonfree/fedora/development/rawhide/i386   : 2018-08-31 00:57:34, Update: lpf-flash-plugin-30.0.0.154-1.fc30
+repoview 2018-09-03 09:19:18+00:00 older than repodata 2018-09-03 09:19:21+00:00 = 0:00:03
+repoview 2018-09-03 09:19:18+00:00 older than repodata 2018-09-03 09:19:21+00:00 = 0:00:03
+nonfree/fedora/development/rawhide/x86_64 : 2018-08-31 00:57:20, Update: lpf-flash-plugin-30.0.0.154-1.fc30
+nonfree/fedora/development/rawhide/armhfp : 2018-08-30 14:48:33, Update: mock-rpmfusion-nonfree-29.0-1.fc30
+nonfree/fedora/development/rawhide/aarch64: 2018-08-30 14:48:33, Update: mock-rpmfusion-nonfree-29.0-1.fc30
+nonfree/fedora/development/rawhide/ppc64le: 2018-08-30 14:48:33, Update: mock-rpmfusion-nonfree-29.0-1.fc30

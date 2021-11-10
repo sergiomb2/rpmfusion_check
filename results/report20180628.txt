@@ -1,0 +1,158 @@
+
+####################
+Verifying el-6
+####################
+free/el/updates/6/SRPMS                   : 2018-06-19 14:45:26, Update: rpmfusion-free-release-6-4
+free/el/updates/6/i386                    : 2018-06-19 14:45:27, Update: rpmfusion-free-release-6-4
+free/el/updates/6/x86_64                  : 2018-06-19 14:45:27, Update: rpmfusion-free-release-6-4
+---
+nonfree/el/updates/6/SRPMS                : 2018-06-19 14:43:47, Update: rpmfusion-nonfree-release-6-4
+nonfree/el/updates/6/i386                 : 2018-06-19 14:43:47, Update: rpmfusion-nonfree-release-6-4
+nonfree/el/updates/6/x86_64               : 2018-06-19 14:43:47, Update: rpmfusion-nonfree-release-6-4
+---
+free/el/updates/testing/6/SRPMS           : N/A
+free/el/updates/testing/6/i386            : N/A
+free/el/updates/testing/6/x86_64          : N/A
+---
+nonfree/el/updates/testing/6/SRPMS        : N/A
+nonfree/el/updates/testing/6/i386         : N/A
+nonfree/el/updates/testing/6/x86_64       : N/A
+
+####################
+Verifying el-7
+####################
+free/el/updates/7/SRPMS                   : 2018-06-19 14:45:11, Update: rpmfusion-free-release-7-4
+free/el/updates/7/x86_64                  : 2018-06-19 14:45:12, Update: rpmfusion-free-release-7-4
+---
+nonfree/el/updates/7/SRPMS                : 2018-06-19 14:44:22, Update: rpmfusion-nonfree-release-7-4
+nonfree/el/updates/7/x86_64               : 2018-06-19 14:44:23, Update: rpmfusion-nonfree-release-7-4
+---
+free/el/updates/testing/7/SRPMS           : 2018-06-26 02:13:46, Update: smplayer-18.6.0-1.el7
+free/el/updates/testing/7/x86_64          : 2018-06-26 02:22:38, Update: smplayer-18.6.0-1.el7
+---
+nonfree/el/updates/testing/7/SRPMS        : N/A
+nonfree/el/updates/testing/7/x86_64       : N/A
+
+####################
+Verifying fedora-26
+####################
+free/fedora/updates/26/SRPMS              : 2018-05-28 19:00:50, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/26/i386               : 2018-05-28 19:18:01, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/26/x86_64             : 2018-05-28 19:18:01, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/26/armhfp             : 2018-05-28 21:10:45, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/26/aarch64            : 2018-05-28 19:35:31, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/26/ppc64              : 2018-05-28 19:34:35, Update: vlc-3.0.3-1.fc26
+free/fedora/updates/26/ppc64le            : 2018-05-28 19:34:27, Update: vlc-3.0.3-1.fc26
+---
+nonfree/fedora/updates/26/SRPMS           : 2018-04-25 07:02:57, Update: unrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/i386            : 2018-04-25 07:03:19, Update: libunrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/x86_64          : 2018-04-25 07:03:19, Update: libunrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/armhfp          : 2018-04-25 07:05:42, Update: libunrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/aarch64         : 2018-04-25 07:07:10, Update: libunrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/ppc64           : 2018-04-25 07:08:57, Update: libunrar-5.6.3-1.fc26
+nonfree/fedora/updates/26/ppc64le         : 2018-04-25 07:08:37, Update: libunrar-5.6.3-1.fc26
+---
+free/fedora/updates/testing/26/SRPMS      : 2017-11-14 13:13:32, Update: chromium-freeworld-62.0.3202.89-1.fc26
+free/fedora/updates/testing/26/i386       : 2017-11-14 14:08:08, Update: chromium-libs-media-freeworld-62.0.3202.89-1.fc26
+free/fedora/updates/testing/26/x86_64     : 2017-11-14 14:08:08, Update: chromium-libs-media-freeworld-62.0.3202.89-1.fc26
+free/fedora/updates/testing/26/armhfp     : N/A
+free/fedora/updates/testing/26/aarch64    : 2017-11-14 14:43:29, Update: chromium-libs-media-freeworld-62.0.3202.89-1.fc26
+free/fedora/updates/testing/26/ppc64      : N/A
+free/fedora/updates/testing/26/ppc64le    : N/A
+---
+nonfree/fedora/updates/testing/26/SRPMS   : N/A
+nonfree/fedora/updates/testing/26/i386    : N/A
+nonfree/fedora/updates/testing/26/x86_64  : N/A
+nonfree/fedora/updates/testing/26/armhfp  : N/A
+nonfree/fedora/updates/testing/26/aarch64 : N/A
+nonfree/fedora/updates/testing/26/ppc64   : N/A
+nonfree/fedora/updates/testing/26/ppc64le : N/A
+
+####################
+Verifying fedora-27
+####################
+free/fedora/updates/27/SRPMS              : 2018-06-20 10:54:52, Update: get_iplayer-3.14-1.fc27
+free/fedora/updates/27/i386               : 2018-06-20 10:55:28, Update: get_iplayer-3.14-1.fc27
+free/fedora/updates/27/x86_64             : 2018-06-20 10:55:28, Update: get_iplayer-3.14-1.fc27
+free/fedora/updates/27/armhfp             : 2018-06-20 10:55:28, Update: get_iplayer-3.14-1.fc27
+free/fedora/updates/27/aarch64            : 2018-06-20 10:55:28, Update: get_iplayer-3.14-1.fc27
+free/fedora/updates/27/ppc64              : 2018-06-20 10:55:28, Update: get_iplayer-3.14-1.fc27
+free/fedora/updates/27/ppc64le            : 2018-06-20 10:55:28, Update: get_iplayer-3.14-1.fc27
+---
+nonfree/fedora/updates/27/SRPMS           : 2018-06-22 06:30:04, Update: nemo-dropbox-3.8.0-1.fc27
+nonfree/fedora/updates/27/i386            : 2018-06-22 06:31:34, Update: nemo-dropbox-3.8.0-1.fc27
+nonfree/fedora/updates/27/x86_64          : 2018-06-22 06:31:34, Update: nemo-dropbox-3.8.0-1.fc27
+nonfree/fedora/updates/27/armhfp          : 2018-06-21 08:52:18, Update: snes9x-1.56.1-3.fc27
+nonfree/fedora/updates/27/aarch64         : 2018-06-21 07:53:50, Update: snes9x-1.56.1-3.fc27
+nonfree/fedora/updates/27/ppc64           : 2018-06-21 07:45:25, Update: snes9x-1.56.1-3.fc27
+nonfree/fedora/updates/27/ppc64le         : 2018-06-21 07:44:42, Update: snes9x-1.56.1-3.fc27
+---
+free/fedora/updates/testing/27/SRPMS      : 2018-06-26 16:04:32, Update: qtox-1.15.0-3.fc27
+free/fedora/updates/testing/27/i386       : 2018-06-26 16:08:54, Update: qtox-1.15.0-3.fc27
+free/fedora/updates/testing/27/x86_64     : 2018-06-26 16:08:52, Update: qtox-1.15.0-3.fc27
+free/fedora/updates/testing/27/armhfp     : 2018-06-26 19:32:28, Update: qt5-qtwebengine-freeworld-5.10.1-5.fc27
+free/fedora/updates/testing/27/aarch64    : 2018-06-26 16:18:10, Update: qtox-1.15.0-3.fc27
+free/fedora/updates/testing/27/ppc64      : 2018-06-26 16:11:23, Update: qtox-1.15.0-3.fc27
+free/fedora/updates/testing/27/ppc64le    : 2018-06-26 16:11:24, Update: qtox-1.15.0-3.fc27
+---
+nonfree/fedora/updates/testing/27/SRPMS   : 2018-06-26 18:20:04, Update: lpf-spotify-client-1.0.80.480-1.fc27
+nonfree/fedora/updates/testing/27/i386    : 2018-06-26 18:20:33, Update: lpf-spotify-client-1.0.80.480-1.fc27
+nonfree/fedora/updates/testing/27/x86_64  : 2018-06-26 18:20:33, Update: lpf-spotify-client-1.0.80.480-1.fc27
+nonfree/fedora/updates/testing/27/armhfp  : 2018-06-23 09:31:56, Update: snes9x-1.56.2-1.fc27
+nonfree/fedora/updates/testing/27/aarch64 : 2018-06-23 09:10:09, Update: snes9x-1.56.2-1.fc27
+nonfree/fedora/updates/testing/27/ppc64   : 2018-06-23 09:03:51, Update: snes9x-1.56.2-1.fc27
+nonfree/fedora/updates/testing/27/ppc64le : 2018-06-23 09:03:45, Update: snes9x-1.56.2-1.fc27
+
+####################
+Verifying fedora-28
+####################
+free/fedora/updates/28/SRPMS              : 2018-06-20 10:49:28, Update: get_iplayer-3.14-1.fc28
+free/fedora/updates/28/i386               : 2018-06-20 10:49:34, Update: get_iplayer-3.14-1.fc28
+free/fedora/updates/28/x86_64             : 2018-06-20 10:49:34, Update: get_iplayer-3.14-1.fc28
+free/fedora/updates/28/armhfp             : 2018-06-20 10:49:34, Update: get_iplayer-3.14-1.fc28
+free/fedora/updates/28/aarch64            : 2018-06-20 10:49:34, Update: get_iplayer-3.14-1.fc28
+free/fedora/updates/28/ppc64              : 2018-06-20 10:49:34, Update: get_iplayer-3.14-1.fc28
+free/fedora/updates/28/ppc64le            : 2018-06-20 10:49:34, Update: get_iplayer-3.14-1.fc28
+---
+nonfree/fedora/updates/28/SRPMS           : 2018-06-21 07:31:06, Update: snes9x-1.56.1-3.fc28
+nonfree/fedora/updates/28/i386            : 2018-06-21 07:38:22, Update: snes9x-1.56.1-3.fc28
+nonfree/fedora/updates/28/x86_64          : 2018-06-21 07:38:20, Update: snes9x-1.56.1-3.fc28
+nonfree/fedora/updates/28/armhfp          : 2018-06-21 08:10:30, Update: snes9x-1.56.1-3.fc28
+nonfree/fedora/updates/28/aarch64         : 2018-06-21 07:45:28, Update: snes9x-1.56.1-3.fc28
+nonfree/fedora/updates/28/ppc64           : 2018-06-21 07:45:36, Update: snes9x-1.56.1-3.fc28
+nonfree/fedora/updates/28/ppc64le         : 2018-06-21 07:45:10, Update: snes9x-1.56.1-3.fc28
+---
+free/fedora/updates/testing/28/SRPMS      : 2018-06-26 14:04:05, Update: qtox-1.15.0-3.fc28
+free/fedora/updates/testing/28/i386       : 2018-06-26 14:08:43, Update: qtox-1.15.0-3.fc28
+free/fedora/updates/testing/28/x86_64     : 2018-06-26 14:08:40, Update: qtox-1.15.0-3.fc28
+free/fedora/updates/testing/28/armhfp     : 2018-06-26 14:38:18, Update: qtox-1.15.0-3.fc28
+free/fedora/updates/testing/28/aarch64    : 2018-06-26 14:18:25, Update: qtox-1.15.0-3.fc28
+free/fedora/updates/testing/28/ppc64      : 2018-06-26 14:13:15, Update: qtox-1.15.0-3.fc28
+free/fedora/updates/testing/28/ppc64le    : 2018-06-26 14:12:29, Update: qtox-1.15.0-3.fc28
+---
+nonfree/fedora/updates/testing/28/SRPMS   : 2018-06-26 02:11:08, Update: lpf-flash-plugin-30.0.0.113-1.fc28
+nonfree/fedora/updates/testing/28/i386    : 2018-06-26 02:11:40, Update: lpf-flash-plugin-30.0.0.113-1.fc28
+nonfree/fedora/updates/testing/28/x86_64  : 2018-06-26 02:11:40, Update: lpf-flash-plugin-30.0.0.113-1.fc28
+nonfree/fedora/updates/testing/28/armhfp  : 2018-06-23 12:05:44, Update: snes9x-1.56.2-1.fc28
+nonfree/fedora/updates/testing/28/aarch64 : 2018-06-23 11:38:33, Update: snes9x-1.56.2-1.fc28
+nonfree/fedora/updates/testing/28/ppc64   : 2018-06-23 11:38:00, Update: snes9x-1.56.2-1.fc28
+nonfree/fedora/updates/testing/28/ppc64le : 2018-06-23 11:38:06, Update: snes9x-1.56.2-1.fc28
+
+####################
+Verifying fedora-rawhide
+####################
+free/fedora/development/rawhide/SRPMS     : 2018-06-26 14:45:57, Update: qtox-1.15.0-3.fc29
+free/fedora/development/rawhide/i386      : 2018-06-26 14:50:40, Update: qtox-1.15.0-3.fc29
+free/fedora/development/rawhide/x86_64    : 2018-06-26 14:50:40, Update: qtox-1.15.0-3.fc29
+free/fedora/development/rawhide/armhfp    : 2018-06-26 15:12:16, Update: qtox-1.15.0-3.fc29
+free/fedora/development/rawhide/aarch64   : 2018-06-26 15:00:24, Update: qtox-1.15.0-3.fc29
+free/fedora/development/rawhide/ppc64     : 2018-06-26 14:54:29, Update: qtox-1.15.0-3.fc29
+free/fedora/development/rawhide/ppc64le   : 2018-06-26 14:54:05, Update: qtox-1.15.0-3.fc29
+---
+nonfree/fedora/development/rawhide/SRPMS  : 2018-06-26 02:11:08, Update: lpf-flash-plugin-30.0.0.113-1.fc29
+nonfree/fedora/development/rawhide/i386   : 2018-06-26 02:12:48, Update: lpf-flash-plugin-30.0.0.113-1.fc29
+nonfree/fedora/development/rawhide/x86_64 : 2018-06-26 02:12:49, Update: lpf-flash-plugin-30.0.0.113-1.fc29
+nonfree/fedora/development/rawhide/armhfp : 2018-06-23 12:05:18, Update: snes9x-1.56.2-1.fc29
+nonfree/fedora/development/rawhide/aarch64: 2018-06-23 11:38:56, Update: snes9x-1.56.2-1.fc29
+nonfree/fedora/development/rawhide/ppc64  : 2018-06-23 11:28:58, Update: snes9x-1.56.2-1.fc29
+nonfree/fedora/development/rawhide/ppc64le: 2018-06-23 11:28:54, Update: snes9x-1.56.2-1.fc29

@@ -31,6 +31,12 @@ strxtitle = "./title"
 #text += lxml.html.tostring(frags, method="html", encoding="utf-8")
 
 offline = True
+
+for lline in list_line2:
+    if lline[0] == '+':
+        namespace = lline[2].split('-')
+        print("Added %s %s \t %s" % (lline[3], namespace[1], lline[1]))
+
 for lline in list_line2:
     if lline[0] == '-':
         namespace = lline[2].split('-')
@@ -50,8 +56,3 @@ for lline in list_line2:
                 text = frags.xpath(strxtitle)
                 print ("Last msg: %s link: %s" % (text[0].text, link[0]))
                 break
-
-for lline in list_line2:
-    if lline[0] == '+':
-        namespace = lline[2].split('-')
-        print("Added %s %s \t %s" % (lline[3], namespace[1], lline[1]))

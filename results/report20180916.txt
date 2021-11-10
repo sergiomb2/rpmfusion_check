@@ -1,0 +1,183 @@
+
+####################
+Verifying el-6
+####################
+free/el/updates/6/SRPMS                   : 2018-08-02 16:26:23, Update: buildsys-build-rpmfusion-18-4
+free/el/updates/6/i386                    : 2018-08-02 16:26:37, Update: buildsys-build-rpmfusion-18-4
+free/el/updates/6/x86_64                  : 2018-08-02 16:26:28, Update: buildsys-build-rpmfusion-18-4
+repoview free/el/updates/6/x86_64 date:2018-09-15 09:03:04+00:00 older than repodata:2018-09-15 09:03:06+00:00 = 0:00:02
+---
+free/el/updates/testing/6/SRPMS           : N/A
+free/el/updates/testing/6/i386            : N/A
+free/el/updates/testing/6/x86_64          : N/A
+---
+nonfree/el/updates/6/SRPMS                : 2018-09-12 13:37:51, Update: nrdp-1.5.2-1.el6
+nonfree/el/updates/6/i386                 : 2018-09-12 13:37:52, Update: nrdp-1.5.2-1.el6
+nonfree/el/updates/6/x86_64               : 2018-09-12 13:37:52, Update: nrdp-1.5.2-1.el6
+repoview nonfree/el/updates/6/x86_64 date:2018-09-15 09:04:48+00:00 older than repodata:2018-09-15 09:04:49+00:00 = 0:00:01
+---
+nonfree/el/updates/testing/6/SRPMS        : N/A
+nonfree/el/updates/testing/6/i386         : N/A
+nonfree/el/updates/testing/6/x86_64       : N/A
+
+####################
+Verifying el-7
+####################
+free/el/updates/7/SRPMS                   : 2018-09-08 14:26:17, Update: mythtv-29.1-22.36.20180907.gdde16d475a.el7
+free/el/updates/7/x86_64                  : 2018-09-08 14:58:15, Update: mytharchive-29.1-22.36.20180907.gdde16d475a.el7
+repoview free/el/updates/7/x86_64 date:2018-09-15 09:04:24+00:00 older than repodata:2018-09-15 09:04:27+00:00 = 0:00:03
+---
+free/el/updates/testing/7/SRPMS           : 2018-09-13 00:06:40, Update: zoneminder-1.32.0-1.el7
+free/el/updates/testing/7/x86_64          : 2018-09-13 00:11:45, Update: zoneminder-1.32.0-1.el7
+repoview free/el/updates/testing/7/x86_64 date:2018-09-15 09:04:30+00:00 older than repodata:2018-09-15 09:04:31+00:00 = 0:00:01
+---
+nonfree/el/updates/7/SRPMS                : 2018-09-12 13:34:36, Update: nrdp-1.5.2-1.el7
+nonfree/el/updates/7/x86_64               : 2018-09-12 13:34:37, Update: nrdp-1.5.2-1.el7
+---
+nonfree/el/updates/testing/7/SRPMS        : N/A
+nonfree/el/updates/testing/7/x86_64       : N/A
+repoview nonfree/el/updates/testing/7/x86_64 date:2018-09-15 09:05:10+00:00 older than repodata:2018-09-15 09:05:11+00:00 = 0:00:01
+
+####################
+Verifying fedora-27
+####################
+free/fedora/updates/27/SRPMS              : 2018-09-12 07:12:55, Update: vlc-3.0.4-2.fc27
+free/fedora/updates/27/i386               : 2018-09-12 07:31:59, Update: vlc-3.0.4-2.fc27
+free/fedora/updates/27/x86_64             : 2018-09-12 07:29:41, Update: vlc-3.0.4-2.fc27
+repoview free/fedora/updates/27/x86_64 date:2018-09-15 14:33:59+00:00 older than repodata:2018-09-15 14:34:09+00:00 = 0:00:10
+free/fedora/updates/27/armhfp             : 2018-09-12 08:34:27, Update: vlc-3.0.4-2.fc27
+free/fedora/updates/27/aarch64            : 2018-09-12 08:10:27, Update: vlc-3.0.4-2.fc27
+free/fedora/updates/27/ppc64              : 2018-09-12 07:46:45, Update: vlc-3.0.4-2.fc27
+repoview free/fedora/updates/27/ppc64 date:2018-09-15 14:33:15+00:00 older than repodata:2018-09-15 14:34:05+00:00 = 0:00:50
+free/fedora/updates/27/ppc64le            : 2018-09-12 07:28:00, Update: vlc-3.0.4-2.fc27
+---
+free/fedora/updates/testing/27/SRPMS      : 2018-09-13 12:20:32, Update: zoneminder-1.32.0-1.fc27
+free/fedora/updates/testing/27/i386       : 2018-09-13 12:25:02, Update: zoneminder-1.32.0-1.fc27
+free/fedora/updates/testing/27/x86_64     : 2018-09-13 12:25:00, Update: zoneminder-1.32.0-1.fc27
+repoview free/fedora/updates/testing/27/x86_64 date:2018-09-15 14:34:42+00:00 older than repodata:2018-09-15 14:34:48+00:00 = 0:00:06
+free/fedora/updates/testing/27/armhfp     : 2018-09-13 12:58:53, Update: zoneminder-1.32.0-1.fc27
+free/fedora/updates/testing/27/aarch64    : 2018-09-13 12:35:39, Update: zoneminder-1.32.0-1.fc27
+free/fedora/updates/testing/27/ppc64      : 2018-09-13 12:30:12, Update: zoneminder-1.32.0-1.fc27
+repoview free/fedora/updates/testing/27/ppc64 date:2018-09-15 14:34:41+00:00 older than repodata:2018-09-15 14:34:48+00:00 = 0:00:07
+free/fedora/updates/testing/27/ppc64le    : 2018-09-13 12:27:03, Update: zoneminder-1.32.0-1.fc27
+---
+nonfree/fedora/updates/27/SRPMS           : 2018-09-12 13:35:45, Update: nrdp-1.5.2-1.fc27
+nonfree/fedora/updates/27/i386            : 2018-09-12 13:35:48, Update: nrdp-1.5.2-1.fc27
+nonfree/fedora/updates/27/x86_64          : 2018-09-12 13:35:48, Update: nrdp-1.5.2-1.fc27
+repoview nonfree/fedora/updates/27/x86_64 date:2018-09-15 15:17:53+00:00 older than repodata:2018-09-15 15:17:56+00:00 = 0:00:03
+nonfree/fedora/updates/27/armhfp          : 2018-09-12 13:35:48, Update: nrdp-1.5.2-1.fc27
+nonfree/fedora/updates/27/aarch64         : 2018-09-12 13:35:48, Update: nrdp-1.5.2-1.fc27
+nonfree/fedora/updates/27/ppc64           : 2018-09-12 13:35:48, Update: nrdp-1.5.2-1.fc27
+repoview nonfree/fedora/updates/27/ppc64 date:2018-09-15 15:17:27+00:00 older than repodata:2018-09-15 15:17:55+00:00 = 0:00:28
+nonfree/fedora/updates/27/ppc64le         : 2018-09-12 13:35:48, Update: nrdp-1.5.2-1.fc27
+---
+nonfree/fedora/updates/testing/27/SRPMS   : 2018-09-13 06:11:15, Update: lpf-flash-plugin-31.0.0.108-1.fc27
+nonfree/fedora/updates/testing/27/i386    : 2018-09-13 06:13:20, Update: lpf-flash-plugin-31.0.0.108-1.fc27
+nonfree/fedora/updates/testing/27/x86_64  : 2018-09-13 06:12:16, Update: lpf-flash-plugin-31.0.0.108-1.fc27
+nonfree/fedora/updates/testing/27/armhfp  : N/A
+nonfree/fedora/updates/testing/27/aarch64 : N/A
+nonfree/fedora/updates/testing/27/ppc64   : N/A
+repoview nonfree/fedora/updates/testing/27/ppc64 date:2018-09-15 15:18:03+00:00 older than repodata:2018-09-15 15:18:06+00:00 = 0:00:03
+nonfree/fedora/updates/testing/27/ppc64le : N/A
+
+####################
+Verifying fedora-28
+####################
+free/fedora/updates/28/SRPMS              : 2018-09-12 13:45:28, Update: telegram-desktop-1.3.14-2.fc28
+repoview free/fedora/updates/28/SRPMS date:2018-09-13 07:48:54+00:00 older than repodata:2018-09-15 14:40:06+00:00 = 2 days, 6:51:12
+free/fedora/updates/28/i386               : 2018-09-12 14:08:05, Update: telegram-desktop-1.3.14-2.fc28
+repoview free/fedora/updates/28/i386 date:2018-09-13 07:49:32+00:00 older than repodata:2018-09-15 14:41:24+00:00 = 2 days, 6:51:52
+free/fedora/updates/28/x86_64             : 2018-09-13 19:11:06, Update: qt5-qtwebengine-freeworld-5.11.1-1.fc28
+repoview free/fedora/updates/28/x86_64 date:2018-09-15 14:42:21+00:00 older than repodata:2018-09-15 14:42:31+00:00 = 0:00:10
+free/fedora/updates/28/armhfp             : 2018-09-12 08:03:35, Update: vlc-3.0.4-2.fc28
+repoview free/fedora/updates/28/armhfp date:2018-09-13 07:49:31+00:00 older than repodata:2018-09-15 14:41:18+00:00 = 2 days, 6:51:47
+free/fedora/updates/28/aarch64            : 2018-09-12 07:27:40, Update: vlc-3.0.4-2.fc28
+repoview free/fedora/updates/28/aarch64 date:2018-09-13 07:49:30+00:00 older than repodata:2018-09-15 14:41:17+00:00 = 2 days, 6:51:47
+free/fedora/updates/28/ppc64              : 2018-09-12 07:13:59, Update: vlc-3.0.4-2.fc28
+repoview free/fedora/updates/28/ppc64 date:2018-09-13 07:49:31+00:00 older than repodata:2018-09-15 14:42:27+00:00 = 2 days, 6:52:56
+free/fedora/updates/28/ppc64le            : 2018-09-12 07:28:23, Update: vlc-3.0.4-2.fc28
+repoview free/fedora/updates/28/ppc64le date:2018-09-13 07:49:30+00:00 older than repodata:2018-09-15 14:41:15+00:00 = 2 days, 6:51:45
+---
+free/fedora/updates/testing/28/SRPMS      : 2018-09-14 08:45:48, Update: ffmpeg-4.0.2-6.fc28
+free/fedora/updates/testing/28/i386       : 2018-09-14 09:06:00, Update: ffmpeg-4.0.2-6.fc28
+free/fedora/updates/testing/28/x86_64     : 2018-09-14 09:05:22, Update: ffmpeg-4.0.2-6.fc28
+repoview free/fedora/updates/testing/28/x86_64 date:2018-09-15 14:43:18+00:00 older than repodata:2018-09-15 14:43:22+00:00 = 0:00:04
+free/fedora/updates/testing/28/armhfp     : 2018-09-14 10:08:17, Update: ffmpeg-4.0.2-6.fc28
+free/fedora/updates/testing/28/aarch64    : 2018-09-14 09:29:44, Update: ffmpeg-4.0.2-6.fc28
+free/fedora/updates/testing/28/ppc64      : 2018-09-14 08:56:37, Update: ffmpeg-4.0.2-6.fc28
+repoview free/fedora/updates/testing/28/ppc64 date:2018-09-15 14:43:18+00:00 older than repodata:2018-09-15 14:43:21+00:00 = 0:00:03
+free/fedora/updates/testing/28/ppc64le    : 2018-09-14 09:13:19, Update: ffmpeg-4.0.2-6.fc28
+---
+nonfree/fedora/updates/28/SRPMS           : 2018-09-12 13:33:41, Update: nrdp-1.5.2-1.fc28
+nonfree/fedora/updates/28/i386            : 2018-09-12 13:33:46, Update: nrdp-1.5.2-1.fc28
+nonfree/fedora/updates/28/x86_64          : 2018-09-12 13:33:46, Update: nrdp-1.5.2-1.fc28
+repoview nonfree/fedora/updates/28/x86_64 date:2018-09-15 15:19:29+00:00 older than repodata:2018-09-15 15:19:31+00:00 = 0:00:02
+nonfree/fedora/updates/28/armhfp          : 2018-09-12 13:33:46, Update: nrdp-1.5.2-1.fc28
+nonfree/fedora/updates/28/aarch64         : 2018-09-12 13:33:46, Update: nrdp-1.5.2-1.fc28
+nonfree/fedora/updates/28/ppc64           : 2018-09-12 13:33:46, Update: nrdp-1.5.2-1.fc28
+repoview nonfree/fedora/updates/28/ppc64 date:2018-09-15 15:19:24+00:00 older than repodata:2018-09-15 15:19:30+00:00 = 0:00:06
+nonfree/fedora/updates/28/ppc64le         : 2018-09-12 13:33:46, Update: nrdp-1.5.2-1.fc28
+---
+nonfree/fedora/updates/testing/28/SRPMS   : 2018-09-13 06:12:55, Update: lpf-flash-plugin-31.0.0.108-1.fc28
+nonfree/fedora/updates/testing/28/i386    : 2018-09-13 06:14:08, Update: lpf-flash-plugin-31.0.0.108-1.fc28
+nonfree/fedora/updates/testing/28/x86_64  : 2018-09-13 06:14:06, Update: lpf-flash-plugin-31.0.0.108-1.fc28
+repoview nonfree/fedora/updates/testing/28/x86_64 date:2018-09-15 15:19:44+00:00 older than repodata:2018-09-15 15:19:45+00:00 = 0:00:01
+nonfree/fedora/updates/testing/28/armhfp  : N/A
+nonfree/fedora/updates/testing/28/aarch64 : N/A
+nonfree/fedora/updates/testing/28/ppc64   : N/A
+repoview nonfree/fedora/updates/testing/28/ppc64 date:2018-09-15 15:19:41+00:00 older than repodata:2018-09-15 15:19:44+00:00 = 0:00:03
+nonfree/fedora/updates/testing/28/ppc64le : N/A
+
+####################
+Verifying fedora-29
+####################
+free/fedora/development/29/SRPMS          : 2018-09-12 07:42:01, Update: ffmpeg-4.0.2-5.fc29
+free/fedora/development/29/i386           : 2018-09-12 08:06:22, Update: ffmpeg-4.0.2-5.fc29
+free/fedora/development/29/x86_64         : 2018-09-12 08:06:22, Update: ffmpeg-4.0.2-5.fc29
+repoview free/fedora/development/29/x86_64 date:2018-09-15 14:58:45+00:00 older than repodata:2018-09-15 14:59:00+00:00 = 0:00:15
+free/fedora/development/29/armhfp         : 2018-09-12 09:13:15, Update: ffmpeg-4.0.2-5.fc29
+free/fedora/development/29/aarch64        : 2018-09-12 08:03:26, Update: ffmpeg-4.0.2-5.fc29
+free/fedora/development/29/ppc64le        : 2018-09-12 08:08:03, Update: ffmpeg-4.0.2-5.fc29
+---
+free/fedora/updates/testing/29/SRPMS      : 2018-09-14 08:45:00, Update: ffmpeg-4.0.2-6.fc29
+free/fedora/updates/testing/29/i386       : 2018-09-14 09:05:24, Update: ffmpeg-4.0.2-6.fc29
+free/fedora/updates/testing/29/x86_64     : 2018-09-14 09:05:24, Update: ffmpeg-4.0.2-6.fc29
+repoview free/fedora/updates/testing/29/x86_64 date:2018-09-15 14:44:23+00:00 older than repodata:2018-09-15 14:44:26+00:00 = 0:00:03
+free/fedora/updates/testing/29/armhfp     : 2018-09-14 14:54:09, Update: ffmpeg-4.0.2-6.fc29
+free/fedora/updates/testing/29/aarch64    : 2018-09-14 09:03:50, Update: ffmpeg-4.0.2-6.fc29
+free/fedora/updates/testing/29/ppc64le    : 2018-09-14 08:57:02, Update: ffmpeg-4.0.2-6.fc29
+---
+nonfree/fedora/development/29/SRPMS       : 2018-09-12 13:38:39, Update: nrdp-1.5.2-1.fc29
+nonfree/fedora/development/29/i386        : 2018-09-12 13:38:57, Update: nrdp-1.5.2-1.fc29
+nonfree/fedora/development/29/x86_64      : 2018-09-12 13:38:57, Update: nrdp-1.5.2-1.fc29
+repoview nonfree/fedora/development/29/x86_64 date:2018-09-15 15:25:59+00:00 older than repodata:2018-09-15 15:26:02+00:00 = 0:00:03
+nonfree/fedora/development/29/armhfp      : 2018-09-12 13:38:57, Update: nrdp-1.5.2-1.fc29
+nonfree/fedora/development/29/aarch64     : 2018-09-12 13:38:57, Update: nrdp-1.5.2-1.fc29
+nonfree/fedora/development/29/ppc64le     : 2018-09-12 13:38:57, Update: nrdp-1.5.2-1.fc29
+---
+nonfree/fedora/updates/testing/29/SRPMS   : 2018-09-13 06:12:55, Update: lpf-flash-plugin-31.0.0.108-1.fc29
+nonfree/fedora/updates/testing/29/i386    : 2018-09-13 06:13:11, Update: lpf-flash-plugin-31.0.0.108-1.fc29
+nonfree/fedora/updates/testing/29/x86_64  : 2018-09-13 06:13:11, Update: lpf-flash-plugin-31.0.0.108-1.fc29
+repoview nonfree/fedora/updates/testing/29/x86_64 date:2018-09-15 15:19:48+00:00 older than repodata:2018-09-15 15:19:49+00:00 = 0:00:01
+nonfree/fedora/updates/testing/29/armhfp  : N/A
+nonfree/fedora/updates/testing/29/aarch64 : N/A
+nonfree/fedora/updates/testing/29/ppc64le : N/A
+
+####################
+Verifying fedora-rawhide
+####################
+free/fedora/development/rawhide/SRPMS     : 2018-09-14 08:44:50, Update: ffmpeg-4.0.2-6.fc30
+free/fedora/development/rawhide/i386      : 2018-09-14 09:02:38, Update: ffmpeg-4.0.2-6.fc30
+free/fedora/development/rawhide/x86_64    : 2018-09-14 09:02:38, Update: ffmpeg-4.0.2-6.fc30
+repoview free/fedora/development/rawhide/x86_64 date:2018-09-15 15:15:16+00:00 older than repodata:2018-09-15 15:15:28+00:00 = 0:00:12
+free/fedora/development/rawhide/armhfp    : 2018-09-14 09:52:36, Update: ffmpeg-4.0.2-6.fc30
+free/fedora/development/rawhide/aarch64   : 2018-09-14 09:04:33, Update: ffmpeg-4.0.2-6.fc30
+free/fedora/development/rawhide/ppc64le   : 2018-09-14 08:57:04, Update: ffmpeg-4.0.2-6.fc30
+---
+nonfree/fedora/development/rawhide/SRPMS  : 2018-09-12 13:33:38, Update: nrdp-1.5.2-1.fc30
+nonfree/fedora/development/rawhide/i386   : 2018-09-12 13:33:42, Update: nrdp-1.5.2-1.fc30
+nonfree/fedora/development/rawhide/x86_64 : 2018-09-12 13:33:42, Update: nrdp-1.5.2-1.fc30
+repoview nonfree/fedora/development/rawhide/x86_64 date:2018-09-15 15:32:11+00:00 older than repodata:2018-09-15 15:32:14+00:00 = 0:00:03
+nonfree/fedora/development/rawhide/armhfp : 2018-09-12 13:33:42, Update: nrdp-1.5.2-1.fc30
+nonfree/fedora/development/rawhide/aarch64: 2018-09-12 13:33:42, Update: nrdp-1.5.2-1.fc30
+nonfree/fedora/development/rawhide/ppc64le: 2018-09-12 13:33:42, Update: nrdp-1.5.2-1.fc30

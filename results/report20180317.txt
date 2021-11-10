@@ -1,0 +1,194 @@
+
+####################
+Verifying el-6
+####################
+free/el/updates/6/SRPMS                   : 2018-03-08 00:34:11, Update: mock-rpmfusion-free-28.0-1.el6
+free/el/updates/6/i386                    : 2018-03-08 00:34:11, Update: mock-rpmfusion-free-28.0-1.el6
+free/el/updates/6/x86_64                  : 2018-03-08 00:34:11, Update: mock-rpmfusion-free-28.0-1.el6
+---
+nonfree/el/updates/6/SRPMS                : 2018-03-08 01:48:46, Update: mock-rpmfusion-nonfree-28.0-1.el6
+nonfree/el/updates/6/i386                 : 2018-03-08 01:48:46, Update: mock-rpmfusion-nonfree-28.0-1.el6
+nonfree/el/updates/6/x86_64               : 2018-03-08 01:48:46, Update: mock-rpmfusion-nonfree-28.0-1.el6
+---
+free/el/updates/testing/6/SRPMS           : N/A
+free/el/updates/testing/6/i386            : N/A
+free/el/updates/testing/6/x86_64          : N/A
+---
+nonfree/el/updates/testing/6/SRPMS        : N/A
+nonfree/el/updates/testing/6/i386         : N/A
+nonfree/el/updates/testing/6/x86_64       : N/A
+
+####################
+Verifying el-7
+####################
+free/el/updates/7/SRPMS                   : 2018-03-10 15:47:38, Update: VirtualBox-kmod-5.2.8-3.el7
+free/el/updates/7/x86_64                  : 2018-03-10 15:48:48, Update: akmod-VirtualBox-5.2.8-3.el7
+---
+nonfree/el/updates/7/SRPMS                : 2018-03-08 01:20:47, Update: mock-rpmfusion-nonfree-28.0-1.el7
+nonfree/el/updates/7/x86_64               : 2018-03-08 01:20:48, Update: mock-rpmfusion-nonfree-28.0-1.el7
+---
+free/el/updates/testing/7/SRPMS           : 2018-03-14 11:47:59, Update: simplescreenrecorder-0.3.10-1.el7
+free/el/updates/testing/7/x86_64          : 2018-03-14 11:49:35, Update: simplescreenrecorder-0.3.10-1.el7
+---
+nonfree/el/updates/testing/7/SRPMS        : N/A
+nonfree/el/updates/testing/7/x86_64       : N/A
+
+####################
+Verifying fedora-26
+####################
+free/fedora/releases/26/SRPMS             : 2017-07-09 21:26:28, Update: gstreamer1-plugins-ugly-1.12.1-3.fc26
+free/fedora/releases/26/i386              : 2017-07-09 21:28:15, Update: gstreamer1-plugins-ugly-1.12.1-3.fc26
+free/fedora/releases/26/x86_64            : 2017-07-09 21:28:15, Update: gstreamer1-plugins-ugly-1.12.1-3.fc26
+free/fedora/releases/26/armhfp            : 2017-07-09 21:36:47, Update: gstreamer1-plugins-ugly-1.12.1-3.fc26
+free/fedora/releases/26/aarch64           : 2017-07-09 21:37:20, Update: gstreamer1-plugins-ugly-1.12.1-3.fc26
+free/fedora/releases/26/ppc64             : 2017-07-09 21:30:40, Update: gstreamer1-plugins-ugly-1.12.1-3.fc26
+free/fedora/releases/26/ppc64le           : 2017-07-09 21:30:48, Update: gstreamer1-plugins-ugly-1.12.1-3.fc26
+---
+nonfree/fedora/releases/26/SRPMS          : 2017-07-09 18:05:27, Update: rpmfusion-nonfree-appstream-data-26-2.fc26
+nonfree/fedora/releases/26/i386           : 2017-07-09 18:05:31, Update: rpmfusion-nonfree-appstream-data-26-2.fc26
+nonfree/fedora/releases/26/x86_64         : 2017-07-09 18:05:31, Update: rpmfusion-nonfree-appstream-data-26-2.fc26
+nonfree/fedora/releases/26/armhfp         : 2017-07-09 18:05:31, Update: rpmfusion-nonfree-appstream-data-26-2.fc26
+nonfree/fedora/releases/26/aarch64        : 2017-07-09 18:05:31, Update: rpmfusion-nonfree-appstream-data-26-2.fc26
+nonfree/fedora/releases/26/ppc64          : 2017-07-09 18:05:31, Update: rpmfusion-nonfree-appstream-data-26-2.fc26
+nonfree/fedora/releases/26/ppc64le        : 2017-07-09 18:05:31, Update: rpmfusion-nonfree-appstream-data-26-2.fc26
+---
+free/fedora/updates/26/SRPMS              : 2018-03-10 15:43:00, Update: VirtualBox-kmod-5.2.8-3.fc26
+free/fedora/updates/26/i386               : 2018-03-10 15:41:47, Update: akmod-VirtualBox-5.2.8-3.fc26
+free/fedora/updates/26/x86_64             : 2018-03-10 15:41:47, Update: akmod-VirtualBox-5.2.8-3.fc26
+free/fedora/updates/26/armhfp             : 2018-03-10 12:45:09, Update: vdr-xineliboutput-2.1.0-4.20180226git747f03e.fc26
+free/fedora/updates/26/aarch64            : 2018-03-10 12:40:11, Update: vdr-xineliboutput-2.1.0-4.20180226git747f03e.fc26
+free/fedora/updates/26/ppc64              : 2018-03-10 12:51:15, Update: vdr-xineliboutput-2.1.0-4.20180226git747f03e.fc26
+free/fedora/updates/26/ppc64le            : 2018-03-10 12:51:46, Update: vdr-xineliboutput-2.1.0-4.20180226git747f03e.fc26
+---
+nonfree/fedora/updates/26/SRPMS           : 2018-03-08 01:19:05, Update: mock-rpmfusion-nonfree-28.0-1.fc26
+nonfree/fedora/updates/26/i386            : 2018-03-08 01:19:09, Update: mock-rpmfusion-nonfree-28.0-1.fc26
+nonfree/fedora/updates/26/x86_64          : 2018-03-08 01:19:09, Update: mock-rpmfusion-nonfree-28.0-1.fc26
+nonfree/fedora/updates/26/armhfp          : 2018-03-08 01:19:09, Update: mock-rpmfusion-nonfree-28.0-1.fc26
+nonfree/fedora/updates/26/aarch64         : 2018-03-08 01:19:09, Update: mock-rpmfusion-nonfree-28.0-1.fc26
+nonfree/fedora/updates/26/ppc64           : 2018-03-08 01:19:09, Update: mock-rpmfusion-nonfree-28.0-1.fc26
+nonfree/fedora/updates/26/ppc64le         : 2018-03-08 01:19:09, Update: mock-rpmfusion-nonfree-28.0-1.fc26
+---
+free/fedora/updates/testing/26/SRPMS      : 2018-03-13 13:41:01, Update: simplescreenrecorder-0.3.10-1.fc26
+free/fedora/updates/testing/26/i386       : 2018-03-13 13:32:59, Update: simplescreenrecorder-0.3.10-1.fc26
+free/fedora/updates/testing/26/x86_64     : 2018-03-13 13:33:02, Update: simplescreenrecorder-0.3.10-1.fc26
+free/fedora/updates/testing/26/armhfp     : 2018-03-13 13:51:01, Update: simplescreenrecorder-0.3.10-1.fc26
+free/fedora/updates/testing/26/aarch64    : 2018-03-13 13:45:17, Update: simplescreenrecorder-0.3.10-1.fc26
+free/fedora/updates/testing/26/ppc64      : 2018-03-12 17:22:14, Update: mytharchive-29.1-15.20180228.8.g925ceea0fb.fc26
+free/fedora/updates/testing/26/ppc64le    : 2018-03-12 17:17:40, Update: mytharchive-29.1-15.20180228.8.g925ceea0fb.fc26
+---
+nonfree/fedora/updates/testing/26/SRPMS   : 2018-03-13 08:17:22, Update: nvidia-persistenced-390.42-1.fc26
+nonfree/fedora/updates/testing/26/i386    : 2018-03-13 08:10:18, Update: nvidia-persistenced-390.42-1.fc26
+nonfree/fedora/updates/testing/26/x86_64  : 2018-03-13 08:10:19, Update: nvidia-persistenced-390.42-1.fc26
+nonfree/fedora/updates/testing/26/armhfp  : 2018-03-13 08:18:14, Update: nvidia-persistenced-390.42-1.fc26
+nonfree/fedora/updates/testing/26/aarch64 : 2018-03-12 17:52:54, Update: libunrar-5.6.1-1.fc26
+nonfree/fedora/updates/testing/26/ppc64   : 2018-03-12 17:52:50, Update: libunrar-5.6.1-1.fc26
+nonfree/fedora/updates/testing/26/ppc64le : 2018-03-12 17:48:53, Update: libunrar-5.6.1-1.fc26
+
+####################
+Verifying fedora-27
+####################
+free/fedora/releases/27/SRPMS             : 2017-11-20 11:38:42, Update: megamario-1.7-2.fc27
+free/fedora/releases/27/i386              : 2017-11-20 11:39:27, Update: megamario-1.7-2.fc27
+free/fedora/releases/27/x86_64            : 2017-11-20 11:39:27, Update: megamario-1.7-2.fc27
+free/fedora/releases/27/armhfp            : 2017-11-20 11:47:21, Update: megamario-1.7-2.fc27
+free/fedora/releases/27/aarch64           : 2017-11-20 11:43:22, Update: megamario-1.7-2.fc27
+free/fedora/releases/27/ppc64             : 2017-11-20 11:41:41, Update: megamario-1.7-2.fc27
+free/fedora/releases/27/ppc64le           : 2017-11-20 11:41:39, Update: megamario-1.7-2.fc27
+---
+nonfree/fedora/releases/27/SRPMS          : 2017-11-13 18:22:26, Update: rpmfusion-nonfree-release-27-1
+nonfree/fedora/releases/27/i386           : 2017-11-13 18:22:27, Update: rpmfusion-nonfree-release-27-1
+nonfree/fedora/releases/27/x86_64         : 2017-11-13 18:22:27, Update: rpmfusion-nonfree-release-27-1
+nonfree/fedora/releases/27/armhfp         : 2017-11-13 18:22:27, Update: rpmfusion-nonfree-release-27-1
+nonfree/fedora/releases/27/aarch64        : 2017-11-13 18:22:27, Update: rpmfusion-nonfree-release-27-1
+nonfree/fedora/releases/27/ppc64          : 2017-11-13 18:22:27, Update: rpmfusion-nonfree-release-27-1
+nonfree/fedora/releases/27/ppc64le        : 2017-11-13 18:22:27, Update: rpmfusion-nonfree-release-27-1
+---
+free/fedora/updates/27/SRPMS              : 2018-03-10 16:14:27, Update: VirtualBox-kmod-5.2.8-3.fc27
+free/fedora/updates/27/i386               : 2018-03-10 16:14:35, Update: akmod-VirtualBox-5.2.8-3.fc27
+free/fedora/updates/27/x86_64             : 2018-03-10 16:14:35, Update: akmod-VirtualBox-5.2.8-3.fc27
+free/fedora/updates/27/armhfp             : 2018-03-10 12:44:35, Update: vdr-xineliboutput-2.1.0-4.20180226git747f03e.fc27
+free/fedora/updates/27/aarch64            : 2018-03-10 12:38:57, Update: vdr-xineliboutput-2.1.0-4.20180226git747f03e.fc27
+free/fedora/updates/27/ppc64              : 2018-03-10 12:42:31, Update: vdr-xineliboutput-2.1.0-4.20180226git747f03e.fc27
+free/fedora/updates/27/ppc64le            : 2018-03-10 12:45:04, Update: vdr-xineliboutput-2.1.0-4.20180226git747f03e.fc27
+---
+nonfree/fedora/updates/27/SRPMS           : 2018-03-08 01:15:22, Update: mock-rpmfusion-nonfree-28.0-1.fc27
+nonfree/fedora/updates/27/i386            : 2018-03-08 01:15:24, Update: mock-rpmfusion-nonfree-28.0-1.fc27
+nonfree/fedora/updates/27/x86_64          : 2018-03-08 01:15:24, Update: mock-rpmfusion-nonfree-28.0-1.fc27
+nonfree/fedora/updates/27/armhfp          : 2018-03-08 01:15:24, Update: mock-rpmfusion-nonfree-28.0-1.fc27
+nonfree/fedora/updates/27/aarch64         : 2018-03-08 01:15:24, Update: mock-rpmfusion-nonfree-28.0-1.fc27
+nonfree/fedora/updates/27/ppc64           : 2018-03-08 01:15:24, Update: mock-rpmfusion-nonfree-28.0-1.fc27
+nonfree/fedora/updates/27/ppc64le         : 2018-03-08 01:15:24, Update: mock-rpmfusion-nonfree-28.0-1.fc27
+---
+free/fedora/updates/testing/27/SRPMS      : 2018-03-13 13:27:08, Update: simplescreenrecorder-0.3.10-1.fc27
+free/fedora/updates/testing/27/i386       : 2018-03-13 13:22:31, Update: simplescreenrecorder-0.3.10-1.fc27
+free/fedora/updates/testing/27/x86_64     : 2018-03-13 13:22:31, Update: simplescreenrecorder-0.3.10-1.fc27
+free/fedora/updates/testing/27/armhfp     : 2018-03-13 13:44:54, Update: simplescreenrecorder-0.3.10-1.fc27
+free/fedora/updates/testing/27/aarch64    : 2018-03-13 13:45:40, Update: simplescreenrecorder-0.3.10-1.fc27
+free/fedora/updates/testing/27/ppc64      : 2018-03-12 18:01:33, Update: ldoce5viewer-0-3.20170216git4b52afb.fc27
+free/fedora/updates/testing/27/ppc64le    : 2018-03-12 18:01:33, Update: ldoce5viewer-0-3.20170216git4b52afb.fc27
+---
+nonfree/fedora/updates/testing/27/SRPMS   : 2018-03-13 09:57:52, Update: nvidia-persistenced-390.42-1.fc27
+nonfree/fedora/updates/testing/27/i386    : 2018-03-13 09:52:47, Update: nvidia-persistenced-390.42-1.fc27
+nonfree/fedora/updates/testing/27/x86_64  : 2018-03-13 09:52:47, Update: nvidia-persistenced-390.42-1.fc27
+nonfree/fedora/updates/testing/27/armhfp  : 2018-03-13 09:58:25, Update: nvidia-persistenced-390.42-1.fc27
+nonfree/fedora/updates/testing/27/aarch64 : 2018-03-12 17:45:59, Update: libunrar-5.6.1-1.fc27
+nonfree/fedora/updates/testing/27/ppc64   : 2018-03-12 17:44:36, Update: libunrar-5.6.1-1.fc27
+nonfree/fedora/updates/testing/27/ppc64le : 2018-03-12 17:41:34, Update: libunrar-5.6.1-1.fc27
+
+####################
+Verifying fedora-28
+####################
+free/fedora/development/28/SRPMS          : 2018-03-10 16:19:52, Update: VirtualBox-5.2.8-2.fc28
+free/fedora/development/28/i386           : 2018-03-10 17:42:59, Update: VirtualBox-kmodsrc-5.2.8-2.fc28
+free/fedora/development/28/x86_64         : 2018-03-10 17:42:59, Update: VirtualBox-5.2.8-2.fc28
+free/fedora/development/28/armhfp         : 2018-03-10 12:33:19, Update: qarte-4.0.0-3.fc28
+free/fedora/development/28/aarch64        : 2018-03-10 12:33:19, Update: qarte-4.0.0-3.fc28
+free/fedora/development/28/ppc64          : 2018-03-10 12:33:19, Update: qarte-4.0.0-3.fc28
+free/fedora/development/28/ppc64le        : 2018-03-10 12:33:19, Update: qarte-4.0.0-3.fc28
+---
+nonfree/fedora/development/28/SRPMS       : 2018-03-10 03:08:41, Update: pipelight-0.2.8.2-7.fc28
+nonfree/fedora/development/28/i386        : 2018-03-10 03:13:59, Update: pipelight-common-0.2.8.2-7.fc28
+nonfree/fedora/development/28/x86_64      : 2018-03-10 03:13:59, Update: pipelight-common-0.2.8.2-7.fc28
+nonfree/fedora/development/28/armhfp      : 2018-03-10 03:13:59, Update: pipelight-0.2.8.2-7.fc28
+nonfree/fedora/development/28/aarch64     : 2018-03-09 12:05:08, Update: fdk-aac-0.1.6-1.fc28
+nonfree/fedora/development/28/ppc64       : 2018-03-09 12:09:38, Update: fdk-aac-0.1.6-1.fc28
+nonfree/fedora/development/28/ppc64le     : 2018-03-09 12:08:30, Update: fdk-aac-0.1.6-1.fc28
+---
+free/fedora/updates/testing/28/SRPMS      : 2018-03-13 13:23:42, Update: simplescreenrecorder-0.3.10-1.fc28
+free/fedora/updates/testing/28/i386       : 2018-03-13 13:22:29, Update: simplescreenrecorder-0.3.10-1.fc28
+free/fedora/updates/testing/28/x86_64     : 2018-03-13 13:22:29, Update: simplescreenrecorder-0.3.10-1.fc28
+http 404: http://download0.rpmfusion.org/free/fedora/updates/testing/28/armhfp/repoview/latest-feed.xml
+http 404: http://download0.rpmfusion.org/free/fedora/updates/testing/28/armhfp/repodata/repomd.xml
+http 404: http://download1.rpmfusion.org/free/fedora/updates/testing/28/armhfp/repoview/latest-feed.xml
+http 404: http://download1.rpmfusion.org/free/fedora/updates/testing/28/armhfp/repodata/repomd.xml
+free/fedora/updates/testing/28/armhfp     : N/A
+free/fedora/updates/testing/28/aarch64    : 2018-03-13 13:29:47, Update: simplescreenrecorder-0.3.10-1.fc28
+free/fedora/updates/testing/28/ppc64      : 2018-03-12 18:12:23, Update: ldoce5viewer-0-3.20170216git4b52afb.fc28
+free/fedora/updates/testing/28/ppc64le    : 2018-03-12 18:12:23, Update: ldoce5viewer-0-3.20170216git4b52afb.fc28
+---
+nonfree/fedora/updates/testing/28/SRPMS   : 2018-03-14 17:42:30, Update: rpmfusion-nonfree-obsolete-packages-28-1.fc28
+nonfree/fedora/updates/testing/28/i386    : 2018-03-14 17:42:32, Update: rpmfusion-nonfree-obsolete-packages-28-1.fc28
+nonfree/fedora/updates/testing/28/x86_64  : 2018-03-14 17:42:32, Update: rpmfusion-nonfree-obsolete-packages-28-1.fc28
+nonfree/fedora/updates/testing/28/armhfp  : 2018-03-14 17:42:32, Update: rpmfusion-nonfree-obsolete-packages-28-1.fc28
+nonfree/fedora/updates/testing/28/aarch64 : 2018-03-14 17:42:32, Update: rpmfusion-nonfree-obsolete-packages-28-1.fc28
+nonfree/fedora/updates/testing/28/ppc64   : 2018-03-14 17:42:32, Update: rpmfusion-nonfree-obsolete-packages-28-1.fc28
+nonfree/fedora/updates/testing/28/ppc64le : 2018-03-14 17:42:32, Update: rpmfusion-nonfree-obsolete-packages-28-1.fc28
+
+####################
+Verifying fedora-rawhide
+####################
+free/fedora/development/rawhide/SRPMS     : 2018-03-13 13:23:20, Update: simplescreenrecorder-0.3.10-1.fc29
+free/fedora/development/rawhide/i386      : 2018-03-13 13:20:15, Update: simplescreenrecorder-0.3.10-1.fc29
+free/fedora/development/rawhide/x86_64    : 2018-03-13 13:20:39, Update: simplescreenrecorder-0.3.10-1.fc29
+free/fedora/development/rawhide/armhfp    : 2018-03-13 13:39:25, Update: simplescreenrecorder-0.3.10-1.fc29
+free/fedora/development/rawhide/aarch64   : 2018-03-13 13:30:21, Update: simplescreenrecorder-0.3.10-1.fc29
+free/fedora/development/rawhide/ppc64     : 2018-03-12 17:58:27, Update: ldoce5viewer-0-3.20170216git4b52afb.fc29
+free/fedora/development/rawhide/ppc64le   : 2018-03-12 17:58:27, Update: ldoce5viewer-0-3.20170216git4b52afb.fc29
+---
+nonfree/fedora/development/rawhide/SRPMS  : 2018-03-14 17:43:16, Update: rpmfusion-nonfree-obsolete-packages-28-1.fc29
+nonfree/fedora/development/rawhide/i386   : 2018-03-14 17:43:18, Update: rpmfusion-nonfree-obsolete-packages-28-1.fc29
+nonfree/fedora/development/rawhide/x86_64 : 2018-03-14 17:43:18, Update: rpmfusion-nonfree-obsolete-packages-28-1.fc29
+nonfree/fedora/development/rawhide/armhfp : 2018-03-14 17:43:18, Update: rpmfusion-nonfree-obsolete-packages-28-1.fc29
+nonfree/fedora/development/rawhide/aarch64: 2018-03-14 17:43:18, Update: rpmfusion-nonfree-obsolete-packages-28-1.fc29
+nonfree/fedora/development/rawhide/ppc64  : 2018-03-14 17:43:18, Update: rpmfusion-nonfree-obsolete-packages-28-1.fc29
+nonfree/fedora/development/rawhide/ppc64le: 2018-03-14 17:43:18, Update: rpmfusion-nonfree-obsolete-packages-28-1.fc29
