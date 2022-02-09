@@ -14,9 +14,9 @@ list_line2 = []
 for lline in list_line:
     loo=lline[1]
     keep_it = True
-    for lline2 in list_line[index:]:
-        if lline[1] == lline2[1]:
-            keep_it = False
+#    for lline2 in list_line[index:]:
+#        if lline[1] == lline2[1]:
+#            keep_it = False
     if keep_it :
         list_line2.append(lline)
     #else:
@@ -31,7 +31,6 @@ strxtitle = "./title"
 #text += lxml.html.tostring(frags, method="html", encoding="utf-8")
 
 offline = True
-
 for lline in list_line2:
     if lline[0] == '+':
         namespace = lline[2].split('-')
@@ -56,3 +55,4 @@ for lline in list_line2:
                 text = frags.xpath(strxtitle)
                 print ("Last msg: %s link: %s" % (text[0].text, link[0]))
                 break
+

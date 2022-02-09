@@ -12,9 +12,11 @@ assaultcube rpmfusion-nonfree
 audacious-plugins-freeworld rpmfusion-free
 audacity-freeworld rpmfusion-free
 avidemux rpmfusion-free
+b43-firmware rpmfusion-nonfree
 BasiliskII rpmfusion-free
 bino rpmfusion-free
 bombono-dvd rpmfusion-free
+broadcom-bt-firmware rpmfusion-nonfree
 broadcom-wl rpmfusion-nonfree
 bubbros rpmfusion-free
 buildsys-build-rpmfusion rpmfusion-free
@@ -47,6 +49,7 @@ doom-shareware rpmfusion-nonfree
 dosemu rpmfusion-free
 dream rpmfusion-nonfree
 dvbcut rpmfusion-free
+dvb-firmware rpmfusion-nonfree
 dvd95 rpmfusion-free
 dvd-slideshow rpmfusion-free
 dvdstyler rpmfusion-free
@@ -148,6 +151,7 @@ libcapsimage rpmfusion-nonfree
 libdca rpmfusion-free
 libde265 rpmfusion-free
 libdvbcsa rpmfusion-free
+libdvdcss rpmfusion-free
 libfame rpmfusion-free
 libftl rpmfusion-free
 libheif rpmfusion-free
@@ -217,6 +221,7 @@ nemo-dropbox rpmfusion-nonfree
 Nestopia rpmfusion-free
 netfabb-basic rpmfusion-nonfree
 normalize rpmfusion-free
+nouveau-firmware rpmfusion-nonfree
 nrdp rpmfusion-nonfree
 nvidia-340xx-kmod rpmfusion-nonfree
 nvidia-390xx-kmod rpmfusion-nonfree

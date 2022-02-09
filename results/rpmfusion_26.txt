@@ -12,10 +12,12 @@ assaultcube rpmfusion-nonfree
 audacious-plugins-freeworld rpmfusion-free
 audacity-freeworld rpmfusion-free
 avidemux rpmfusion-free
+b43-firmware rpmfusion-nonfree
 BasiliskII rpmfusion-free
 bcg729 rpmfusion-free
 bino rpmfusion-free
 bombono-dvd rpmfusion-free
+broadcom-bt-firmware rpmfusion-nonfree
 broadcom-wl rpmfusion-nonfree
 bubbros rpmfusion-free
 buildsys-build-rpmfusion rpmfusion-free
@@ -40,6 +42,7 @@ doc rpmfusion-nonfree
 doom-shareware rpmfusion-nonfree
 dosemu rpmfusion-free
 dvbcut rpmfusion-free
+dvb-firmware rpmfusion-nonfree
 dvd95 rpmfusion-free
 DVDAuthorWizard rpmfusion-free
 DVDRipOMatic rpmfusion-free
@@ -144,6 +147,7 @@ libcapsimage rpmfusion-nonfree
 libdca rpmfusion-free
 libde265 rpmfusion-free
 libdvbcsa rpmfusion-free
+libdvdcss rpmfusion-free
 libfame rpmfusion-free
 libmimic rpmfusion-free
 libmms rpmfusion-free

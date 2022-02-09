@@ -1,9 +1,8 @@
 allversions=$(seq 8 35)
-versions=$(seq 32 35)
+versions=$(seq 33 35)
 branched=""
 rawhide=36
-# Versions without rawhide number
-versions_and_branch=$(seq 32 35)
+do_rawhide=""
 #refresh="--refresh --forcearch=i686"
 #refresh="--refresh"
 refresh=
@@ -15,7 +14,7 @@ pushd $workdir
 for version in $versions ; do
     echo repoquery $(printf %02d $version)
     dnf repoquery $refresh --releasever=$version --disablerepo='*' \
-        --enablerepo=rpmfusion-{,non}free{,-updates,-updates-testing}$repo \
+        --enablerepo=rpmfusion-{,non}free{,-updates,-updates-testing,-tainted}$repo \
         --available --quiet --qf "%{name} %{repoid}" | \
         sed "s| rpmfusion-free.*| rpmfusion-free|; s| rpmfusion-nonfree.*| rpmfusion-nonfree|" | \
         sort | uniq > rpmfusion_$(printf %02d $version).txt
@@ -29,17 +28,23 @@ else
 for version in $branched ; do
     echo repoquery branched $(printf %02d $version)
     dnf repoquery $refresh --releasever=$version --disablerepo='*' \
-        --enablerepo=rpmfusion-{,non}free{,-updates-testing}$repo --available --quiet --qf "%{name} %{repoid}" | \
+        --enablerepo=rpmfusion-{,non}free{,-updates-testing-tainted}$repo --available --quiet --qf "%{name} %{repoid}" | \
         sed "s| rpmfusion-free.*| rpmfusion-free|; s| rpmfusion-nonfree.*| rpmfusion-nonfree|" | \
         sort | uniq > rpmfusion_$(printf %02d $version).txt
 done
 fi
 
+if [ -z $do_rawhide ]
+then
+echo "no rawhide workaround tained repo"
+rm rpmfusion_$rawhide.txt
+else
 echo repoquery rawhide
 dnf repoquery $refresh --disablerepo='*' --enablerepo=rpmfusion-{non,}free-rawhide$repo \
 --available --quiet --qf "%{name} %{repoid}" | \
 sed "s| rpmfusion-free.*| rpmfusion-free|; s| rpmfusion-nonfree.*| rpmfusion-nonfree|" | \
  sort | uniq > rpmfusion_$rawhide.txt
+fi
 
 echo "phase 2"
 #clear rpmfusion_all.txt
@@ -47,7 +52,7 @@ rm -f rpmfusion_all.txt
 rm -f rpmfusion_all_sorted.txt
 rm -f rpmfusion_all_all.txt
 
-for n0 in $versions ; do
+for n0 in $allversions ; do
     n1=$((n0+1))
     n0=$(printf %02d $n0)
     n1=$(printf %02d $n1)
@@ -60,5 +65,5 @@ for n0 in $versions ; do
     #cat ${n0}_${n1}.diff >> rpmfusion_all.txt
 done
 #sort --key=1.2,1.2 rpmfusion_all.txt > rpmfusion_all_sorted.txt
-#cat rpmfusion_[012][0-9].txt  | sort | uniq > rpmfusion_all_all.txt
 popd
+cat $workdir/rpmfusion_[0-9][0-9].txt | sort | uniq > rpmfusion_all_all.txt
