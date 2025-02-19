@@ -39,17 +39,23 @@ if len(sys.argv) < 2:
     print("Por favor, forneça um argumento.")
     sys.exit(1)
 
+
 html = requests.get( f"https://koji.rpmfusion.org/koji/taskinfo?taskID={first_arg}")
+str_mx0 = re.compile(r'taskinfo\?taskID=(.*?)"')
+res0 = str_mx0.findall(html.text)
+print(res0[1])
+
+html = requests.get( f"https://koji.rpmfusion.org/koji/taskinfo?taskID={res0[1]}")
 str_mx = re.compile('Build Tag:.*=(.*)"')
-str_mx2 = re.compile('Parent.*?taskID=(.*?)"', re.DOTALL)
+# str_mx2 = re.compile('Parent.*?taskID=(.*?)"', re.DOTALL)
 res = str_mx.findall(html.text)
-# print(res)
-res2 = str_mx2.findall(html.text)
+print(res[0])
+#res2 = str_mx2.findall(html.text)
 # print(res2)
 cmd = f"koji-rpmfusion regen-repo {res[0]}"
 print(cmd)
 run(cmd)
-cmd = f"koji-rpmfusion resubmit {res2[0]}"
+cmd = f"koji-rpmfusion resubmit {first_arg}"
 print(cmd)
 run(cmd)
 
