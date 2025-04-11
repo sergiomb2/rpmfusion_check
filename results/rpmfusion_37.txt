@@ -19,16 +19,14 @@ broadcom-bt-firmware rpmfusion-nonfree
 broadcom-wl rpmfusion-nonfree
 buildsys-build-rpmfusion rpmfusion-free
 cairo-dock-freeworld rpmfusion-free
-caja-dropbox rpmfusion-nonfree
 cannonball rpmfusion-nonfree
-celluloid rpmfusion-free
 Cg rpmfusion-nonfree
 chromaprint-tools rpmfusion-free
 chromium-freeworld rpmfusion-free
 cinelerra-gg rpmfusion-free
 clipgrab rpmfusion-nonfree
 cmus rpmfusion-free
-compat-ffmpeg28 rpmfusion-free
+compat-ffmpeg4 rpmfusion-free
 comskip rpmfusion-free
 crystalhd-kmod rpmfusion-free
 crystalhd rpmfusion-free
@@ -36,7 +34,6 @@ curlew rpmfusion-free
 d1x rpmfusion-nonfree
 deadbeef-mpris2-plugin rpmfusion-free
 deadbeef rpmfusion-free
-deepin-movie rpmfusion-free
 dega-sdl rpmfusion-nonfree
 desmume rpmfusion-free
 devedeng rpmfusion-free
@@ -70,7 +67,7 @@ ffms2 rpmfusion-free
 ffmulticonverter rpmfusion-free
 firebird-emu rpmfusion-free
 flowblade rpmfusion-free
-freshplayerplugin rpmfusion-free
+freeguide rpmfusion-free
 frobtads rpmfusion-nonfree
 Frodo rpmfusion-nonfree
 frogatto rpmfusion-nonfree
@@ -86,11 +83,9 @@ get_iplayer rpmfusion-free
 gimp-heif-plugin rpmfusion-free
 girl rpmfusion-free
 gltron rpmfusion-free
-gnome-mpv rpmfusion-free
 gnuboy rpmfusion-free
 gpac rpmfusion-free
 gr-dab rpmfusion-free
-gstreamer1-libav rpmfusion-free
 gstreamer1-plugins-bad-freeworld rpmfusion-free
 gstreamer1-plugins-ugly rpmfusion-free
 gsview rpmfusion-nonfree
@@ -101,6 +96,7 @@ HandBrake rpmfusion-free
 imagination rpmfusion-free
 intel-media-driver rpmfusion-nonfree
 iozone rpmfusion-nonfree
+jellyfin rpmfusion-free
 kaffeine rpmfusion-free
 kdenlive rpmfusion-free
 kffmpegthumbnailer rpmfusion-free
@@ -141,6 +137,7 @@ libdvdcss rpmfusion-free
 libfame rpmfusion-free
 libfreeaptx rpmfusion-free
 libftl rpmfusion-free
+libheif-freeworld rpmfusion-free
 libheif rpmfusion-free
 libmimic rpmfusion-free
 libmms rpmfusion-free
@@ -151,14 +148,11 @@ libopenshot-audio rpmfusion-free
 libopenshot rpmfusion-free
 libquicktime rpmfusion-free
 libshairport rpmfusion-free
-libspotify rpmfusion-nonfree
-libtgvoip rpmfusion-free
 libva-intel-driver rpmfusion-free
 libvlcpp rpmfusion-free
 lightspark rpmfusion-free
 live555 rpmfusion-free
 lives rpmfusion-free
-loudgain rpmfusion-free
 lpf-cleartype-fonts rpmfusion-nonfree
 lpf-mscore-fonts rpmfusion-nonfree
 lpf-mscore-tahoma-fonts rpmfusion-nonfree
@@ -169,7 +163,6 @@ lxdvdrip rpmfusion-free
 m2vrequantiser rpmfusion-free
 mac rpmfusion-nonfree
 mamory rpmfusion-free
-man-pages-posix rpmfusion-nonfree
 mari0 rpmfusion-nonfree
 mate-applet-streamer rpmfusion-free
 medialibrary rpmfusion-free
@@ -177,6 +170,7 @@ megamario rpmfusion-free
 megasync rpmfusion-nonfree
 meka rpmfusion-nonfree
 mendeleydesktop rpmfusion-nonfree
+mesa-freeworld rpmfusion-free
 mimms rpmfusion-free
 mingw-libmad rpmfusion-free
 minidlna rpmfusion-free
@@ -188,7 +182,6 @@ mock-rpmfusion-free rpmfusion-free
 mock-rpmfusion-nonfree rpmfusion-nonfree
 moc rpmfusion-free
 mod_h264_streaming rpmfusion-nonfree
-mopidy-spotify rpmfusion-nonfree
 motion rpmfusion-free
 mp3diags rpmfusion-free
 mp3splt-gtk rpmfusion-free
@@ -199,11 +192,9 @@ mpd rpmfusion-free
 mpgtx rpmfusion-free
 mplayer rpmfusion-free
 mpv-mpris rpmfusion-free
-mpv rpmfusion-free
 mythtv rpmfusion-free
 mythtv-status rpmfusion-free
 mythweb rpmfusion-free
-nautilus-dropbox rpmfusion-nonfree
 ndi-sdk rpmfusion-nonfree
 ndiswrapper-kmod rpmfusion-free
 ndiswrapper rpmfusion-free
@@ -225,6 +216,7 @@ nvidia-settings rpmfusion-nonfree
 nvidia-vaapi-driver rpmfusion-nonfree
 nvidia-xconfig rpmfusion-nonfree
 obs-ndi rpmfusion-nonfree
+obs-studio-freeworld rpmfusion-free
 obs-studio rpmfusion-free
 ogmrip rpmfusion-free
 olive rpmfusion-free
@@ -245,8 +237,6 @@ phonon-backend-vlc rpmfusion-free
 pianobar rpmfusion-free
 pipewire-codec-aptx rpmfusion-free
 pithos rpmfusion-free
-plasma-wallpapers-dynamic rpmfusion-free
-plex-media-player rpmfusion-free
 plus4emu rpmfusion-nonfree
 ppsspp rpmfusion-free
 proas rpmfusion-nonfree
@@ -257,7 +247,6 @@ pxsup2dast rpmfusion-free
 pyskool rpmfusion-nonfree
 python-ffmpeg-normalize rpmfusion-free
 python-ffmpeg-progress-yield rpmfusion-free
-python-pyspotify rpmfusion-nonfree
 python-vlc rpmfusion-free
 qarte rpmfusion-free
 qmmp-plugin-pack-freeworld rpmfusion-free
@@ -269,7 +258,6 @@ qt-heif-image-plugin rpmfusion-free
 qtox rpmfusion-free
 qwinff rpmfusion-free
 r5u87x-firmware rpmfusion-nonfree
-retroarch-freeworld rpmfusion-free
 rfpkgdb-cli rpmfusion-free
 rfpkg-minimal rpmfusion-free
 rfpkg rpmfusion-free
@@ -308,7 +296,6 @@ TestU01 rpmfusion-nonfree
 tg_owt rpmfusion-free
 tilem rpmfusion-free
 tivodecode-ng rpmfusion-free
-tivodecode rpmfusion-free
 torrentzip rpmfusion-free
 tvheadend rpmfusion-free
 uade rpmfusion-nonfree
@@ -318,19 +305,19 @@ unifi rpmfusion-nonfree
 unrar rpmfusion-nonfree
 v4l2loopback-kmod rpmfusion-free
 v4l2loopback rpmfusion-free
+v4l2-relayd rpmfusion-free
 vagalume rpmfusion-free
 vcdimager rpmfusion-free
+vcmi rpmfusion-free
 vdr-burn rpmfusion-free
 vdr-markad rpmfusion-free
 vdr-mp3 rpmfusion-free
 vdr-mpv rpmfusion-free
 vdr-plex rpmfusion-free
 vdr-skindesigner rpmfusion-free
-vdr-softhddevice-openglosd rpmfusion-free
 vdr-softhddevice rpmfusion-free
 vdrsync rpmfusion-free
 vdr-tvguideng rpmfusion-free
-vdr-vaapidevice rpmfusion-free
 vdr-weatherforecast rpmfusion-free
 vdr-xineliboutput rpmfusion-free
 vice rpmfusion-nonfree
@@ -339,7 +326,6 @@ VirtualBox-kmod rpmfusion-free
 VirtualBox rpmfusion-free
 vlc-bittorrent rpmfusion-free
 vlc rpmfusion-free
-vlmc rpmfusion-free
 vo-amrwbenc rpmfusion-free
 vobcopy rpmfusion-free
 vokoscreen rpmfusion-free

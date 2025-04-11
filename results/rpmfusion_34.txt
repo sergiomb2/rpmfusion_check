@@ -49,6 +49,7 @@ doc rpmfusion-nonfree
 doom-shareware rpmfusion-nonfree
 dosemu rpmfusion-free
 dptfxtract rpmfusion-nonfree
+dream rpmfusion-nonfree
 dvbcut rpmfusion-free
 dvb-firmware rpmfusion-nonfree
 dvd95 rpmfusion-free
@@ -262,6 +263,7 @@ pushover rpmfusion-nonfree
 pxsup2dast rpmfusion-free
 pyskool rpmfusion-nonfree
 python-ffmpeg-normalize rpmfusion-free
+python-ffmpeg-progress-yield rpmfusion-free
 python-pyspotify rpmfusion-nonfree
 python-vlc rpmfusion-free
 qarte rpmfusion-free
