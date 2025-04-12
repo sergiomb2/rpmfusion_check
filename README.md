@@ -1,7 +1,7 @@
 # rpmfusion_check
 
 - runme_added_retired.sh (check packages added and retired in rpmfusion repos) , principal results are  
-  https://raw.githubusercontent.com/sergiomb2/rpmfusion_check/master/results/all_packages_added_and_retired_last_ones.txt and 
+  https://raw.githubusercontent.com/sergiomb2/rpmfusion_check/master/results/all_packages_added_and_retired.tac.txt and 
   https://raw.githubusercontent.com/sergiomb2/rpmfusion_check/master/results/all_packages_added_and_retired.txt 
 
 - In rpmfusion_check.src.phase3.py we got some others options like check git commits via cgit web, atom and use of rfpkg clone
