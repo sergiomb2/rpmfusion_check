@@ -5,5 +5,6 @@
 # In rpmfusion_check.src.phase3.py we got some others options like check git commits via cgit web atom
 # and use of rfpkg clone
 pushd results
-../rpmfusion_check.src.phase3.py | tee all_packages_added_and_retired_last_ones.txt
+../rpmfusion_check.src.phase3.py > all_packages_added_and_retired.txt
+tac all_packages_added_and_retired.txt > all_packages_added_and_retired.tac.txt
 popd

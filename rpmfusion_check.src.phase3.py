@@ -3,7 +3,7 @@ import re
 import requests
 import lxml.html
 
-regexp = re.compile('([+-])(.*) (\d+_\d+)')
+regexp = re.compile(r'([+-])(.*) (\d+_\d+)')
 result_file = open('rpmfusion_all.txt')
 list_line = []
 for line in result_file:
