@@ -58,4 +58,3 @@ for arg in args:
     print(cmd)
     run(cmd)
 
-sys.exit(0)
