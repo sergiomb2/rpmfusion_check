@@ -19,9 +19,9 @@ def runme(cmd):
 
 def run(cmd):
     process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
-    for line in process.stdout:
+    stdout2, _ = process.communicate()
+    for line in stdout2:
         print(line, end="")
-    process.wait()
     if process.returncode == 0:
         print("\nCommand executed successfully!")
     else:
@@ -32,6 +32,7 @@ if len(sys.argv) < 2:
     print("Please provide an argument.")
     sys.exit(1)
 
+processed = set()
 args = sys.argv[1:]
 for arg in args:
 
@@ -48,12 +49,17 @@ for arg in args:
     str_mx = re.compile('Build Tag:.*=(.*)"')
     # str_mx2 = re.compile('Parent.*?taskID=(.*?)"', re.DOTALL)
     res = str_mx.findall(html.text)
-    print(res[0])
-    #res2 = str_mx2.findall(html.text)
-    # print(res2)
-    cmd = f"koji-rpmfusion regen-repo {res[0]}"
-    print(cmd)
-    run(cmd)
+    value = res[0]
+    print(value)
+
+    if value not in processed:
+        processed.add(value)
+        #res2 = str_mx2.findall(html.text)
+        # print(res2)
+        cmd = f"koji-rpmfusion regen-repo {value}"
+        print(cmd)
+        run(cmd)
+
     cmd = f"koji-rpmfusion resubmit {arg}"
     print(cmd)
     run(cmd)
