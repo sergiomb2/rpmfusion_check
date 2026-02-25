@@ -5,28 +5,8 @@
 import sys
 import re
 import os
-import subprocess
-import requests
-
-def runme(cmd):
-    try:
-        result = subprocess.run(cmd , shell=True, capture_output=True, text=True)
-    except subprocess.CalledProcessError as e:
-        sys.stderr.write('%s failed: %s\n' % (cmd, e))
-        return 1
-    return result
-
-
-def run(cmd):
-    process = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
-    stdout2, _ = process.communicate()
-    for line in stdout2:
-        print(line, end="")
-    if process.returncode == 0:
-        print("\nCommand executed successfully!")
-    else:
-        print("\nError while executing the command.")
-
+import koji
+from koji_cli.lib import watch_tasks
 
 if len(sys.argv) < 2:
     print("Please provide an argument.")
@@ -34,33 +14,32 @@ if len(sys.argv) < 2:
 
 processed = set()
 args = sys.argv[1:]
-for arg in args:
+session = koji.ClientSession('https://koji.rpmfusion.org/kojihub')
+cert_path = os.path.expanduser('~/.rpmfusion.cert')
+session.ssl_login(cert_path, None, None)
 
-    if not (arg.isdigit() and 6 <= len(arg) <= 7):
-        print(f"The argument '{arg}' is not a number with 6 or 7 digits.")
+for task_id in args:
+
+    if not (task_id.isdigit() and 6 <= len(task_id) <= 7):
+        print(f"The argument '{task_id}' is not a number with 6 or 7 digits.")
         sys.exit(1)
 
-    html = requests.get( f"https://koji.rpmfusion.org/koji/taskinfo?taskID={arg}")
-    str_mx0 = re.compile(r'taskinfo\?taskID=(.*?)"')
-    res0 = str_mx0.findall(html.text)
-    print(res0[1])
+    task_info = session.getTaskInfo(task_id, request=True)
+    target = task_info.get("request")[1]
+    target_info = session.getBuildTarget(target)
+    build_tag = target_info['build_tag_name']
+    if build_tag not in processed:
+        processed.add(build_tag)
+        new_task_id = session.newRepo(build_tag)
+        ret = watch_tasks(session, [new_task_id], quiet=False, poll_interval=10)
+        if ret != 0:
+            print("newRepo failed exiting with error")
+            sys.exit(2)
 
-    html = requests.get( f"https://koji.rpmfusion.org/koji/taskinfo?taskID={res0[1]}")
-    str_mx = re.compile('Build Tag:.*=(.*)"')
-    # str_mx2 = re.compile('Parent.*?taskID=(.*?)"', re.DOTALL)
-    res = str_mx.findall(html.text)
-    value = res[0]
-    print(value)
+    new_task_id = session.resubmitTask(task_id)
+    print(f"Resubmitted as task: {new_task_id}")
+    ret = watch_tasks(session, [new_task_id], quiet=False, poll_interval=10)
+    if ret == 0:
+        print("OK")
 
-    if value not in processed:
-        processed.add(value)
-        #res2 = str_mx2.findall(html.text)
-        # print(res2)
-        cmd = f"koji-rpmfusion regen-repo {value}"
-        print(cmd)
-        run(cmd)
-
-    cmd = f"koji-rpmfusion resubmit {arg}"
-    print(cmd)
-    run(cmd)
 
