@@ -160,7 +160,13 @@ def is_already_built_or_building(task_id):
     else:
         task_info_ts = session.getTaskInfo(task_id, request=False)
         fail_ts = task_info_ts.get('create_ts')
-        updates_tag = build_tag_name[:-len('-build')] + '-updates-candidate'
+        print(build_tag_name)
+        updates_tag = build_tag_name.removesuffix('-build').removesuffix('-multilibs')
+        if updates_tag.startswith('el'):
+            updates_tag = updates_tag + '-candidate'
+        else:  # fedora (f43, etc.)
+            updates_tag = updates_tag + '-updates-candidate'
+        print(updates_tag)
 
         existing_builds = session.listTagged(
             updates_tag,
@@ -171,8 +177,10 @@ def is_already_built_or_building(task_id):
 
         for b in existing_builds:
             # Filtrar apenas builds completados após a falha da task
+            if b['task_id'] is None:
+                continue
             task2 = session.getTaskInfo(b['task_id'], request=False)
-
+            print(f" task2 {b['task_id']} = {task2}")
             if (task2.get('completion_ts') or 0) > fail_ts:
                 # Only have package name — if ANY complete build exists, skip
                 print(f"  [skip] {pkg_name} with {build_tag_name} has NVR unknown, and we got already a new build {b['nvr']} task_id {b['task_id']} skipping.")
