@@ -180,7 +180,7 @@ def is_already_built_or_building(task_id):
             if b['task_id'] is None:
                 continue
             task2 = session.getTaskInfo(b['task_id'], request=False)
-            print(f" task2 {b['task_id']} = {task2}")
+            #print(f" existing builds taks {b['task_id']} = {task2}")
             if (task2.get('completion_ts') or 0) > fail_ts:
                 # Only have package name — if ANY complete build exists, skip
                 print(f"  [skip] {pkg_name} with {build_tag_name} has NVR unknown, and we got already a new build {b['nvr']} task_id {b['task_id']} skipping.")
@@ -216,9 +216,14 @@ def is_already_built_or_building(task_id):
     return False
 
 def get_task_error_message(task_id):
-    result = session.getTaskResult(int(task_id), raise_fault=False)
-    if isinstance(result, dict):
-        return result.get('faultString', '')
+    print(f'get_task_error_message ini {task_id}')
+    try :
+        result = session.getTaskResult(int(task_id), raise_fault=False)
+        if isinstance(result, dict):
+            return result.get('faultString', '')
+        print(f'get_task_error_message fim {task_id}')
+    except koji.GenericError:
+        print("error")
     return ''
 
 
@@ -246,8 +251,11 @@ def regen_repo(build_tag_name):
     return True
 
 
-def handle_failed_task(task_id, regenned_tags):
-    task_id = int(task_id)
+def handle_failed_task(task, regenned_tags):
+    task_id = int(task['id'])
+    print(f" task {task['id']} = {task}")
+    #task2 = session.getTaskInfo(task['id'], request=False)
+    #print(f" task2 {task['id']} = {task2}")
 
     if is_already_built_or_building(task_id):
         return
@@ -257,7 +265,7 @@ def handle_failed_task(task_id, regenned_tags):
 
     print(f"\n[task {task_id}] Failed with mock status 30.")
 
-    build_tag_name, target = get_build_tag_for_task(task_id)
+    build_tag_name, _ = get_build_tag_for_task(task_id)
     if not build_tag_name:
         print(f"[task {task_id}] Could not determine build tag, skipping.")
         return
@@ -314,12 +322,12 @@ def handle_failed_task(task_id, regenned_tags):
 def main():
     regenned_tags = set()
 
-    hours = 24
+    hours = 36
     hours_ago = int(time.time()) - hours * 60 * 60
 
     failed_opts = {
         'method': 'build',
-        'state': [koji.TASK_STATES['FAILED']],
+        'state': [koji.TASK_STATES['FAILED'], koji.TASK_STATES['CANCELED']],
         'completeAfter': hours_ago,
     }
     failed_tasks = session.listTasks(opts=failed_opts, queryOpts={'order': 'id'})
@@ -329,7 +337,8 @@ def main():
     for t in failed_tasks:
         print(f"  Task {t['id']}")
     for t in failed_tasks:
-        handle_failed_task(t['id'], regenned_tags)
+        print(f"Vai tratar o task {t['id']}")
+        handle_failed_task(t, regenned_tags)
 
     print("\nDone.")
 
