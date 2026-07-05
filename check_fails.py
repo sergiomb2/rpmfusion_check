@@ -160,36 +160,43 @@ def is_already_built_or_building(task_id):
     else:
         task_info_ts = session.getTaskInfo(task_id, request=False)
         fail_ts = task_info_ts.get('create_ts')
-        print(build_tag_name)
+        print(f"no task version build_tag_name = {build_tag_name}")
         updates_tag = build_tag_name.removesuffix('-build').removesuffix('-multilibs')
         if updates_tag.startswith('el'):
-            updates_tag = updates_tag + '-candidate'
+            tags_to_check = [
+                updates_tag + '-candidate',
+                updates_tag + '-testing',
+            ]
         else:  # fedora (f43, etc.)
-            updates_tag = updates_tag + '-updates-candidate'
-        print(updates_tag)
+            tags_to_check = [
+                updates_tag + '-updates-candidate',
+                updates_tag + '-updates-testing',
+            ]
+        print(f"no task version updates_tag = {updates_tag}")
 
-        existing_builds = session.listTagged(
-            updates_tag,
-            package=pkg_name,
-            inherit=True,
-            latest=False,
-        )
+        for tag in tags_to_check:
+            existing_builds = session.listTagged(
+                tag,
+                package=pkg_name,
+                inherit=True,
+                latest=False,
+            )
 
-        for b in existing_builds:
-            # Filtrar apenas builds completados após a falha da task
-            if b['task_id'] is None:
-                continue
-            task2 = session.getTaskInfo(b['task_id'], request=False)
-            #print(f" existing builds taks {b['task_id']} = {task2}")
-            if (task2.get('completion_ts') or 0) > fail_ts:
-                # Only have package name — if ANY complete build exists, skip
-                print(f"  [skip] {pkg_name} with {build_tag_name} has NVR unknown, and we got already a new build {b['nvr']} task_id {b['task_id']} skipping.")
-                return True
+            for b in existing_builds:
+                # Filtrar apenas builds completados após a falha da task
+                if b['task_id'] is None:
+                    continue
+                task2 = session.getTaskInfo(b['task_id'], request=False)
+                #print(f" existing builds taks {b['task_id']} = {task2}")
+                if (task2.get('completion_ts') or 0) > fail_ts:
+                    # Only have package name — if ANY complete build exists, skip
+                    print(f"  [skip] {pkg_name} with {build_tag_name} has NVR unknown, and we got already a new build {b['nvr']} task_id {b['task_id']} skipping.")
+                    return True
 
     # Check active tasks for same source
     task_info = session.getTaskInfo(int(task_id), request=True)
     source = task_info.get('request', [None])[0]
-    print(f" source = {source}")
+    print(f"source = {source}")
     active_opts = {
         'method': 'build',
         'state': [
@@ -322,7 +329,7 @@ def handle_failed_task(task, regenned_tags):
 def main():
     regenned_tags = set()
 
-    hours = 36
+    hours = 72
     hours_ago = int(time.time()) - hours * 60 * 60
 
     failed_opts = {
