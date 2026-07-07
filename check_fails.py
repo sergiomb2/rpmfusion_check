@@ -277,10 +277,10 @@ def handle_failed_task(task, regenned_tags):
         print(f"[task {task_id}] Could not determine build tag, skipping.")
         return
 
-    confirm = input("Press Enter to continue or s to skip [Enter / s to skip]")
-    if confirm.lower() == 's':
-        print("    Skipped.")
-        return
+    # confirm = input("Press Enter to continue or s to skip [Enter / s to skip]")
+    # if confirm.lower() == 's':
+    #     print("    Skipped.")
+    #     return
 
     task_info_ts = session.getTaskInfo(task_id, request=False)
     fail_ts = task_info_ts.get('completion_ts') or 0
