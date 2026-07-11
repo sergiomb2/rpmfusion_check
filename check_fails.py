@@ -325,6 +325,12 @@ def handle_failed_task(task, regenned_tags):
     else:
         print(f"[task {new_task_id2}] Still failing after repo regen. Manual intervention needed.")
 
+def is_scratch_build(task_id):
+    task_info = session.getTaskInfo(int(task_id), request=True)
+    request = task_info.get('request', [])
+    if len(request) >= 3 and isinstance(request[2], dict):
+        return request[2].get('scratch', False)
+    return False
 
 def main():
     regenned_tags = set()
@@ -344,6 +350,9 @@ def main():
     for t in failed_tasks:
         print(f"  Task {t['id']}")
     for t in failed_tasks:
+        if is_scratch_build(t['id']):
+            print(f"[task {t['id']}] Scratch build, skipping.")
+            continue
         print(f"Vai tratar o task {t['id']}")
         handle_failed_task(t, regenned_tags)
 
