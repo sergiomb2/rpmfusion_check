@@ -4,7 +4,13 @@
 
 import sys
 import os
+# import logging
 import koji
+from koji_cli.lib import watch_tasks, wait_repo
+
+# logging.basicConfig(logging.DEBUG)
+# logger = logging.getLogger("koji.build")
+# logger.setLevel(logging.DEBUG)
 
 session = koji.ClientSession('https://koji.rpmfusion.org/kojihub')
 cert_path = os.path.expanduser('~/.rpmfusion.cert')
@@ -14,64 +20,90 @@ session.ssl_login(cert_path, None, None)
 def tag_build(tag_name, nvr):
     print(f"Tagging build '{nvr}' into tag '{tag_name}'...")
     task_id = session.tagBuild(tag_name, nvr)
-    from koji_cli.lib import watch_tasks
     ret = watch_tasks(session, [task_id], quiet=False, poll_interval=10)
     return ret == 0
 
 
-def wait_repo(tag_name, nvr):
+def koji_wait_repo(tag_name, nvr):
     print(f"Waiting for repo '{tag_name}' to include build '{nvr}'...")
-    watcher = koji.RepoWatcher(session, tag_name, nvrs=[nvr], poll_interval=10)
-    repo_info = watcher.waitrepo(timeout=3600)
-    if repo_info:
-        print(f"Repo '{tag_name}' now includes build '{nvr}' (repo id {repo_info['id']}).")
-        return True
-    print(f"Timeout waiting for repo '{tag_name}' to include '{nvr}'.")
-    return False
+
+    tag_info = session.getTag(tag_name)
+    if not tag_info:
+        print(f"Tag '{tag_name}' not found.")
+        return False
+
+    build_info = session.getBuild(nvr)
+    if not build_info:
+        print(f"Build '{nvr}' not found.")
+        return False
+
+    ok, msg = wait_repo(session, tag_info['id'], builds=[build_info])
+    print(msg)
+    if ok:
+        print(f"Repo '{tag_name}' now includes build '{nvr}'.")
+    else:
+        print(f"Timeout or failure waiting for repo '{tag_name}' to include '{nvr}'.")
+    return ok
 
 
-def get_build_and_tag_from_buildinfo(build_id):
-    build_info = session.getBuild(int(build_id))
+def get_build_and_tag_from_buildinfo(buildname):
+    """Get build NVR and current updates-candidate tag using Koji API instead of scraping HTML."""
+
+    build_info = session.getBuild(buildname)
     if not build_info:
         return None, None
     nvr = build_info['nvr']
+    build_id = build_info['build_id']
 
     tags = session.listTags(build=int(build_id))
     candidate_tag = None
     for t in tags:
+        # print(f'tag = {t}')
         if t['name'].endswith('-updates-candidate'):
             candidate_tag = t['name']
+        if t['name'].endswith('-override'):
+            candidate_tag = t['name']
+            # Prefer '-override' tag over '-updates-candidate' if both exist;
+            # break as soon as '-override' is found since it takes priority
             break
     return nvr, candidate_tag
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Please provide an argument.")
+    if len(sys.argv) != 2:
+        print(f"Usage: {os.path.basename(sys.argv[0])} buildID or nvr")
         sys.exit(1)
 
     args = sys.argv[1:]
     for arg in args:
-        if not (arg.isdigit() and 5 <= len(arg) <= 6):
-            print(f"The argument '{arg}' is not a number with 5 or 6 digits.")
-            sys.exit(1)
+        if arg.isdigit():
+            if not (5 <= len(arg) <= 6):
+                print(f"The argument '{arg}' is not a number with 5 or 6 digits.")
+                sys.exit(1)
+            buildname = int(arg)
+        else:
+            buildname = arg
 
-        build_id = int(arg)
-        nvr, candidate_tag = get_build_and_tag_from_buildinfo(build_id)
-        if not nvr or not candidate_tag:
-            print(f"Could not determine NVR/tag for build {build_id}.")
+        nvr, candidate_tag = get_build_and_tag_from_buildinfo(buildname)
+        if not nvr:
+            print(f"Could not determine NVR for build {buildname}.")
             continue
+        if not candidate_tag:
+            print(f"Could not determine tag for build {buildname}.")
+        else:
+            if candidate_tag.endswith('-override'):
+                print(f"{nvr} is already tagged into {candidate_tag}, skipping. .")
+                tag_build_name = candidate_tag.replace("override", "build")
+            else:
+                print(f"Build: {nvr}, candidate tag: {candidate_tag}")
+                tag_build_name = candidate_tag.replace("updates-candidate", "build")
 
-        print(f"Build: {nvr}, candidate tag: {candidate_tag}")
+                tag_override = candidate_tag.replace("updates-candidate", "override")
+                if not tag_build(tag_override, nvr):
+                    print(f"Failed to tag {nvr} into {tag_override}, skipping.")
+                    continue
 
-        tag_override = candidate_tag.replace("updates-candidate", "override")
-        tag_build_name = candidate_tag.replace("updates-candidate", "build")
-
-        if not tag_build(tag_override, nvr):
-            print(f"Failed to tag {nvr} into {tag_override}, skipping.")
-            continue
-
-        wait_repo(tag_build_name, nvr)
+            koji_wait_repo(tag_build_name, nvr)
 
 
 if __name__ == '__main__':
