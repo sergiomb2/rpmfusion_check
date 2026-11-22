@@ -6,6 +6,7 @@ For each task failed with mock exit status 30:
   2. If it fails again with status 30, regen repo (once per build tag) and resubmit again
 """
 
+import sys
 import os
 import re
 import time
@@ -387,26 +388,109 @@ def parse_args():
     )
     return parser.parse_args()
 
+
+STATE_FILE = f"{os.path.dirname(os.path.realpath(sys.argv[0]))}/highest_finished_task_id.json"
+
+def save_highest_finished_task(task_id, start_ts):
+    """Save the highest finished task ID to a file."""
+    with open(STATE_FILE, "w") as f:
+        json.dump({"id": task_id, "start_ts": start_ts}, f)
+
+    print(f'Last checked task state saved at: {STATE_FILE}')
+
+def get_last_checked_task():
+    """Load the highest finished task ID from a file."""
+    if not os.path.exists(STATE_FILE):
+        return None
+
+    with open(STATE_FILE) as f:
+        data = json.load(f)
+
+    print(f'Loaded last checked task, ID {data["id"]} with start_ts: {datetime.fromtimestamp(data["start_ts"])} from: {STATE_FILE}')
+    return data
+
+def get_highest_finished_task():
+    # Find the lowest unfinished build task
+    unfinished_states = [
+        koji.TASK_STATES["FREE"],
+        koji.TASK_STATES["OPEN"],
+        koji.TASK_STATES["ASSIGNED"],
+    ]
+
+    unfinished_tasks = session.listTasks(
+        opts={
+            "method": ["build"],
+            "state": unfinished_states,
+        },
+        queryOpts={
+            "order": "id",
+            "limit": 1,
+        },
+    )
+
+    # Find the highest finished build task below the lowest unfinished task
+    finished_tasks = session.listTasks(
+        opts={
+            "method": ["build"],
+            "state": [
+                koji.TASK_STATES["CLOSED"],
+                koji.TASK_STATES["FAILED"],
+                koji.TASK_STATES["CANCELED"],
+            ],
+        },
+        queryOpts={
+            "order": "-id",
+            "limit": 20,
+        },
+    )
+
+    highest_finished_task = finished_tasks[0]
+    if unfinished_tasks:
+        lowest_unfinished_task_id = unfinished_tasks[0]["id"]
+        print(f"we have tasks runnig, oldest unfinished task: {lowest_unfinished_task_id}")
+        for task in finished_tasks:
+            if task["id"] < lowest_unfinished_task_id:
+                highest_finished_task = task
+                break
+        print(f"The highest finished task ID, before the oldest unfinished task, is: {highest_finished_task["id"]} with start_ts: {datetime.fromtimestamp(highest_finished_task["start_ts"])}")
+    else:
+        print(f"The highest finished task ID is: {highest_finished_task["id"]} with start_ts: {datetime.fromtimestamp(highest_finished_task["start_ts"])}")
+
+    return highest_finished_task
+
 def main():
     args = parse_args()
     mode = "manual confirmation for each operation" if args.confirm else "unattended mode (no confirmation)"
-    print(f"It will check failed build task(s) in the last {args.hours} hours, running in {mode}.")
-    regenned_tags = set()
 
-    hours_ago = int(time.time()) - args.hours * 60 * 60
+    current_ts = int(time.time())
+    data = get_last_checked_task()
+    if data is not None and '--hours' not in sys.argv:
+        start_ts = int(data["start_ts"])
+        difference_hours = (current_ts - start_ts) / 3600
+    else:
+        difference_hours = args.hours
+        start_ts = current_ts - (args.hours * 60 * 60)
+    print(f"It will check failed build task(s) in the last {difference_hours} hours, running in {mode}.")
+
+    highest_finished_task = get_highest_finished_task()
+    if start_ts == int(highest_finished_task["start_ts"]):
+        print("No new tasks, Completed")
+        return
+    save_highest_finished_task(highest_finished_task["id"], highest_finished_task["start_ts"])
 
     failed_opts = {
         'method': 'build',
         'state': [koji.TASK_STATES['FAILED'], koji.TASK_STATES['CANCELED']],
-        'completeAfter': hours_ago - dt_paris,
+        'createdAfter': start_ts - dt_paris
     }
     failed_tasks = session.listTasks(opts=failed_opts, queryOpts={'order': 'id'})
 
-    print(f"Found {len(failed_tasks)} failed build task(s) in the last {args.hours} hours.")
+    print(f"Found {len(failed_tasks)} failed build task(s) in the last {difference_hours} hours.")
 
     # print("Failed or canceled tasks found:")
     # for task in failed_tasks:
     #     print(f"  Task {task['id']}")
+    regenned_tags = set()
     for task in failed_tasks:
         print(f"\n  Failed or canceled task found: {task['id']}")
         handle_failed_task(task, regenned_tags, confirm=args.confirm)
